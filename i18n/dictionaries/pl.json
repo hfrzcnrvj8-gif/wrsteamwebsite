@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "title": "Wollny Reifenservice GmbH — Opony, felgi i geometria kół koło Hanoweru",
+    "description": "Mistrzowski warsztat: serwis i wymiana opon, geometria 3D, felgi oraz przechowywanie opon w Sehnde koło Hanoweru. Od 1987. Umów wizytę: 05138 4520."
+  },
+  "nav": {
+    "vision": "Dlaczego Wollny",
+    "services": "Usługi",
+    "work": "Warsztat",
+    "contact": "Wizyta"
+  },
+  "hero": {
+    "badge": "Od 1987 · Twój specjalista od opon w Sehnde koło Hanoweru",
+    "titleLines": ["Precyzja, którą czujesz", "na każdej drodze."],
+    "subtitle": "Opony, felgi i precyzyjna geometria kół 3D — od mistrzowskiego warsztatu, który od ponad 35 lat oznacza bezpieczeństwo, spokojną jazdę i uczciwe doradztwo.",
+    "ctaPrimary": "Umów wizytę",
+    "ctaSecondary": "Nasze usługi",
+    "stats": [
+      { "value": "1987", "label": "Rok założenia" },
+      { "value": "3D", "label": "Geometria kół" },
+      { "value": "Pn–Pt", "label": "Jesteśmy dla Ciebie" }
+    ]
+  },
+  "problem": {
+    "label": "Dlaczego Wollny",
+    "title": "Źle ustawione zawieszenie kosztuje Cię na każdym kilometrze.",
+    "subtitle": "Kilka milimetrów odchylenia zbieżności oznacza szybsze zużycie, większe spalanie i mniejszą przyczepność. Przywracamy każdy szczegół do normy.",
+    "cloud": {
+      "title": "Bez fachowego ustawienia",
+      "points": [
+        "Nierównomierne, przedwczesne zużycie opon",
+        "Wyższe spalanie z powodu oporu toczenia",
+        "Niespokojne prowadzenie i ściąganie na bok",
+        "Dłuższa droga hamowania w krytycznej chwili"
+      ]
+    },
+    "local": {
+      "title": "Z precyzją Wollny",
+      "points": [
+        "Geometria kół 3D z dokładnością do milimetra",
+        "Maksymalny przebieg Twoich opon",
+        "Wyraźnie spokojniejsza, bezpieczna jazda na wprost",
+        "Pełna przyczepność i krótka droga hamowania"
+      ]
+    }
+  },
+  "services": {
+    "label": "Usługi",
+    "title": "Wszystko wokół opon, felg i zawieszenia.",
+    "subtitle": "Od sezonowej wymiany opon po komputerową geometrię kół — jeden punkt kontaktu, jeden pewny rezultat.",
+    "items": [
+      {
+        "title": "Serwis i wymiana opon",
+        "description": "Montaż, wyważanie i sezonowa wymiana dla aut osobowych, SUV-ów i dostawczych — szybko, czysto i z kontrolą momentu dokręcania.",
+        "tags": ["Osobowe", "SUV", "Dostawcze", "Wyważanie", "TPMS"]
+      },
+      {
+        "title": "Geometria kół 3D",
+        "description": "Komputerowy pomiar i regulacja zbieżności oraz pochylenia. Korygujemy z dokładnością do milimetra, by auto znów jechało idealnie prosto.",
+        "tags": ["Zbieżność", "Pochylenie", "Zawieszenie", "Diagnostyka"]
+      },
+      {
+        "title": "Felgi i koła kompletne",
+        "description": "Felgi stalowe i aluminiowe wiodących marek, z fachowym doradztwem i dostawą jako gotowe, wyważone koło — dla klientów prywatnych i firm.",
+        "tags": ["Felgi alu", "Felgi stalowe", "Koła kompletne", "Marki"]
+      },
+      {
+        "title": "Przechowywanie opon",
+        "description": "Bezpieczne, czyste przechowywanie opon sezonowych w naszym hotelu opon — wyczyszczone, sprawdzone i gotowe na kolejny termin.",
+        "tags": ["Lato", "Zima", "Hotel opon", "Przechowanie"]
+      }
+    ]
+  },
+  "useCases": {
+    "label": "Więcej usług",
+    "title": "By każdy szczegół się zgadzał.",
+    "subtitle": "Usługi uzupełniające, które przy każdej wizycie wykonujemy z tą samą starannością.",
+    "items": [
+      {
+        "title": "Wyważanie kół",
+        "description": "Precyzyjne wyważanie eliminuje drgania, chroni łożyska i zawieszenie oraz zapewnia spokojną jazdę przy każdej prędkości.",
+        "impact": "Spokojna jazda przy każdej prędkości"
+      },
+      {
+        "title": "Naprawa opon",
+        "description": "Fachowa kontrola i naprawa zgodnie z normą — tam, gdzie jest to bezpieczne, zamiast kosztownej wymiany.",
+        "impact": "Bezpiecznie zamiast bez potrzeby na nowo"
+      },
+      {
+        "title": "Serwis TPMS",
+        "description": "Programowanie, konserwacja i wymiana czujników ciśnienia w oponach nowoczesnych pojazdów.",
+        "impact": "Kontrolka niezawodnie zgaszona"
+      },
+      {
+        "title": "Doradztwo i sprzedaż",
+        "description": "Uczciwa rekomendacja właściwego rozmiaru opon i felg dla Twojego auta i budżetu.",
+        "impact": "Właściwy wybór, jasno wyjaśniony"
+      }
+    ]
+  },
+  "approach": {
+    "label": "Jak to działa",
+    "title": "Gotowi do drogi w czterech krokach.",
+    "subtitle": "Bez zbędnych formalności, bez czekania bez planu — zawsze wiesz, nad czym pracujemy.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Umów wizytę",
+        "description": "Zadzwoń lub napisz krótko, czego potrzebujesz — szybko znajdziemy dogodny termin."
+      },
+      {
+        "step": "02",
+        "title": "Przyjęcie pojazdu",
+        "description": "Przyjmujemy auto, omawiamy zakres prac i sprawdzamy opony oraz zawieszenie."
+      },
+      {
+        "step": "03",
+        "title": "Serwis od profesjonalistów",
+        "description": "Montaż, wyważanie lub geometria kół — wykonane fachowo, z nowoczesnym sprzętem."
+      },
+      {
+        "step": "04",
+        "title": "Wydanie i doradztwo",
+        "description": "Odbierasz auto gotowe do jazdy, wraz z jasną rekomendacją na kolejny sezon."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Z bliska",
+    "title": "Nowoczesna technika. Czysty warsztat.",
+    "subtitle": "Spojrzenie na wyposażenie i staranność, z jaką pracujemy każdego dnia.",
+    "items": [
+      { "title": "Geometria · stanowisko 3D", "caption": "Komputerowy pomiar zawieszenia co do milimetra" },
+      { "title": "Montaż opon", "caption": "Delikatny montaż felg alu i stalowych" },
+      { "title": "Magazyn opon", "caption": "Sezonowe przechowanie, posortowane i sprawdzone" }
+    ]
+  },
+  "founding": {
+    "label": "Klienci i firmy",
+    "title": "Opony i felgi — dla klientów prywatnych i flot.",
+    "description": "Czy to pojedynczy komplet opon zimowych, czy obsługa całej floty: dostarczamy markowy towar w uczciwych warunkach, zajmujemy się montażem i przechowaniem i utrzymujemy Twoje pojazdy bezpiecznie na drodze przez cały rok.",
+    "points": [
+      "Markowe opony i felgi w uczciwych cenach",
+      "Obsługa flot dla klientów biznesowych (B2B)",
+      "Sezonowy serwis kompleksowy z przechowaniem",
+      "Terminy na krótko, przewidywalny przestój"
+    ],
+    "cta": "Zarezerwuj termin"
+  },
+  "founder": {
+    "label": "Warsztat",
+    "title": "Twój specjalista od opon w Sehnde od 1987.",
+    "body": "Wollny Reifenservice to prowadzony przez właściciela mistrzowski warsztat z ponad trzema dekadami doświadczenia. Pracują u nas prawdziwi fachowcy z nowoczesną techniką — od prostej wymiany opon po precyzyjną geometrię kół 3D. Wyróżnia nas: uczciwe doradztwo, czysta praca i terminy, które się trzymają.",
+    "quote": "Bezpieczeństwo zaczyna się od opony. Dlatego każde auto traktujemy jak własne.",
+    "name": "Wollny Reifenservice GmbH",
+    "role": "Mistrzowski warsztat · Sehnde koło Hanoweru"
+  },
+  "faq": {
+    "label": "Częste pytania",
+    "title": "Warto wiedzieć.",
+    "items": [
+      {
+        "q": "Czy na wymianę opon potrzebny jest termin?",
+        "a": "Tak, prosimy o wcześniejsze umówienie terminu — telefonicznie pod 05138 4520 lub przez formularz kontaktowy. Dzięki temu unikniesz oczekiwania, zwłaszcza w sezonie szczytowym. W soboty pracujemy wyłącznie po wcześniejszym umówieniu."
+      },
+      {
+        "q": "Kiedy warto wykonać geometrię kół?",
+        "a": "Zawsze gdy auto ściąga na bok, opony zużywają się nierównomiernie, po pracach przy zawieszeniu lub po kontakcie z krawężnikiem. Nasz pomiar 3D pokazuje co do milimetra, czy zbieżność i pochylenie są prawidłowe."
+      },
+      {
+        "q": "Czy przechowujecie moje opony sezonowe?",
+        "a": "Tak. W naszym hotelu opon przechowujemy Twoje opony letnie lub zimowe bezpiecznie i czysto. Na kolejną wymianę są sprawdzone i gotowe — nie musisz niczego transportować."
+      },
+      {
+        "q": "Czy dostanę opony i felgi jako koło kompletne?",
+        "a": "Oczywiście. Doradzimy właściwy rozmiar, zamontujemy opony na felgach stalowych lub aluminiowych i wydamy w pełni wyważone koła kompletne — dla klientów prywatnych i firm."
+      },
+      {
+        "q": "Czy obsługujecie też auta firmowe i floty?",
+        "a": "Tak, jesteśmy doświadczonym partnerem dla klientów biznesowych. Zapytaj o warunki flotowe, przewidywalne terminy i przechowanie."
+      },
+      {
+        "q": "Gdzie Was znajdę?",
+        "a": "Znajdziesz nas przy Borsigring 38 w 31319 Sehnde, kilka minut od Hanoweru. Otwarte od poniedziałku do piątku w godzinach 08:00–15:00."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Umów wizytę.",
+    "subtitle": "Opisz krótko, czego potrzebujesz i jaki masz pojazd — odezwiemy się z dogodnym terminem.",
+    "bookingText": "Wolisz zadzwonić bezpośrednio?",
+    "bookingCta": "05138 4520",
+    "info": {
+      "title": "Jak nas znaleźć",
+      "addressLabel": "Adres",
+      "address": ["Wollny Reifenservice GmbH", "Borsigring 38", "31319 Sehnde"],
+      "phoneLabel": "Telefon",
+      "phone": "05138 4520",
+      "emailLabel": "E-mail",
+      "email": "Post@Reifenberatung.com",
+      "hoursLabel": "Godziny otwarcia",
+      "hours": [
+        { "day": "Pn – Pt", "time": "08:00 – 15:00" },
+        { "day": "Sobota", "time": "tylko po umówieniu" }
+      ],
+      "mapsCta": "Wyznacz trasę"
+    },
+    "form": {
+      "name": "Imię i nazwisko",
+      "namePlaceholder": "Twoje imię",
+      "email": "E-mail",
+      "emailPlaceholder": "ty@email.pl",
+      "phone": "Telefon",
+      "phonePlaceholder": "Do szybkiego ustalenia terminu",
+      "vehicle": "Pojazd (marka / model)",
+      "vehiclePlaceholder": "np. VW Golf 7 (opcjonalnie)",
+      "company": "Firma",
+      "companyPlaceholder": "Tylko klienci biznesowi (opcjonalnie)",
+      "message": "Twoja sprawa",
+      "messagePlaceholder": "O co chodzi? np. wymiana opon, geometria kół, dobór felg …",
+      "submit": "Poproś o termin",
+      "sending": "Wysyłanie…",
+      "success": "Dziękujemy — Twoje zapytanie dotarło. Wkrótce odezwiemy się z dogodnym terminem.",
+      "error": "Coś poszło nie tak. Zadzwoń do nas pod 05138 4520 lub spróbuj ponownie.",
+      "consent": "Zgadzam się na przetwarzanie moich danych w celu obsługi zapytania, zgodnie z",
+      "consentLink": "polityką prywatności",
+      "consentError": "Zaakceptuj politykę prywatności, aby kontynuować.",
+      "errors": {
+        "name": "Podaj swoje imię.",
+        "email": "Podaj prawidłowy adres e-mail.",
+        "message": "Opisz krótko swoją sprawę (co najmniej 10 znaków)."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Twój mistrzowski warsztat opon, felg i geometrii kół w Sehnde koło Hanoweru — od 1987.",
+    "address": ["Borsigring 38, 31319 Sehnde", "Tel. 05138 4520", "Post@Reifenberatung.com"],
+    "privacy": "Polityka prywatności",
+    "impressum": "Nota prawna",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "madeIn": "Sehnde · region Hanoweru"
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "updated": "Ostatnia aktualizacja: 14 czerwca 2026",
+    "intro": "Niniejsza polityka prywatności wyjaśnia, jak Wollny Reifenservice GmbH („my”) przetwarza dane osobowe zgodnie z rozporządzeniem (UE) 2016/679 (RODO). Ten dokument jest wzorem i przed publikacją powinien zostać sprawdzony przez wykwalifikowanych prawników.",
+    "sections": [
+      {
+        "heading": "1. Administrator",
+        "body": "Wollny Reifenservice GmbH jest administratorem danych osobowych zbieranych za pośrednictwem tej strony. W sprawach ochrony danych prosimy o kontakt przy użyciu danych z noty prawnej."
+      },
+      {
+        "heading": "2. Jakie dane zbieramy",
+        "body": "Przetwarzamy dobrowolnie podane dane kontaktowe (takie jak imię, e-mail, numer telefonu, dane pojazdu i wiadomość) oraz ograniczone dane techniczne (jak anonimowa analityka i logi serwera) niezbędne do działania i bezpieczeństwa strony."
+      },
+      {
+        "heading": "3. Cel i podstawa prawna",
+        "body": "Przetwarzamy Twoje dane, aby odpowiadać na zapytania i umawiać terminy (art. 6 ust. 1 lit. b RODO), prowadzić i ulepszać stronę (art. 6 ust. 1 lit. f RODO — uzasadniony interes) oraz na podstawie Twojej zgody (art. 6 ust. 1 lit. a RODO)."
+      },
+      {
+        "heading": "4. Okres przechowywania",
+        "body": "Dane osobowe przechowujemy tylko tak długo, jak to konieczne do wskazanych celów lub jak wymaga prawo; następnie są bezpiecznie usuwane."
+      },
+      {
+        "heading": "5. Twoje prawa",
+        "body": "Na mocy RODO masz prawo dostępu, sprostowania, usunięcia, ograniczenia i przenoszenia danych, a także prawo sprzeciwu. Możesz również złożyć skargę do organu nadzorczego."
+      },
+      {
+        "heading": "6. Kontakt",
+        "body": "Aby skorzystać z któregokolwiek z tych praw, skontaktuj się z Wollny Reifenservice GmbH przy użyciu danych kontaktowych podanych na tej stronie."
+      }
+    ],
+    "back": "Powrót do strony głównej"
+  },
+  "impressum": {
+    "title": "Nota prawna",
+    "back": "Powrót do strony głównej",
+    "intro": "Informacje zgodnie z § 5 DDG (niemiecka ustawa o usługach cyfrowych).",
+    "labels": {
+      "provider": "Usługodawca",
+      "represented": "Reprezentowany przez",
+      "contact": "Kontakt",
+      "register": "Wpis do rejestru",
+      "vat": "Numer identyfikacji VAT",
+      "responsible": "Odpowiedzialny za treść"
+    },
+    "responsibleNote": "Odpowiedzialny za treść zgodnie z § 18 ust. 2 MStV.",
+    "disclaimerTitle": "Odpowiedzialność za treść",
+    "disclaimer": "Treści naszych stron tworzone są z największą starannością. Nie możemy jednak zagwarantować poprawności, kompletności ani aktualności treści. Jako usługodawca odpowiadamy za własne treści na tych stronach na zasadach ogólnych."
+  }
+}

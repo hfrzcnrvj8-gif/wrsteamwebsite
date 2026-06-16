@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ──────────────────────────────────────────────────────────────────────────
+   "Automotive Premium" theme — Wollny Reifenservice
+   Deep black / carbon backgrounds, smoked automotive glass, sporty red accents.
+   Dark is the primary, signature look; light is a refined silver fallback.
+   ────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  --bg: #0a0a0b;
+  --bg-soft: #111113;
+  --surface: 18 18 20;
+  --surface-border: 255 255 255;
+  --fg: #f4f4f5;
+  --fg-muted: #9a9aa1;
+  --hairline: rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(14, 14, 16, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --orb-opacity: 0.3;
+  /* Sporty automotive red */
+  --accent: #e60000;
+  --accent-soft: #ff1a1a;
+  --accent-deep: #990000;
+}
+
+/* Light theme — clean silver workshop look (still red-accented). */
+.light {
+  --bg: #f4f5f7;
+  --bg-soft: #ffffff;
+  --surface: 255 255 255;
+  --surface-border: 10 10 10;
+  --fg: #0a0a0b;
+  --fg-muted: #5b5b62;
+  --hairline: rgba(10, 10, 10, 0.08);
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(10, 10, 10, 0.08);
+  --orb-opacity: 0.2;
+  --accent: #e60000;
+  --accent-soft: #ff1a1a;
+  --accent-deep: #b30000;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  ::selection {
+    background: rgba(230, 0, 0, 0.35);
+    color: #fff;
+  }
+}
+
+@layer components {
+  /* Smoked automotive glass — darker, stronger blur, subtle gray/red rim */
+  .glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(22px) saturate(140%);
+    -webkit-backdrop-filter: blur(22px) saturate(140%);
+    border: 1px solid var(--glass-border);
+  }
+
+  .hairline {
+    border-color: var(--hairline);
+  }
+
+  .text-muted {
+    color: var(--fg-muted);
+  }
+
+  /* Restrained ember / brushed-steel red gradient text */
+  .text-liquid {
+    background: linear-gradient(
+      120deg,
+      #e04a3a 0%,
+      #cc2020 42%,
+      #b8b0ad 60%,
+      #a31818 100%
+    );
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient-pan 8s ease infinite;
+  }
+
+  /* Subtle red ember orb — muted, premium */
+  .orb {
+    background: radial-gradient(
+      circle at 35% 35%,
+      rgba(200, 40, 30, 0.55),
+      rgba(160, 20, 20, 0.32) 40%,
+      rgba(120, 16, 16, 0.2) 65%,
+      transparent 100%
+    );
+    filter: blur(72px);
+    opacity: var(--orb-opacity);
+  }
+
+  .btn-primary {
+    position: relative;
+    background: linear-gradient(120deg, #ff1a1a, #e60000 55%, #b30000);
+    background-size: 200% 200%;
+    color: #fff;
+    transition: background-position 0.6s ease, transform 0.3s ease,
+      box-shadow 0.3s ease;
+    box-shadow: 0 8px 30px rgba(230, 0, 0, 0.35);
+  }
+  .btn-primary:hover {
+    background-position: 100% 50%;
+    transform: translateY(-1px);
+    box-shadow: 0 12px 44px rgba(230, 0, 0, 0.5);
+  }
+
+  /* Smoked glass card surface */
+  .card-surface {
+    background: rgb(var(--surface) / 0.55);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  /* Red / steel ring border on hover */
+  .glow-border {
+    position: relative;
+  }
+  .glow-border::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(120deg, #e60000, #8a8f98 50%, #ff1a1a);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+  }
+  .glow-border:hover::before {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

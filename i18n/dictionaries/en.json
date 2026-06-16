@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "title": "Wollny Reifenservice GmbH — Tyres, Wheels & Wheel Alignment near Hannover",
+    "description": "Master workshop for tyre service, seasonal tyre changes, 3D wheel alignment, rims and tyre storage in Sehnde near Hannover. Since 1987. Book now: 05138 4520."
+  },
+  "nav": {
+    "vision": "Why Wollny",
+    "services": "Services",
+    "work": "Workshop",
+    "contact": "Appointment"
+  },
+  "hero": {
+    "badge": "Since 1987 · Your tyre specialist in Sehnde near Hannover",
+    "titleLines": ["Precision you feel", "on every road."],
+    "subtitle": "Tyres, rims and millimetre-precise 3D wheel alignment — from a master workshop that has stood for safety, smooth running and honest advice for over 35 years.",
+    "ctaPrimary": "Book appointment",
+    "ctaSecondary": "Our services",
+    "stats": [
+      { "value": "1987", "label": "Established" },
+      { "value": "3D", "label": "Wheel alignment" },
+      { "value": "Mon–Fri", "label": "Here for you" }
+    ]
+  },
+  "problem": {
+    "label": "Why Wollny",
+    "title": "A misaligned chassis costs you on every kilometre.",
+    "subtitle": "Just a few millimetres of toe deviation mean faster wear, higher consumption and less grip. We bring every detail back to the point.",
+    "cloud": {
+      "title": "Without professional alignment",
+      "points": [
+        "Uneven, premature tyre wear",
+        "Higher fuel consumption from rolling resistance",
+        "Restless steering and pulling to one side",
+        "Longer braking distance when it matters"
+      ]
+    },
+    "local": {
+      "title": "With Wollny precision",
+      "points": [
+        "Millimetre-precise 3D wheel alignment",
+        "Maximum mileage from your tyres",
+        "Noticeably calmer, safer straight-line running",
+        "Full grip and short braking distances"
+      ]
+    }
+  },
+  "services": {
+    "label": "Services",
+    "title": "Everything around tyres, rims and chassis.",
+    "subtitle": "From the seasonal tyre change to computer-aided wheel alignment — one point of contact, one reliable result.",
+    "items": [
+      {
+        "title": "Tyre service & tyre change",
+        "description": "Fitting, balancing and seasonal changes for cars, SUVs and vans — fast, clean and with controlled torque for maximum safety.",
+        "tags": ["Car", "SUV", "Van", "Balancing", "TPMS"]
+      },
+      {
+        "title": "3D wheel alignment",
+        "description": "Computer-aided measurement and adjustment of toe and camber. We correct to the millimetre so your vehicle runs perfectly straight again.",
+        "tags": ["Toe", "Camber", "Chassis", "Diagnostics"]
+      },
+      {
+        "title": "Rims & complete wheels",
+        "description": "Steel and alloy rims from leading brands, expertly advised and delivered as a ready-mounted, balanced complete wheel — for private and business.",
+        "tags": ["Alloy rims", "Steel rims", "Complete wheels", "Brands"]
+      },
+      {
+        "title": "Tyre storage",
+        "description": "Safe, clean storage of your seasonal tyres in our tyre hotel — professionally cleaned, checked and ready for your next appointment.",
+        "tags": ["Summer", "Winter", "Tyre hotel", "Storage"]
+      }
+    ]
+  },
+  "useCases": {
+    "label": "More service",
+    "title": "So every detail is right.",
+    "subtitle": "Complementary services we carry out at every visit with the same standard of care.",
+    "items": [
+      {
+        "title": "Balancing & fine balancing",
+        "description": "Precise balancing removes vibration, protects bearings and chassis and ensures smooth running at any speed.",
+        "impact": "Smooth running at any speed"
+      },
+      {
+        "title": "Tyre repair",
+        "description": "Professional inspection and repair to standard — where it is safely possible, instead of replacing at high cost.",
+        "impact": "Safe, not needlessly new"
+      },
+      {
+        "title": "TPMS service",
+        "description": "Programming, maintenance and replacement of tyre-pressure monitoring sensors for modern vehicles.",
+        "impact": "Warning light reliably off"
+      },
+      {
+        "title": "Advice & sales",
+        "description": "Honest recommendation of the right tyre and rim size for your vehicle and your budget.",
+        "impact": "The right choice, clearly explained"
+      }
+    ]
+  },
+  "approach": {
+    "label": "How it works",
+    "title": "Ready to roll in four steps.",
+    "subtitle": "No unnecessary paperwork, no waiting without a plan — you always know what we are working on.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Book an appointment",
+        "description": "Call us or send a short note about your request — we will find a suitable slot quickly."
+      },
+      {
+        "step": "02",
+        "title": "Vehicle handover",
+        "description": "We take in your vehicle, discuss the scope and inspect tyres and chassis."
+      },
+      {
+        "step": "03",
+        "title": "Service by professionals",
+        "description": "Fitting, balancing or wheel alignment — carried out professionally with modern equipment."
+      },
+      {
+        "step": "04",
+        "title": "Handover & advice",
+        "description": "You get your vehicle back ready to go, including a clear recommendation for the next season."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Inside",
+    "title": "Modern technology. Clean workshop.",
+    "subtitle": "A look at the equipment and the care with which we work every day.",
+    "items": [
+      { "title": "Wheel alignment · 3D rig", "caption": "Computer-aided chassis measurement to the millimetre" },
+      { "title": "Tyre fitting", "caption": "Gentle fitting for alloy and steel rims" },
+      { "title": "Tyre storage", "caption": "Seasonal storage, neatly sorted and checked" }
+    ]
+  },
+  "founding": {
+    "label": "Private & business",
+    "title": "Tyres and rims — for private customers and fleets.",
+    "description": "Whether a single set of winter tyres or looking after your entire fleet: we supply branded goods at fair conditions, handle fitting and storage and keep your vehicles safely on the road all year round.",
+    "points": [
+      "Branded tyres & rims at fair prices",
+      "Fleet service for business customers (B2B)",
+      "Seasonal all-round service including storage",
+      "Short-notice appointments, predictable downtime"
+    ],
+    "cta": "Secure your appointment"
+  },
+  "founder": {
+    "label": "The workshop",
+    "title": "Your tyre specialist in Sehnde since 1987.",
+    "body": "Wollny Reifenservice is an owner-managed master workshop with over three decades of experience. We are real professionals working with modern technology — from the simple tyre change to precise 3D wheel alignment. What sets us apart: honest advice, clean work and appointments that hold.",
+    "quote": "Safety starts with the tyre. That is why we treat every vehicle as if it were our own.",
+    "name": "Wollny Reifenservice GmbH",
+    "role": "Master workshop · Sehnde near Hannover"
+  },
+  "faq": {
+    "label": "Common questions",
+    "title": "Good to know.",
+    "items": [
+      {
+        "q": "Do I need an appointment for a tyre change?",
+        "a": "Yes, please arrange an appointment in advance — by phone on 05138 4520 or via the contact form. This avoids waiting times, especially during the seasonal peak. On Saturdays we are available by appointment only."
+      },
+      {
+        "q": "When does a wheel alignment make sense?",
+        "a": "Whenever your vehicle pulls to one side, the tyres wear unevenly, after work on the chassis or after kerb contact. Our 3D measurement shows to the millimetre whether toe and camber are correct."
+      },
+      {
+        "q": "Do you store my seasonal tyres?",
+        "a": "Yes. In our tyre hotel we keep your summer or winter tyres safe and clean. For the next change they are checked and ready to go — you do not have to transport anything."
+      },
+      {
+        "q": "Can I get tyres and rims as a complete wheel?",
+        "a": "Of course. We advise you on the right size, mount tyres on steel or alloy rims and hand over fully balanced complete wheels — for private and business customers."
+      },
+      {
+        "q": "Do you also look after company vehicles and fleets?",
+        "a": "Yes, we are an experienced partner for business customers. Ask us about fleet conditions, predictable appointments and storage."
+      },
+      {
+        "q": "Where can I find you?",
+        "a": "You will find us at Borsigring 38 in 31319 Sehnde, just a few minutes from Hannover. We are open Monday to Friday from 08:00 to 15:00."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Book an appointment.",
+    "subtitle": "Tell us briefly about your request and your vehicle — we will get back to you with a suitable slot.",
+    "bookingText": "Prefer to call directly?",
+    "bookingCta": "05138 4520",
+    "info": {
+      "title": "How to reach us",
+      "addressLabel": "Address",
+      "address": ["Wollny Reifenservice GmbH", "Borsigring 38", "31319 Sehnde"],
+      "phoneLabel": "Phone",
+      "phone": "05138 4520",
+      "emailLabel": "Email",
+      "email": "Post@Reifenberatung.com",
+      "hoursLabel": "Opening hours",
+      "hours": [
+        { "day": "Mon – Fri", "time": "08:00 – 15:00" },
+        { "day": "Saturday", "time": "by appointment only" }
+      ],
+      "mapsCta": "Get directions"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "For quick scheduling",
+      "vehicle": "Vehicle (make / model)",
+      "vehiclePlaceholder": "e.g. VW Golf 7 (optional)",
+      "company": "Company",
+      "companyPlaceholder": "Business customers only (optional)",
+      "message": "Your request",
+      "messagePlaceholder": "What is it about? e.g. tyre change, wheel alignment, rim advice …",
+      "submit": "Request appointment",
+      "sending": "Sending…",
+      "success": "Thank you — your request is in. We will get back to you soon with a suitable slot.",
+      "error": "Something went wrong. Please call us on 05138 4520 or try again.",
+      "consent": "I agree that my data may be processed to handle my request, in accordance with the",
+      "consentLink": "privacy policy",
+      "consentError": "Please accept the privacy policy to continue.",
+      "errors": {
+        "name": "Please enter your name.",
+        "email": "Please enter a valid email address.",
+        "message": "Please describe your request briefly (at least 10 characters)."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Your master workshop for tyres, rims and wheel alignment in Sehnde near Hannover — since 1987.",
+    "address": ["Borsigring 38, 31319 Sehnde", "Phone 05138 4520", "Post@Reifenberatung.com"],
+    "privacy": "Privacy policy",
+    "impressum": "Legal notice",
+    "rights": "All rights reserved.",
+    "madeIn": "Sehnde · Hannover region"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: 14 June 2026",
+    "intro": "This privacy policy explains how Wollny Reifenservice GmbH (\"we\") processes personal data in accordance with Regulation (EU) 2016/679 (GDPR). This document is a template and should be reviewed by qualified legal counsel before publication.",
+    "sections": [
+      {
+        "heading": "1. Controller",
+        "body": "Wollny Reifenservice GmbH is the controller for the personal data collected via this website. For data protection enquiries, please contact us using the details in the legal notice."
+      },
+      {
+        "heading": "2. What data we collect",
+        "body": "We process voluntarily provided contact data (such as name, email, phone number, vehicle details and message) as well as limited technical data (such as anonymised analytics and server logs) required for the operation and security of the website."
+      },
+      {
+        "heading": "3. Purpose and legal basis",
+        "body": "We process your data to respond to enquiries and arrange appointments (Art. 6(1)(b) GDPR), to operate and improve the website (Art. 6(1)(f) GDPR — legitimate interest) and on the basis of your consent (Art. 6(1)(a) GDPR)."
+      },
+      {
+        "heading": "4. Retention period",
+        "body": "We retain personal data only for as long as necessary for the stated purposes or as required by law; thereafter it is securely deleted."
+      },
+      {
+        "heading": "5. Your rights",
+        "body": "Under the GDPR you have the right to access, rectification, erasure, restriction and portability of your data, as well as a right to object. You may also lodge a complaint with a supervisory authority."
+      },
+      {
+        "heading": "6. Contact",
+        "body": "To exercise any of these rights, please contact Wollny Reifenservice GmbH using the contact details provided on this website."
+      }
+    ],
+    "back": "Back to home"
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "back": "Back to home",
+    "intro": "Information pursuant to § 5 DDG (German Digital Services Act).",
+    "labels": {
+      "provider": "Service provider",
+      "represented": "Represented by",
+      "contact": "Contact",
+      "register": "Register entry",
+      "vat": "VAT identification number",
+      "responsible": "Responsible for content"
+    },
+    "responsibleNote": "Responsible for content pursuant to § 18 (2) MStV.",
+    "disclaimerTitle": "Liability for content",
+    "disclaimer": "The contents of our pages were created with the greatest care. However, we cannot guarantee the accuracy, completeness or timeliness of the content. As a service provider, we are responsible for our own content on these pages under general law."
+  }
+}

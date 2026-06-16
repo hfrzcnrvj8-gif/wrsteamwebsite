@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "title": "Wollny Reifenservice GmbH — Reifen, Felgen & Achsvermessung in Sehnde bei Hannover",
+    "description": "Meisterbetrieb für Reifenservice, Reifenwechsel, 3D-Achsvermessung, Felgen und Reifeneinlagerung in Sehnde bei Hannover. Seit 1987. Jetzt Termin vereinbaren: 05138 4520."
+  },
+  "nav": {
+    "vision": "Warum Wollny",
+    "services": "Leistungen",
+    "work": "Werkstatt",
+    "contact": "Termin"
+  },
+  "hero": {
+    "badge": "Seit 1987 · Ihr Reifenspezialist in Sehnde bei Hannover",
+    "titleLines": ["Präzision, die Sie", "auf der Straße spüren."],
+    "subtitle": "Reifen, Felgen und millimetergenaue 3D-Achsvermessung — von einem Meisterbetrieb, der seit über 35 Jahren für Sicherheit, Laufruhe und ehrliche Beratung steht.",
+    "ctaPrimary": "Termin vereinbaren",
+    "ctaSecondary": "Unsere Leistungen",
+    "stats": [
+      { "value": "1987", "label": "Gegründet" },
+      { "value": "3D", "label": "Achsvermessung" },
+      { "value": "Mo–Fr", "label": "Für Sie da" }
+    ]
+  },
+  "problem": {
+    "label": "Warum Wollny",
+    "title": "Ein falsch eingestelltes Fahrwerk kostet Sie bei jedem Kilometer.",
+    "subtitle": "Schon wenige Millimeter Spurabweichung bedeuten höheren Verschleiß, mehr Verbrauch und weniger Grip. Wir bringen jedes Detail zurück auf den Punkt.",
+    "cloud": {
+      "title": "Ohne fachgerechte Einstellung",
+      "points": [
+        "Ungleichmäßiger, vorzeitiger Reifenverschleiß",
+        "Höherer Kraftstoffverbrauch durch Rollwiderstand",
+        "Unruhiges Lenkverhalten und einseitiges Ziehen",
+        "Längerer Bremsweg in kritischen Situationen"
+      ]
+    },
+    "local": {
+      "title": "Mit Wollny Präzision",
+      "points": [
+        "Millimetergenaue 3D-Achsvermessung",
+        "Maximale Laufleistung Ihrer Reifen",
+        "Spürbar ruhiger und sicherer Geradeauslauf",
+        "Volle Bodenhaftung und kurze Bremswege"
+      ]
+    }
+  },
+  "services": {
+    "label": "Leistungen",
+    "title": "Alles rund um Reifen, Felgen und Fahrwerk.",
+    "subtitle": "Vom saisonalen Reifenwechsel bis zur computergestützten Achsvermessung — ein Ansprechpartner, ein verlässliches Ergebnis.",
+    "items": [
+      {
+        "title": "Reifenservice & Reifenwechsel",
+        "description": "Montage, Wuchten und saisonaler Wechsel für Pkw, SUV und Transporter — schnell, sauber und mit kontrolliertem Drehmoment für maximale Sicherheit.",
+        "tags": ["Pkw", "SUV", "Transporter", "Wuchten", "RDKS"]
+      },
+      {
+        "title": "3D-Achsvermessung",
+        "description": "Computergestützte Vermessung und Einstellung von Spur und Sturz. Wir korrigieren millimetergenau, damit Ihr Fahrzeug wieder exakt geradeaus läuft.",
+        "tags": ["Spur", "Sturz", "Fahrwerk", "Diagnose"]
+      },
+      {
+        "title": "Felgen & Kompletträder",
+        "description": "Stahl- und Alufelgen führender Marken, fachkundig beraten und als fertig montiertes, gewuchtetes Komplettrad ausgeliefert — für Privat und Gewerbe.",
+        "tags": ["Alufelgen", "Stahlfelgen", "Kompletträder", "Markenware"]
+      },
+      {
+        "title": "Reifeneinlagerung",
+        "description": "Sichere, saubere Einlagerung Ihrer Saisonreifen in unserem Reifenlager — fachgerecht gereinigt, geprüft und zum nächsten Termin startklar.",
+        "tags": ["Sommer", "Winter", "Reifenhotel", "Einlagerung"]
+      }
+    ]
+  },
+  "useCases": {
+    "label": "Mehr Service",
+    "title": "Damit jedes Detail stimmt.",
+    "subtitle": "Ergänzende Leistungen, die wir bei jedem Besuch mit dem gleichen Anspruch erledigen.",
+    "items": [
+      {
+        "title": "Auswuchten & Feinwuchten",
+        "description": "Präzises Wuchten beseitigt Vibrationen, schont Lager und Fahrwerk und sorgt für ruhigen Lauf bei jedem Tempo.",
+        "impact": "Ruhiger Lauf bei jedem Tempo"
+      },
+      {
+        "title": "Reifenreparatur",
+        "description": "Fachgerechte Prüfung und Reparatur nach Norm — dort, wo es sicher möglich ist, statt teuer zu ersetzen.",
+        "impact": "Sicher statt unnötig neu"
+      },
+      {
+        "title": "RDKS-Service",
+        "description": "Programmierung, Wartung und Ersatz der Reifendruck-Kontrollsensoren für moderne Fahrzeuge.",
+        "impact": "Warnleuchte zuverlässig aus"
+      },
+      {
+        "title": "Beratung & Verkauf",
+        "description": "Ehrliche Empfehlung der passenden Reifen- und Felgengröße für Ihr Fahrzeug und Ihr Budget.",
+        "impact": "Die richtige Wahl, klar erklärt"
+      }
+    ]
+  },
+  "approach": {
+    "label": "Ablauf",
+    "title": "In vier Schritten startklar.",
+    "subtitle": "Kein unnötiger Papierkram, keine Wartezeit ohne Plan — Sie wissen jederzeit, woran wir arbeiten.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Termin vereinbaren",
+        "description": "Rufen Sie an oder schreiben Sie uns kurz Ihr Anliegen — wir finden zeitnah einen passenden Termin."
+      },
+      {
+        "step": "02",
+        "title": "Fahrzeugannahme",
+        "description": "Wir nehmen Ihr Fahrzeug auf, besprechen den Umfang und prüfen Reifen und Fahrwerk."
+      },
+      {
+        "step": "03",
+        "title": "Service vom Profi",
+        "description": "Montage, Wuchten oder Achsvermessung — fachgerecht ausgeführt mit moderner Technik."
+      },
+      {
+        "step": "04",
+        "title": "Übergabe & Beratung",
+        "description": "Sie erhalten Ihr Fahrzeug startklar zurück, inklusive klarer Empfehlung für die nächste Saison."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Einblicke",
+    "title": "Moderne Technik. Saubere Werkstatt.",
+    "subtitle": "Ein Blick auf die Ausstattung und die Sorgfalt, mit der wir jeden Tag arbeiten.",
+    "items": [
+      { "title": "Achsvermessung · 3D-Stand", "caption": "Computergestützte Fahrwerksvermessung auf den Millimeter genau" },
+      { "title": "Reifenmontage", "caption": "Schonende Montage für Alu- und Stahlfelgen" },
+      { "title": "Reifenlager", "caption": "Saisonale Einlagerung, sauber sortiert und geprüft" }
+    ]
+  },
+  "founding": {
+    "label": "Privat & Gewerbe",
+    "title": "Reifen und Felgen — für Privatkunden und Flotten.",
+    "description": "Ob einzelner Satz Winterreifen oder die Betreuung Ihres gesamten Fuhrparks: Wir liefern Markenware zu fairen Konditionen, übernehmen Montage und Einlagerung und halten Ihre Fahrzeuge das ganze Jahr sicher auf der Straße.",
+    "points": [
+      "Marken-Reifen & -Felgen zu fairen Preisen",
+      "Flottenservice für Gewerbekunden (B2B)",
+      "Saisonaler Rundum-Service inklusive Einlagerung",
+      "Kurzfristige Termine, planbare Standzeiten"
+    ],
+    "cta": "Jetzt Termin sichern"
+  },
+  "founder": {
+    "label": "Der Betrieb",
+    "title": "Seit 1987 Ihr Reifenspezialist in Sehnde.",
+    "body": "Wollny Reifenservice ist ein inhabergeführter Meisterbetrieb mit über drei Jahrzehnten Erfahrung. Bei uns arbeiten echte Fachleute mit moderner Technik — vom einfachen Reifenwechsel bis zur präzisen 3D-Achsvermessung. Was uns auszeichnet: ehrliche Beratung, sauberes Arbeiten und Termine, die halten.",
+    "quote": "Sicherheit fängt beim Reifen an. Deshalb behandeln wir jedes Fahrzeug, als wäre es unser eigenes.",
+    "name": "Wollny Reifenservice GmbH",
+    "role": "Meisterbetrieb · Sehnde bei Hannover"
+  },
+  "faq": {
+    "label": "Häufige Fragen",
+    "title": "Gut zu wissen.",
+    "items": [
+      {
+        "q": "Brauche ich für den Reifenwechsel einen Termin?",
+        "a": "Ja, bitte vereinbaren Sie vorab einen Termin — telefonisch unter 05138 4520 oder über das Kontaktformular. So vermeiden Sie Wartezeiten, gerade im saisonalen Hochbetrieb. Samstags sind wir ausschließlich nach Terminabsprache für Sie da."
+      },
+      {
+        "q": "Wann ist eine Achsvermessung sinnvoll?",
+        "a": "Immer dann, wenn Ihr Fahrzeug einseitig zieht, die Reifen ungleichmäßig abnutzen oder nach Arbeiten am Fahrwerk und nach Bordsteinkontakt. Unsere 3D-Vermessung zeigt millimetergenau, ob Spur und Sturz stimmen."
+      },
+      {
+        "q": "Lagern Sie meine Saisonreifen ein?",
+        "a": "Ja. In unserem Reifenlager bewahren wir Ihre Sommer- oder Winterreifen sicher und sauber auf. Zum nächsten Wechsel sind sie geprüft und startklar — Sie müssen nichts transportieren."
+      },
+      {
+        "q": "Bekomme ich Reifen und Felgen auch als Komplettrad?",
+        "a": "Selbstverständlich. Wir beraten Sie zur passenden Größe, montieren Reifen auf Stahl- oder Alufelgen und übergeben fertig gewuchtete Kompletträder — für Privat- und Gewerbekunden."
+      },
+      {
+        "q": "Betreuen Sie auch Firmenfahrzeuge und Flotten?",
+        "a": "Ja, wir sind ein erfahrener Partner für Gewerbekunden. Sprechen Sie uns auf Flottenkonditionen, planbare Termine und Einlagerung an."
+      },
+      {
+        "q": "Wo finde ich Sie?",
+        "a": "Sie finden uns am Borsigring 38 in 31319 Sehnde, nur wenige Minuten von Hannover entfernt. Geöffnet ist Montag bis Freitag von 08:00 bis 15:00 Uhr."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Termin vereinbaren.",
+    "subtitle": "Schildern Sie uns kurz Ihr Anliegen und Ihr Fahrzeug — wir melden uns mit einem passenden Termin.",
+    "bookingText": "Lieber direkt anrufen?",
+    "bookingCta": "05138 4520",
+    "info": {
+      "title": "So erreichen Sie uns",
+      "addressLabel": "Adresse",
+      "address": ["Wollny Reifenservice GmbH", "Borsigring 38", "31319 Sehnde"],
+      "phoneLabel": "Telefon",
+      "phone": "05138 4520",
+      "emailLabel": "E-Mail",
+      "email": "Post@Reifenberatung.com",
+      "hoursLabel": "Öffnungszeiten",
+      "hours": [
+        { "day": "Mo – Fr", "time": "08:00 – 15:00 Uhr" },
+        { "day": "Samstag", "time": "nur mit Termin" }
+      ],
+      "mapsCta": "Route planen"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@email.de",
+      "phone": "Telefon",
+      "phonePlaceholder": "Für die schnelle Terminabstimmung",
+      "vehicle": "Fahrzeug (Marke / Modell)",
+      "vehiclePlaceholder": "z. B. VW Golf 7 (optional)",
+      "company": "Firma",
+      "companyPlaceholder": "Nur für Gewerbekunden (optional)",
+      "message": "Ihr Anliegen",
+      "messagePlaceholder": "Worum geht es? z. B. Reifenwechsel, Achsvermessung, Felgenberatung …",
+      "submit": "Termin anfragen",
+      "sending": "Wird gesendet…",
+      "success": "Vielen Dank — Ihre Anfrage ist da. Wir melden uns zeitnah mit einem passenden Termin.",
+      "error": "Etwas ist schiefgelaufen. Bitte rufen Sie uns an unter 05138 4520 oder versuchen Sie es erneut.",
+      "consent": "Ich bin einverstanden, dass meine Daten zur Bearbeitung meiner Anfrage verarbeitet werden, gemäß der",
+      "consentLink": "Datenschutzerklärung",
+      "consentError": "Bitte akzeptieren Sie die Datenschutzerklärung, um fortzufahren.",
+      "errors": {
+        "name": "Bitte geben Sie Ihren Namen ein.",
+        "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+        "message": "Bitte beschreiben Sie Ihr Anliegen kurz (mindestens 10 Zeichen)."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Ihr Meisterbetrieb für Reifen, Felgen und Achsvermessung in Sehnde bei Hannover — seit 1987.",
+    "address": ["Borsigring 38, 31319 Sehnde", "Tel. 05138 4520", "Post@Reifenberatung.com"],
+    "privacy": "Datenschutzerklärung",
+    "impressum": "Impressum",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeIn": "Sehnde · Region Hannover"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "updated": "Zuletzt aktualisiert: 14. Juni 2026",
+    "intro": "Diese Datenschutzerklärung erläutert, wie die Wollny Reifenservice GmbH („wir“) personenbezogene Daten gemäß der Verordnung (EU) 2016/679 (DSGVO) verarbeitet. Dieses Dokument ist eine Mustervorlage und sollte vor der Veröffentlichung von qualifizierten Rechtsberatern geprüft werden.",
+    "sections": [
+      {
+        "heading": "1. Verantwortlicher",
+        "body": "Die Wollny Reifenservice GmbH ist der Verantwortliche für die über diese Website erhobenen personenbezogenen Daten. Für datenschutzbezogene Anfragen kontaktieren Sie uns bitte über die im Impressum genannten Kontaktdaten."
+      },
+      {
+        "heading": "2. Welche Daten wir erheben",
+        "body": "Wir verarbeiten freiwillig angegebene Kontaktdaten (wie Name, E-Mail, Telefonnummer, Fahrzeugangaben und Nachricht) sowie begrenzte technische Daten (wie anonymisierte Analytik und Server-Logs), die für den Betrieb und die Sicherheit der Website erforderlich sind."
+      },
+      {
+        "heading": "3. Zweck und Rechtsgrundlage",
+        "body": "Wir verarbeiten Ihre Daten zur Beantwortung von Anfragen und zur Terminvereinbarung (Art. 6 Abs. 1 lit. b DSGVO), zum Betrieb und zur Verbesserung der Website (Art. 6 Abs. 1 lit. f DSGVO — berechtigtes Interesse) und auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)."
+      },
+      {
+        "heading": "4. Speicherdauer",
+        "body": "Wir speichern personenbezogene Daten nur so lange, wie es für die genannten Zwecke erforderlich oder gesetzlich vorgeschrieben ist; danach werden sie sicher gelöscht."
+      },
+      {
+        "heading": "5. Ihre Rechte",
+        "body": "Nach der DSGVO haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung und Übertragbarkeit Ihrer Daten sowie ein Widerspruchsrecht. Sie können zudem Beschwerde bei einer Aufsichtsbehörde einlegen."
+      },
+      {
+        "heading": "6. Kontakt",
+        "body": "Um eines dieser Rechte auszuüben, kontaktieren Sie die Wollny Reifenservice GmbH bitte über die auf dieser Website angegebenen Kontaktdaten."
+      }
+    ],
+    "back": "Zurück zur Startseite"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "back": "Zurück zur Startseite",
+    "intro": "Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz).",
+    "labels": {
+      "provider": "Diensteanbieter",
+      "represented": "Vertreten durch",
+      "contact": "Kontakt",
+      "register": "Registereintrag",
+      "vat": "Umsatzsteuer-Identifikationsnummer",
+      "responsible": "Verantwortlich für den Inhalt"
+    },
+    "responsibleNote": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV.",
+    "disclaimerTitle": "Haftung für Inhalte",
+    "disclaimer": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich."
+  }
+}
