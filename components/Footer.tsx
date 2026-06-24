@@ -93,7 +93,7 @@ export function Footer({
           <span className="leggera-gradient font-semibold tracking-wide">
             LEGGERA LABS
           </span>
-          <span className="leggera-gradient font-semibold"> .</span>
+          <span className="font-semibold text-[#22d3ee]"> .</span>
         </a>
       </div>
     </footer>
