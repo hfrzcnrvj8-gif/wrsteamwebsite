@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { ProblemVision } from "@/components/ProblemVision";
 import { Services } from "@/components/Services";
+import { Technik } from "@/components/Technik";
 import { FoundingOffer } from "@/components/FoundingOffer";
 import { ContactCta } from "@/components/ContactCta";
 import { Footer } from "@/components/Footer";
@@ -22,6 +23,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <Hero dict={dict.hero} lang={lang} />
         <ProblemVision dict={dict.problem} />
         <Services dict={dict.services} />
+        <Technik dict={dict.technik} />
         <FoundingOffer dict={dict.founding} lang={lang} />
         <ContactCta dict={dict.pages.contactCta} lang={lang} />
       </main>

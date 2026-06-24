@@ -137,6 +137,28 @@
       }
     ]
   },
+  "technik": {
+    "label": "Technika i wyposażenie",
+    "title": "Pracujemy na Hunterze — to standard w branży.",
+    "subtitle": "Precyzja to nie przypadek. Korzystamy z urządzeń Hunter Engineering — tej samej techniki, której ufają producenci i profesjonaliści.",
+    "items": [
+      { "title": "Hawkeye Elite® · geometria 3D", "description": "Pomiar kamerowy 3D w kilka sekund, co do milimetra. Od razu widać, czy zbieżność i pochylenie są idealne.", "impact": "Dokładne wartości, mniejsze zużycie" },
+      { "title": "Road Force® · wyważanie diagnostyczne", "description": "Więcej niż wyważanie: Road Force® wykrywa, gdy to opona lub felga są źródłem drgań — i rozwiązuje problemy, których zwykłe wyważanie nie znajdzie.", "impact": "Znajduje przyczynę, nie tylko objaw" },
+      { "title": "SmartWeight® · wydajne wyważanie", "description": "Zoptymalizowane wyważanie z mniejszą liczbą ciężarków — łagodniej dla felgi i środowiska, przy najlepszej kulturze pracy.", "impact": "Mniej ciężarków, spokojniejszy bieg" }
+    ],
+    "attribution": "Hawkeye Elite®, Road Force® i SmartWeight® są znakami towarowymi Hunter Engineering Company."
+  },
+  "reifenlabel": {
+    "label": "Warto wiedzieć",
+    "title": "Etykieta opony UE — prosto wyjaśniona.",
+    "subtitle": "Każda nowa opona ma etykietę UE z trzema parametrami. Pomożemy je dobrze odczytać — i wybrać oponę pod Twój styl jazdy.",
+    "items": [
+      { "grade": "A–E", "title": "Efektywność paliwowa", "description": "Jak opór toczenia wpływa na spalanie i CO₂. Lepsza klasa to realna oszczędność." },
+      { "grade": "A–E", "title": "Przyczepność na mokrym", "description": "Jak krótka jest droga hamowania na mokrej nawierzchni. Jedna litera to nawet kilka metrów." },
+      { "grade": "dB", "title": "Hałas zewnętrzny", "description": "W decybelach: jak głośno toczy się opona. Ciszej to wyraźnie większy komfort." }
+    ],
+    "note": "Zapytaj nas — uczciwie powiemy, które wartości naprawdę się dla Ciebie liczą."
+  },
   "approach": {
     "label": "Jak to działa",
     "title": "Gotowi do drogi w czterech krokach.",

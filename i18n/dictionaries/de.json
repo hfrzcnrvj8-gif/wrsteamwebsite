@@ -137,6 +137,52 @@
       }
     ]
   },
+  "technik": {
+    "label": "Technik & Ausstattung",
+    "title": "Wir arbeiten mit Hunter — Referenztechnik in der Werkstatt.",
+    "subtitle": "Präzision ist kein Zufall. Wir setzen auf Geräte von Hunter Engineering — dieselbe Technik, auf die auch Hersteller und Profis vertrauen.",
+    "items": [
+      {
+        "title": "Hawkeye Elite® · 3D-Achsvermessung",
+        "description": "Kamerabasierte 3D-Vermessung in Sekunden, millimetergenau. Wir sehen sofort, ob Spur und Sturz exakt stimmen.",
+        "impact": "Exakte Werte, weniger Verschleiß"
+      },
+      {
+        "title": "Road Force® · Diagnose-Wuchten",
+        "description": "Mehr als Auswuchten: Road Force® erkennt, wenn Reifen oder Felge selbst die Ursache für Vibrationen sind — und löst Probleme, die normales Wuchten nicht findet.",
+        "impact": "Findet die Ursache, nicht nur das Symptom"
+      },
+      {
+        "title": "SmartWeight® · Effizientes Wuchten",
+        "description": "Optimiertes Wuchten mit weniger Gewichten — schonend für Felge und Umwelt, bei bester Laufruhe.",
+        "impact": "Weniger Gewichte, ruhiger Lauf"
+      }
+    ],
+    "attribution": "Hawkeye Elite®, Road Force® und SmartWeight® sind Marken der Hunter Engineering Company."
+  },
+  "reifenlabel": {
+    "label": "Gut zu wissen",
+    "title": "Das EU-Reifenlabel — einfach erklärt.",
+    "subtitle": "Jeder neue Reifen trägt ein EU-Label mit drei Kennwerten. Wir helfen Ihnen, sie richtig zu lesen — und das Richtige für Ihr Fahrprofil zu wählen.",
+    "items": [
+      {
+        "grade": "A–E",
+        "title": "Kraftstoffeffizienz",
+        "description": "Wie stark der Rollwiderstand Verbrauch und CO₂ beeinflusst. Eine bessere Klasse spart bares Geld."
+      },
+      {
+        "grade": "A–E",
+        "title": "Nasshaftung",
+        "description": "Wie kurz der Bremsweg auf nasser Fahrbahn ist. Ein Buchstabe kann mehrere Meter ausmachen."
+      },
+      {
+        "grade": "dB",
+        "title": "Externes Rollgeräusch",
+        "description": "In Dezibel: Wie laut der Reifen abrollt. Leiser bedeutet spürbar mehr Komfort."
+      }
+    ],
+    "note": "Fragen Sie uns — wir sagen Ihnen ehrlich, welche Werte für Sie wirklich zählen."
+  },
   "approach": {
     "label": "Ablauf",
     "title": "In vier Schritten startklar.",

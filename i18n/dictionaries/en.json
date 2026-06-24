@@ -137,6 +137,40 @@
       }
     ]
   },
+  "technik": {
+    "label": "Technology & equipment",
+    "title": "We work with Hunter — the reference in the workshop.",
+    "subtitle": "Precision is no accident. We rely on equipment from Hunter Engineering — the same technology trusted by manufacturers and professionals.",
+    "items": [
+      {
+        "title": "Hawkeye Elite® · 3D alignment",
+        "description": "Camera-based 3D measurement in seconds, to the millimetre. We see immediately whether toe and camber are exactly right.",
+        "impact": "Exact values, less wear"
+      },
+      {
+        "title": "Road Force® · diagnostic balancing",
+        "description": "More than balancing: Road Force® detects when the tyre or rim itself causes vibration — and solves problems normal balancing cannot find.",
+        "impact": "Finds the cause, not just the symptom"
+      },
+      {
+        "title": "SmartWeight® · efficient balancing",
+        "description": "Optimised balancing with fewer weights — gentler on the rim and the environment, with the best smoothness.",
+        "impact": "Fewer weights, smoother running"
+      }
+    ],
+    "attribution": "Hawkeye Elite®, Road Force® and SmartWeight® are trademarks of Hunter Engineering Company."
+  },
+  "reifenlabel": {
+    "label": "Good to know",
+    "title": "The EU tyre label — simply explained.",
+    "subtitle": "Every new tyre carries an EU label with three values. We help you read them correctly — and choose the right tyre for how you drive.",
+    "items": [
+      { "grade": "A–E", "title": "Fuel efficiency", "description": "How much rolling resistance affects consumption and CO₂. A better class saves real money." },
+      { "grade": "A–E", "title": "Wet grip", "description": "How short the braking distance is on a wet road. One letter can mean several metres." },
+      { "grade": "dB", "title": "External rolling noise", "description": "In decibels: how loud the tyre rolls. Quieter means noticeably more comfort." }
+    ],
+    "note": "Just ask us — we will tell you honestly which values really matter for you."
+  },
   "approach": {
     "label": "How it works",
     "title": "Ready to roll in four steps.",
