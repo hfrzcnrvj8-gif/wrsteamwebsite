@@ -51,7 +51,7 @@ export function StructuredData({
         ],
         makesOffer: [
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Reifenwechsel" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "3D-Achsvermessung" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Ultraschall-Radvermessung" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Felgen & Kompletträder" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Reifeneinlagerung" } },
         ],

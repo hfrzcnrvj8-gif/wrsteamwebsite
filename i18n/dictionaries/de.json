@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Wollny Reifenservice GmbH — Reifen, Felgen & Achsvermessung in Sehnde bei Hannover",
-    "description": "Meisterbetrieb für Reifenservice, Reifenwechsel, 3D-Achsvermessung, Felgen und Reifeneinlagerung in Sehnde bei Hannover. Seit 1987. Jetzt Termin vereinbaren: 05138 4520."
+    "description": "Familienbetrieb für Reifenservice, Reifenwechsel, Ultraschall-Radvermessung, Felgen und Reifeneinlagerung in Sehnde bei Hannover. Seit 1987. Jetzt Termin vereinbaren: 05138 4520."
   },
   "nav": {
     "vision": "Warum Wollny",
@@ -15,7 +15,7 @@
       "metaTitle": "Leistungen — Wollny Reifenservice GmbH",
       "eyebrow": "Unsere Leistungen",
       "title": "Reifen, Felgen und Fahrwerk — alles aus einer Hand.",
-      "subtitle": "Ein vollständiger Überblick über unsere Werkstattleistungen in Sehnde — von der saisonalen Reifenmontage bis zur millimetergenauen 3D-Achsvermessung.",
+      "subtitle": "Ein vollständiger Überblick über unsere Werkstattleistungen in Sehnde — von der saisonalen Reifenmontage bis zur millimetergenauen Ultraschall-Radvermessung.",
       "ctaTitle": "Bereit für Ihren Termin?",
       "ctaText": "Vereinbaren Sie jetzt einen Termin — telefonisch oder bequem über das Kontaktformular.",
       "ctaButton": "Zum Kontakt"
@@ -29,7 +29,7 @@
     "ueber": {
       "metaTitle": "Über uns — Wollny Reifenservice GmbH",
       "eyebrow": "Über uns",
-      "title": "Ihr Meisterbetrieb seit 1987.",
+      "title": "Ihr Familienbetrieb seit 1987.",
       "subtitle": "Wer wir sind, wie wir arbeiten und womit wir täglich für Ihre Sicherheit sorgen."
     },
     "contactCta": {
@@ -41,12 +41,12 @@
   "hero": {
     "badge": "Seit 1987 · Ihr Reifenspezialist in Sehnde bei Hannover",
     "titleLines": ["Präzision, die Sie", "auf der Straße spüren."],
-    "subtitle": "Reifen, Felgen und millimetergenaue 3D-Achsvermessung — von einem Meisterbetrieb, der seit über 35 Jahren für Sicherheit, Laufruhe und ehrliche Beratung steht.",
+    "subtitle": "Reifen, Felgen und millimetergenaue Ultraschall-Radvermessung — von einem Familienbetrieb, der seit über 35 Jahren für Sicherheit, Laufruhe und ehrliche Beratung steht.",
     "ctaPrimary": "Termin vereinbaren",
     "ctaSecondary": "Unsere Leistungen",
     "stats": [
       { "value": "1987", "label": "Gegründet" },
-      { "value": "3D", "label": "Achsvermessung" },
+      { "value": "2.", "label": "Generation" },
       { "value": "Mo–Fr", "label": "Für Sie da" }
     ]
   },
@@ -66,7 +66,7 @@
     "local": {
       "title": "Mit Wollny Präzision",
       "points": [
-        "Millimetergenaue 3D-Achsvermessung",
+        "Millimetergenaue Ultraschall-Radvermessung",
         "Maximale Laufleistung Ihrer Reifen",
         "Spürbar ruhiger und sicherer Geradeauslauf",
         "Volle Bodenhaftung und kurze Bremswege"
@@ -76,26 +76,26 @@
   "services": {
     "label": "Leistungen",
     "title": "Alles rund um Reifen, Felgen und Fahrwerk.",
-    "subtitle": "Vom saisonalen Reifenwechsel bis zur computergestützten Achsvermessung — ein Ansprechpartner, ein verlässliches Ergebnis.",
+    "subtitle": "Von der Reifenmontage über die Ultraschall-Radvermessung bis zum An- und Verkauf von Felgen — ein Ansprechpartner, ein verlässliches Ergebnis.",
     "items": [
       {
-        "title": "Reifenservice & Reifenwechsel",
-        "description": "Montage, Wuchten und saisonaler Wechsel für Pkw, SUV und Transporter — schnell, sauber und mit kontrolliertem Drehmoment für maximale Sicherheit.",
-        "tags": ["Pkw", "SUV", "Transporter", "Wuchten", "RDKS"]
+        "title": "Reifenservice & Montage",
+        "description": "Montage, Wuchten und saisonaler Wechsel für Pkw, SUV und Performance-Fahrzeuge — schnell, sauber und mit kontrolliertem Drehmoment.",
+        "tags": ["Pkw", "SUV", "Performance", "Wuchten", "RDKS"]
       },
       {
-        "title": "3D-Achsvermessung",
-        "description": "Computergestützte Vermessung und Einstellung von Spur und Sturz. Wir korrigieren millimetergenau, damit Ihr Fahrzeug wieder exakt geradeaus läuft.",
-        "tags": ["Spur", "Sturz", "Fahrwerk", "Diagnose"]
+        "title": "Ultraschall-Radvermessung",
+        "description": "Präzise Vermessung und Einstellung von Spur und Sturz mit moderner Ultraschall-Technik — für ruhigen Geradeauslauf und gleichmäßigen Reifenverschleiß.",
+        "tags": ["Spur", "Sturz", "Ultraschall", "Fahrwerk"]
       },
       {
-        "title": "Felgen & Kompletträder",
-        "description": "Stahl- und Alufelgen führender Marken, fachkundig beraten und als fertig montiertes, gewuchtetes Komplettrad ausgeliefert — für Privat und Gewerbe.",
-        "tags": ["Alufelgen", "Stahlfelgen", "Kompletträder", "Markenware"]
+        "title": "Felgen, Kompletträder & Reifen",
+        "description": "An- und Verkauf neuer und gebrauchter Reifen und Felgen. Premium-Felgen und Komfortreifen, fachkundig beraten und als fertiges Komplettrad montiert.",
+        "tags": ["Alufelgen", "Kompletträder", "An- & Verkauf", "Premium"]
       },
       {
-        "title": "Reifeneinlagerung",
-        "description": "Sichere, saubere Einlagerung Ihrer Saisonreifen in unserem Reifenlager — fachgerecht gereinigt, geprüft und zum nächsten Termin startklar.",
+        "title": "Rädereinlagerung",
+        "description": "Sichere, saubere Einlagerung Ihrer Saisonräder in unserem Lager — gereinigt, geprüft und zum nächsten Termin startklar.",
         "tags": ["Sommer", "Winter", "Reifenhotel", "Einlagerung"]
       }
     ]
@@ -106,24 +106,24 @@
     "subtitle": "Ergänzende Leistungen, die wir bei jedem Besuch mit dem gleichen Anspruch erledigen.",
     "items": [
       {
-        "title": "Auswuchten & Feinwuchten",
-        "description": "Präzises Wuchten beseitigt Vibrationen, schont Lager und Fahrwerk und sorgt für ruhigen Lauf bei jedem Tempo.",
-        "impact": "Ruhiger Lauf bei jedem Tempo"
-      },
-      {
-        "title": "Reifenreparatur",
-        "description": "Fachgerechte Prüfung und Reparatur nach Norm — dort, wo es sicher möglich ist, statt teuer zu ersetzen.",
-        "impact": "Sicher statt unnötig neu"
+        "title": "Auswuchten mit SmartWeight",
+        "description": "Optimales Auswuchten mit SmartWeight-Technologie — für besten Fahrkomfort und ruhigen Lauf bei jedem Tempo.",
+        "impact": "Vibrationsfrei bei jedem Tempo"
       },
       {
         "title": "RDKS-Service",
-        "description": "Programmierung, Wartung und Ersatz der Reifendruck-Kontrollsensoren für moderne Fahrzeuge.",
+        "description": "Reifendruck-Kontrollsystem: OEM-Sensoren sowie programmierbare Systeme — Programmierung, Wartung und Ersatz.",
         "impact": "Warnleuchte zuverlässig aus"
       },
       {
-        "title": "Beratung & Verkauf",
-        "description": "Ehrliche Empfehlung der passenden Reifen- und Felgengröße für Ihr Fahrzeug und Ihr Budget.",
-        "impact": "Die richtige Wahl, klar erklärt"
+        "title": "Runflat-Reifen & -Service",
+        "description": "Fachgerechter Service für Runflat-Reifen — als WDK-zertifizierter Betrieb nach geltenden Richtlinien.",
+        "impact": "WDK-zertifizierter Betrieb"
+      },
+      {
+        "title": "Reifendiagnose",
+        "description": "Vibrationskontrolle sowie Radial- und Lateral-Kraftmessung decken Probleme auf, die man von außen nicht sieht.",
+        "impact": "Probleme früh erkannt"
       }
     ]
   },
@@ -159,7 +159,7 @@
     "title": "Moderne Technik. Saubere Werkstatt.",
     "subtitle": "Ein Blick auf die Ausstattung und die Sorgfalt, mit der wir jeden Tag arbeiten.",
     "items": [
-      { "title": "Achsvermessung · 3D-Stand", "caption": "Computergestützte Fahrwerksvermessung auf den Millimeter genau" },
+      { "title": "Ultraschall-Radvermessung", "caption": "Präzise Fahrwerksvermessung auf den Millimeter genau" },
       { "title": "Reifenmontage", "caption": "Montage und Wuchten direkt in der Werkstatt" },
       { "title": "Felgen & Kompletträder", "caption": "Markenfelgen und fertig montierte Kompletträder ab Lager" }
     ]
@@ -200,7 +200,7 @@
       },
       {
         "q": "Wann ist eine Achsvermessung sinnvoll?",
-        "a": "Immer dann, wenn Ihr Fahrzeug einseitig zieht, die Reifen ungleichmäßig abnutzen oder nach Arbeiten am Fahrwerk und nach Bordsteinkontakt. Unsere 3D-Vermessung zeigt millimetergenau, ob Spur und Sturz stimmen."
+        "a": "Immer dann, wenn Ihr Fahrzeug einseitig zieht, die Reifen ungleichmäßig abnutzen oder nach Arbeiten am Fahrwerk und nach Bordsteinkontakt. Unsere Ultraschall-Radvermessung zeigt millimetergenau, ob Spur und Sturz stimmen."
       },
       {
         "q": "Lagern Sie meine Saisonreifen ein?",
@@ -269,7 +269,7 @@
     }
   },
   "footer": {
-    "tagline": "Ihr Meisterbetrieb für Reifen, Felgen und Achsvermessung in Sehnde bei Hannover — seit 1987.",
+    "tagline": "Ihr Familienbetrieb für Reifen, Felgen und Achsvermessung in Sehnde bei Hannover — seit 1987.",
     "address": ["Borsigring 38, 31319 Sehnde", "Tel. 05138 4520 · Fax 05138 3008", "Post@Reifenberatung.com"],
     "privacy": "Datenschutzerklärung",
     "impressum": "Impressum",
