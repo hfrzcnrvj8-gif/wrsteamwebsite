@@ -25,9 +25,9 @@ export function Header({
   }, []);
 
   const links = [
-    { href: "#vision", label: dict.vision },
-    { href: "#services", label: dict.services },
-    { href: "#showcase", label: dict.work },
+    { href: `/${lang}#vision`, label: dict.vision },
+    { href: `/${lang}/leistungen`, label: dict.services },
+    { href: `/${lang}#showcase`, label: dict.work },
   ];
 
   return (
@@ -59,12 +59,12 @@ export function Header({
         <ul className="hidden items-center gap-8 text-sm text-muted md:flex">
           {links.map((l) => (
             <li key={l.href}>
-              <a
+              <Link
                 href={l.href}
                 className="transition-colors hover:text-[var(--fg)]"
               >
                 {l.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -72,12 +72,12 @@ export function Header({
         <div className="flex items-center gap-2">
           <LanguageSwitcher current={lang} />
           <ThemeToggle />
-          <a
-            href="#contact"
+          <Link
+            href={`/${lang}/kontakt`}
             className="btn-primary hidden rounded-full px-5 py-2 text-sm font-semibold sm:inline-block"
           >
             {dict.contact}
-          </a>
+          </Link>
         </div>
       </nav>
     </motion.header>

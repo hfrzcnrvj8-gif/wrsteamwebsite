@@ -9,6 +9,23 @@
     "work": "Workshop",
     "contact": "Appointment"
   },
+  "pages": {
+    "leistungen": {
+      "metaTitle": "Services — Wollny Reifenservice GmbH",
+      "eyebrow": "Our services",
+      "title": "Tyres, rims and chassis — all from one source.",
+      "subtitle": "A complete overview of our workshop services in Sehnde — from the seasonal tyre change to millimetre-precise 3D wheel alignment.",
+      "ctaTitle": "Ready for your appointment?",
+      "ctaText": "Book an appointment now — by phone or conveniently via the contact form.",
+      "ctaButton": "Go to contact"
+    },
+    "kontakt": {
+      "metaTitle": "Contact & directions — Wollny Reifenservice GmbH",
+      "eyebrow": "Contact",
+      "title": "Contact & directions.",
+      "subtitle": "Call us, write to us or simply drop by — we are here for you Monday to Friday."
+    }
+  },
   "hero": {
     "badge": "Since 1987 · Your tyre specialist in Sehnde near Hannover",
     "titleLines": ["Precision you feel", "on every road."],

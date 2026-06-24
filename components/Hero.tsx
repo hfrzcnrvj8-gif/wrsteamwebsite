@@ -109,7 +109,7 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
             {dict.ctaPrimary}
           </a>
           <a
-            href="#vision"
+            href="#services"
             className="glass w-full rounded-full px-8 py-3.5 text-base font-medium transition-transform hover:scale-[1.02] sm:w-auto"
           >
             {dict.ctaSecondary}

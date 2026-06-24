@@ -9,6 +9,23 @@
     "work": "Warsztat",
     "contact": "Wizyta"
   },
+  "pages": {
+    "leistungen": {
+      "metaTitle": "Usługi — Wollny Reifenservice GmbH",
+      "eyebrow": "Nasze usługi",
+      "title": "Opony, felgi i zawieszenie — wszystko w jednym miejscu.",
+      "subtitle": "Pełny przegląd usług naszego warsztatu w Sehnde — od sezonowej wymiany opon po precyzyjną geometrię kół 3D.",
+      "ctaTitle": "Gotowy na wizytę?",
+      "ctaText": "Umów wizytę już teraz — telefonicznie lub wygodnie przez formularz kontaktowy.",
+      "ctaButton": "Przejdź do kontaktu"
+    },
+    "kontakt": {
+      "metaTitle": "Kontakt i dojazd — Wollny Reifenservice GmbH",
+      "eyebrow": "Kontakt",
+      "title": "Kontakt i dojazd.",
+      "subtitle": "Zadzwoń, napisz lub po prostu wpadnij — jesteśmy do Twojej dyspozycji od poniedziałku do piątku."
+    }
+  },
   "hero": {
     "badge": "Od 1987 · Twój specjalista od opon w Sehnde koło Hanoweru",
     "titleLines": ["Precyzja, którą czujesz", "na każdej drodze."],

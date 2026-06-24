@@ -5,9 +5,11 @@ import type { Dictionary } from "@/i18n/types";
 export function Footer({
   lang,
   dict,
+  nav,
 }: {
   lang: Locale;
   dict: Dictionary["footer"];
+  nav: Dictionary["nav"];
 }) {
   const year = new Date().getFullYear();
   return (
@@ -31,6 +33,18 @@ export function Footer({
         </div>
 
         <div className="flex flex-col gap-4 text-sm md:items-end">
+          <Link
+            href={`/${lang}/leistungen`}
+            className="text-muted transition-colors hover:text-[var(--fg)]"
+          >
+            {nav.services}
+          </Link>
+          <Link
+            href={`/${lang}/kontakt`}
+            className="text-muted transition-colors hover:text-[var(--fg)]"
+          >
+            {nav.contact}
+          </Link>
           <Link
             href={`/${lang}/privacy`}
             className="text-muted transition-colors hover:text-[var(--fg)]"

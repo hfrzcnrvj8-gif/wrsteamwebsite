@@ -35,7 +35,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <FoundingOffer dict={dict.founding} />
         <CTA dict={dict.cta} lang={lang} />
       </main>
-      <Footer lang={lang} dict={dict.footer} />
+      <Footer lang={lang} dict={dict.footer} nav={dict.nav} />
     </>
   );
 }

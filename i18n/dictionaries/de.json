@@ -9,6 +9,23 @@
     "work": "Werkstatt",
     "contact": "Termin"
   },
+  "pages": {
+    "leistungen": {
+      "metaTitle": "Leistungen — Wollny Reifenservice GmbH",
+      "eyebrow": "Unsere Leistungen",
+      "title": "Reifen, Felgen und Fahrwerk — alles aus einer Hand.",
+      "subtitle": "Ein vollständiger Überblick über unsere Werkstattleistungen in Sehnde — von der saisonalen Reifenmontage bis zur millimetergenauen 3D-Achsvermessung.",
+      "ctaTitle": "Bereit für Ihren Termin?",
+      "ctaText": "Vereinbaren Sie jetzt einen Termin — telefonisch oder bequem über das Kontaktformular.",
+      "ctaButton": "Zum Kontakt"
+    },
+    "kontakt": {
+      "metaTitle": "Kontakt & Anfahrt — Wollny Reifenservice GmbH",
+      "eyebrow": "Kontakt",
+      "title": "Kontakt & Anfahrt.",
+      "subtitle": "Rufen Sie an, schreiben Sie uns oder kommen Sie direkt vorbei — Montag bis Freitag sind wir für Sie da."
+    }
+  },
   "hero": {
     "badge": "Seit 1987 · Ihr Reifenspezialist in Sehnde bei Hannover",
     "titleLines": ["Präzision, die Sie", "auf der Straße spüren."],

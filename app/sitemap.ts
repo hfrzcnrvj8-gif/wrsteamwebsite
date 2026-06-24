@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { i18n } from "@/i18n/config";
 import { siteUrl } from "@/lib/site";
 
-const routes = ["", "/privacy", "/impressum"];
+const routes = ["", "/leistungen", "/kontakt", "/privacy", "/impressum"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
