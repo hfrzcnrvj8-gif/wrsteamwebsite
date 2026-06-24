@@ -10,7 +10,7 @@ import type { Dictionary } from "@/i18n/types";
 const photos = [
   "/images/web/img_8554.jpg",
   "/images/web/img_4997.jpg",
-  "/images/web/felgen.jpg",
+  "/images/web/felgen-clean.jpg",
 ];
 
 export function Showcase({ dict }: { dict: Dictionary["showcase"] }) {

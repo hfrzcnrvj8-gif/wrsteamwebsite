@@ -90,8 +90,8 @@
       },
       {
         "title": "Felgen, Kompletträder & Reifen",
-        "description": "An- und Verkauf neuer und gebrauchter Reifen und Felgen. Premium-Felgen und Komfortreifen, fachkundig beraten und als fertiges Komplettrad montiert.",
-        "tags": ["Alufelgen", "Kompletträder", "An- & Verkauf", "Premium"]
+        "description": "Premium-Felgen und Markenreifen — nach Ihren Wünschen ausgewählt, für Sie bestellt und als fertiges Komplettrad montiert. Dazu An- und Verkauf gebrauchter Räder.",
+        "tags": ["Alufelgen", "Kompletträder", "Auf Bestellung", "Premium"]
       },
       {
         "title": "Rädereinlagerung",
@@ -131,9 +131,9 @@
         "impact": "Probleme früh erkannt"
       },
       {
-        "title": "An- & Verkauf",
-        "description": "An- und Verkauf neuer und gebrauchter Reifen und Felgen — ehrlich beraten und fair bewertet.",
-        "impact": "Neu & gebraucht, fair bewertet"
+        "title": "Auf Bestellung & Gebrauchtes",
+        "description": "Neue Reifen und Felgen bestellen wir genau nach Ihren Wünschen; gebrauchte Räder kaufen und verkaufen wir fair.",
+        "impact": "Bestellt statt von der Stange"
       }
     ]
   },
@@ -171,7 +171,7 @@
     "items": [
       { "title": "3D-Achsvermessung · Hunter", "caption": "Computergestützte Fahrwerksvermessung auf der Hunter-3D-Anlage" },
       { "title": "Reifenmontage", "caption": "Montage und Wuchten direkt in der Werkstatt" },
-      { "title": "Felgen & Kompletträder", "caption": "Markenfelgen und fertig montierte Kompletträder ab Lager" }
+      { "title": "Felgen & Kompletträder", "caption": "Markenfelgen und Kompletträder — individuell ausgewählt und montiert" }
     ]
   },
   "motorcycle": {

@@ -90,8 +90,8 @@
       },
       {
         "title": "Rims, complete wheels & tyres",
-        "description": "Purchase and sale of new and used tyres and rims. Premium rims and comfort tyres, expertly advised and delivered as a ready complete wheel.",
-        "tags": ["Alloy rims", "Complete wheels", "Buy & sell", "Premium"]
+        "description": "Premium rims and branded tyres — chosen to your wishes, ordered for you and delivered as a ready complete wheel. Plus buy & sell of used wheels.",
+        "tags": ["Alloy rims", "Complete wheels", "Made to order", "Premium"]
       },
       {
         "title": "Wheel storage",
@@ -131,9 +131,9 @@
         "impact": "Problems spotted early"
       },
       {
-        "title": "Buy & sell",
-        "description": "Purchase and sale of new and used tyres and rims — honest advice and fair valuation.",
-        "impact": "New & used, fairly valued"
+        "title": "Made to order & used",
+        "description": "We order new tyres and rims exactly to your wishes; used wheels we buy and sell fairly.",
+        "impact": "Ordered, not off the shelf"
       }
     ]
   },
@@ -171,7 +171,7 @@
     "items": [
       { "title": "3D wheel alignment", "caption": "Precise chassis measurement to the millimetre" },
       { "title": "Tyre fitting", "caption": "Mounting and balancing right in the workshop" },
-      { "title": "Rims & complete wheels", "caption": "Branded rims and ready-mounted complete wheels from stock" }
+      { "title": "Rims & complete wheels", "caption": "Branded rims and complete wheels — individually chosen and fitted" }
     ]
   },
   "motorcycle": {

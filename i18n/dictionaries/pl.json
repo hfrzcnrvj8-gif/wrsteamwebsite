@@ -90,8 +90,8 @@
       },
       {
         "title": "Felgi, koła kompletne i opony",
-        "description": "Skup i sprzedaż nowych oraz używanych opon i felg. Felgi premium i opony komfortowe, z fachowym doradztwem i dostawą jako gotowe koło.",
-        "tags": ["Felgi alu", "Koła kompletne", "Skup i sprzedaż", "Premium"]
+        "description": "Felgi premium i markowe opony — dobrane pod Ciebie, zamówione i zmontowane jako gotowe koło. Do tego skup i sprzedaż używanych kół.",
+        "tags": ["Felgi alu", "Koła kompletne", "Na zamówienie", "Premium"]
       },
       {
         "title": "Przechowywanie kół",
@@ -131,9 +131,9 @@
         "impact": "Problemy wykryte wcześnie"
       },
       {
-        "title": "Skup i sprzedaż",
-        "description": "Skup i sprzedaż nowych oraz używanych opon i felg — uczciwe doradztwo i sprawiedliwa wycena.",
-        "impact": "Nowe i używane, uczciwie wycenione"
+        "title": "Na zamówienie i używane",
+        "description": "Nowe opony i felgi zamawiamy dokładnie pod Twoje życzenia; używane koła skupujemy i sprzedajemy uczciwie.",
+        "impact": "Zamówione, nie z półki"
       }
     ]
   },
@@ -171,7 +171,7 @@
     "items": [
       { "title": "Geometria kół 3D", "caption": "Precyzyjny pomiar zawieszenia co do milimetra" },
       { "title": "Montaż opon", "caption": "Montaż i wyważanie bezpośrednio w warsztacie" },
-      { "title": "Felgi i koła kompletne", "caption": "Markowe felgi i gotowe koła kompletne z magazynu" }
+      { "title": "Felgi i koła kompletne", "caption": "Markowe felgi i koła kompletne — dobrane indywidualnie i zamontowane" }
     ]
   },
   "motorcycle": {
