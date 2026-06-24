@@ -52,7 +52,7 @@ export function StructuredData({
         makesOffer: [
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Reifenwechsel" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "3D-Achsvermessung (Hunter)" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Auswuchten (Hunter, SmartWeight)" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Auswuchten (Hunter, SmartWeight®)" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Ultraschall-Radwäsche" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Felgen & Kompletträder" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Rädereinlagerung" } },
