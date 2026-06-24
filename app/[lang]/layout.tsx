@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { Signature } from "@/components/Signature";
 import { i18n, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { siteUrl, ogLocale } from "@/lib/site";
@@ -60,7 +61,10 @@ export default async function LangLayout({
   return (
     <html lang={lang} suppressHydrationWarning className={inter.variable}>
       <body className="font-sans antialiased">
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          {children}
+          <Signature />
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ThemeToggle } from "./ThemeToggle";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { LegalMenu } from "./LegalMenu";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 
@@ -70,6 +71,7 @@ export function Header({
         </ul>
 
         <div className="flex items-center gap-2">
+          <LegalMenu lang={lang} />
           <LanguageSwitcher current={lang} />
           <ThemeToggle />
           <Link

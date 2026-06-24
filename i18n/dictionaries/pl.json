@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Wollny Reifenservice GmbH — Opony, felgi i geometria kół koło Hanoweru",
-    "description": "Firma rodzinna: serwis i montaż opon, ultradźwiękowa geometria kół, felgi oraz przechowywanie kół w Sehnde koło Hanoweru. Od 1987. Umów wizytę: 05138 4520."
+    "description": "Firma rodzinna: serwis i montaż opon, geometria kół 3D, felgi oraz przechowywanie kół w Sehnde koło Hanoweru. Od 1987. Umów wizytę: 05138 4520."
   },
   "nav": {
     "vision": "Dlaczego Wollny",
@@ -41,7 +41,7 @@
   "hero": {
     "badge": "Od 1987 · Twój specjalista od opon w Sehnde koło Hanoweru",
     "titleLines": ["Precyzja, którą czujesz", "na każdej drodze."],
-    "subtitle": "Opony, felgi i precyzyjna ultradźwiękowa geometria kół — od firmy rodzinnej w drugim pokoleniu, która od 1987 roku oznacza bezpieczeństwo, spokojną jazdę i uczciwe doradztwo.",
+    "subtitle": "Opony, felgi i precyzyjna geometria kół 3D — od firmy rodzinnej w drugim pokoleniu, która od 1987 roku oznacza bezpieczeństwo, spokojną jazdę i uczciwe doradztwo.",
     "ctaPrimary": "Umów wizytę",
     "ctaSecondary": "Nasze usługi",
     "stats": [
@@ -64,9 +64,9 @@
       ]
     },
     "local": {
-      "title": "Z precyzją Wollny",
+      "title": "Z fachowym ustawieniem",
       "points": [
-        "Ultradźwiękowa geometria kół z dokładnością do milimetra",
+        "Geometria kół 3D z dokładnością do milimetra",
         "Maksymalny przebieg Twoich opon",
         "Wyraźnie spokojniejsza, bezpieczna jazda na wprost",
         "Pełna przyczepność i krótka droga hamowania"
@@ -80,13 +80,13 @@
     "items": [
       {
         "title": "Serwis i montaż opon",
-        "description": "Montaż, wyważanie i sezonowa wymiana dla aut osobowych, SUV-ów i aut Performance — szybko, czysto i z kontrolą momentu dokręcania.",
-        "tags": ["Osobowe", "SUV", "Performance", "Wyważanie", "TPMS"]
+        "description": "Montaż, wyważanie i sezonowa wymiana dla aut osobowych, SUV-ów i aut Performance — delikatnie na maszynie Hunter Evolution i z kontrolą momentu dokręcania.",
+        "tags": ["Osobowe", "SUV", "Performance", "Hunter Evolution", "TPMS"]
       },
       {
-        "title": "Ultradźwiękowa geometria kół",
-        "description": "Precyzyjny pomiar i regulacja zbieżności oraz pochylenia nowoczesną techniką ultradźwiękową — dla spokojnej jazdy na wprost i równomiernego zużycia opon.",
-        "tags": ["Zbieżność", "Pochylenie", "Ultradźwięk", "Zawieszenie"]
+        "title": "Geometria kół 3D Hunter",
+        "description": "Komputerowy pomiar i regulacja zbieżności oraz pochylenia na urządzeniu Hunter 3D — z dokładnością do milimetra, dla spokojnej jazdy na wprost i równomiernego zużycia opon.",
+        "tags": ["Zbieżność", "Pochylenie", "Hunter 3D", "Zawieszenie"]
       },
       {
         "title": "Felgi, koła kompletne i opony",
@@ -106,9 +106,14 @@
     "subtitle": "Usługi uzupełniające, które przy każdej wizycie wykonujemy z tą samą starannością.",
     "items": [
       {
-        "title": "Wyważanie SmartWeight",
-        "description": "Optymalne wyważanie w technologii SmartWeight — dla najlepszego komfortu jazdy i spokojnego biegu przy każdej prędkości.",
+        "title": "Wyważanie Hunter & SmartWeight",
+        "description": "Wyważanie na najnowszej wyważarce Hunter w technologii SmartWeight — dla najlepszego komfortu jazdy i spokojnego biegu przy każdej prędkości.",
         "impact": "Bez drgań przy każdej prędkości"
+      },
+      {
+        "title": "Mycie kół ultradźwiękami",
+        "description": "Dokładne mycie kół i felg w kąpieli ultradźwiękowej — czyste przed montażem, wyważaniem i przechowaniem.",
+        "impact": "Felgi czyste do głębi"
       },
       {
         "title": "Serwis TPMS",
@@ -124,6 +129,11 @@
         "title": "Diagnostyka opon",
         "description": "Kontrola drgań oraz pomiar sił promieniowych i bocznych wykrywają problemy niewidoczne z zewnątrz.",
         "impact": "Problemy wykryte wcześnie"
+      },
+      {
+        "title": "Skup i sprzedaż",
+        "description": "Skup i sprzedaż nowych oraz używanych opon i felg — uczciwe doradztwo i sprawiedliwa wycena.",
+        "impact": "Nowe i używane, uczciwie wycenione"
       }
     ]
   },
@@ -159,7 +169,7 @@
     "title": "Nowoczesna technika. Czysty warsztat.",
     "subtitle": "Spojrzenie na wyposażenie i staranność, z jaką pracujemy każdego dnia.",
     "items": [
-      { "title": "Ultradźwiękowa geometria kół", "caption": "Precyzyjny pomiar zawieszenia co do milimetra" },
+      { "title": "Geometria kół 3D", "caption": "Precyzyjny pomiar zawieszenia co do milimetra" },
       { "title": "Montaż opon", "caption": "Montaż i wyważanie bezpośrednio w warsztacie" },
       { "title": "Felgi i koła kompletne", "caption": "Markowe felgi i gotowe koła kompletne z magazynu" }
     ]

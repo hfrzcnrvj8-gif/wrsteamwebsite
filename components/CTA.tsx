@@ -26,13 +26,13 @@ export function CTA({
           alt=""
           fill
           sizes="100vw"
-          className="object-cover opacity-20"
+          className="object-cover opacity-45"
         />
         <div
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, #0a0a0b 0%, rgba(10,10,11,0.86) 35%, rgba(10,10,11,0.86) 65%, #0a0a0b 100%)",
+              "linear-gradient(180deg, #0a0a0b 0%, rgba(10,10,11,0.55) 30%, rgba(10,10,11,0.55) 70%, #0a0a0b 100%)",
           }}
         />
       </div>

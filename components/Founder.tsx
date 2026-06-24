@@ -7,9 +7,10 @@ import type { Dictionary } from "@/i18n/types";
 export function Founder({ dict }: { dict: Dictionary["founder"] }) {
   return (
     <PhotoBand
-      src="/images/web/betrieb.jpg"
+      src="/images/web/betrieb-wheels.jpg"
       align="right"
-      objectPosition="center 52%"
+      valign="bottom"
+      objectPosition="left center"
     >
       <SectionLabel>{dict.label}</SectionLabel>
       <h2 className="mt-6 text-balance text-3xl font-semibold leading-tight tracking-tightest sm:text-4xl md:text-5xl">

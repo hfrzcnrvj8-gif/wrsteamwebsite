@@ -34,6 +34,7 @@ export function Showcase({ dict }: { dict: Dictionary["showcase"] }) {
           src={photos[i] ?? photos[0]}
           alt={item.caption}
           align="left"
+          className={i > 0 ? "mt-12 md:mt-20" : "mt-6 md:mt-10"}
         >
           <span className="glass inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-medium uppercase tracking-[0.16em] text-white/90">
             <span className="h-1.5 w-1.5 rounded-full bg-brand-red shadow-[0_0_8px_2px_rgba(230,0,0,0.6)]" />

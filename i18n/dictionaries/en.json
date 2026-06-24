@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Wollny Reifenservice GmbH — Tyres, Wheels & Wheel Alignment near Hannover",
-    "description": "Family business for tyre service, seasonal tyre changes, ultrasonic wheel alignment, rims and wheel storage in Sehnde near Hannover. Since 1987. Book now: 05138 4520."
+    "description": "Family business for tyre service, seasonal tyre changes, 3D wheel alignment, rims and wheel storage in Sehnde near Hannover. Since 1987. Book now: 05138 4520."
   },
   "nav": {
     "vision": "Why Wollny",
@@ -15,7 +15,7 @@
       "metaTitle": "Services — Wollny Reifenservice GmbH",
       "eyebrow": "Our services",
       "title": "Tyres, rims and chassis — all from one source.",
-      "subtitle": "A complete overview of our workshop services in Sehnde — from the seasonal tyre change to millimetre-precise ultrasonic wheel alignment.",
+      "subtitle": "A complete overview of our workshop services in Sehnde — from the seasonal tyre change to millimetre-precise 3D wheel alignment.",
       "ctaTitle": "Ready for your appointment?",
       "ctaText": "Book an appointment now — by phone or conveniently via the contact form.",
       "ctaButton": "Go to contact"
@@ -41,7 +41,7 @@
   "hero": {
     "badge": "Since 1987 · Your tyre specialist in Sehnde near Hannover",
     "titleLines": ["Precision you feel", "on every road."],
-    "subtitle": "Tyres, rims and millimetre-precise ultrasonic wheel alignment — from a family business that has stood for safety, smooth running and honest advice for over 35 years.",
+    "subtitle": "Tyres, rims and millimetre-precise 3D wheel alignment — from a family business that has stood for safety, smooth running and honest advice for over 35 years.",
     "ctaPrimary": "Book appointment",
     "ctaSecondary": "Our services",
     "stats": [
@@ -64,9 +64,9 @@
       ]
     },
     "local": {
-      "title": "With Wollny precision",
+      "title": "With professional alignment",
       "points": [
-        "Millimetre-precise ultrasonic wheel alignment",
+        "Millimetre-precise 3D wheel alignment",
         "Maximum mileage from your tyres",
         "Noticeably calmer, safer straight-line running",
         "Full grip and short braking distances"
@@ -76,17 +76,17 @@
   "services": {
     "label": "Services",
     "title": "Everything around tyres, rims and chassis.",
-    "subtitle": "From tyre fitting through ultrasonic wheel alignment to the purchase and sale of rims — one point of contact, one reliable result.",
+    "subtitle": "From tyre fitting through 3D wheel alignment to the purchase and sale of rims — one point of contact, one reliable result.",
     "items": [
       {
         "title": "Tyre service & fitting",
-        "description": "Fitting, balancing and seasonal changes for cars, SUVs and performance vehicles — fast, clean and with controlled torque.",
-        "tags": ["Car", "SUV", "Performance", "Balancing", "TPMS"]
+        "description": "Fitting, balancing and seasonal changes for cars, SUVs and performance vehicles — gently on our Hunter Evolution machine and with controlled torque.",
+        "tags": ["Car", "SUV", "Performance", "Hunter Evolution", "TPMS"]
       },
       {
-        "title": "Ultrasonic wheel alignment",
-        "description": "Precise measurement and adjustment of toe and camber using modern ultrasonic technology — for calm straight-line running and even tyre wear.",
-        "tags": ["Toe", "Camber", "Ultrasonic", "Chassis"]
+        "title": "3D wheel alignment with Hunter",
+        "description": "Computer-aided 3D chassis alignment on a Hunter rig. We measure and adjust toe and camber to the millimetre — for calm straight-line running and even tyre wear.",
+        "tags": ["Toe", "Camber", "Hunter 3D", "Chassis"]
       },
       {
         "title": "Rims, complete wheels & tyres",
@@ -106,9 +106,14 @@
     "subtitle": "Complementary services we carry out at every visit with the same standard of care.",
     "items": [
       {
-        "title": "Balancing with SmartWeight",
-        "description": "Optimal balancing with SmartWeight technology — for the best ride comfort and smooth running at any speed.",
+        "title": "Balancing with Hunter & SmartWeight",
+        "description": "Balancing on our latest Hunter balancer with SmartWeight technology — for the best ride comfort and smooth running at any speed.",
         "impact": "Vibration-free at any speed"
+      },
+      {
+        "title": "Ultrasonic wheel wash",
+        "description": "Thorough cleaning of wheels and rims in an ultrasonic bath — spotless before fitting, balancing and storage.",
+        "impact": "Rims deep-down clean"
       },
       {
         "title": "TPMS service",
@@ -124,6 +129,11 @@
         "title": "Tyre diagnostics",
         "description": "Vibration control as well as radial and lateral force measurement reveal problems you cannot see from the outside.",
         "impact": "Problems spotted early"
+      },
+      {
+        "title": "Buy & sell",
+        "description": "Purchase and sale of new and used tyres and rims — honest advice and fair valuation.",
+        "impact": "New & used, fairly valued"
       }
     ]
   },
@@ -159,7 +169,7 @@
     "title": "Modern technology. Clean workshop.",
     "subtitle": "A look at the equipment and the care with which we work every day.",
     "items": [
-      { "title": "Ultrasonic wheel alignment", "caption": "Precise chassis measurement to the millimetre" },
+      { "title": "3D wheel alignment", "caption": "Precise chassis measurement to the millimetre" },
       { "title": "Tyre fitting", "caption": "Mounting and balancing right in the workshop" },
       { "title": "Rims & complete wheels", "caption": "Branded rims and ready-mounted complete wheels from stock" }
     ]
@@ -200,7 +210,7 @@
       },
       {
         "q": "When does a wheel alignment make sense?",
-        "a": "Whenever your vehicle pulls to one side, the tyres wear unevenly, after work on the chassis or after kerb contact. Our ultrasonic wheel alignment shows to the millimetre whether toe and camber are correct."
+        "a": "Whenever your vehicle pulls to one side, the tyres wear unevenly, after work on the chassis or after kerb contact. Our 3D wheel alignment shows to the millimetre whether toe and camber are correct."
       },
       {
         "q": "Do you store my seasonal tyres?",

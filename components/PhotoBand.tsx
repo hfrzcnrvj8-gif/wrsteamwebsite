@@ -12,14 +12,18 @@ export function PhotoBand({
   alt = "",
   priority = false,
   align = "left",
+  valign = "center",
   objectPosition = "center",
+  className = "",
   children,
 }: {
   src: string;
   alt?: string;
   priority?: boolean;
   align?: "left" | "center" | "right";
+  valign?: "center" | "bottom";
   objectPosition?: string;
+  className?: string;
   children: ReactNode;
 }) {
   const scrim =
@@ -34,9 +38,14 @@ export function PhotoBand({
       : align === "right"
         ? "ml-auto max-w-xl"
         : "max-w-xl";
+
   return (
-    <section className="relative w-full overflow-hidden">
-      <div className="relative flex min-h-[85vh] w-full items-center">
+    <section className={`relative w-full overflow-hidden ${className}`}>
+      <div
+        className={`relative flex min-h-[85vh] w-full ${
+          valign === "bottom" ? "items-end pb-20 md:pb-28" : "items-center"
+        }`}
+      >
         <Image
           src={src}
           alt={alt}
