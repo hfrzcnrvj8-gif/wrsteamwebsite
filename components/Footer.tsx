@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 
@@ -18,9 +19,16 @@ export function Footer({
         <div className="max-w-sm">
           <Link
             href={`/${lang}`}
-            className="text-xl font-semibold tracking-tightest"
+            aria-label="Wollny Reifenservice — Startseite"
+            className="inline-flex"
           >
-            Wollny Reifenservice<span className="text-liquid">.</span>
+            <Image
+              src="/logo.png"
+              alt="Wollny Reifenservice"
+              width={320}
+              height={98}
+              className="h-9 w-auto"
+            />
           </Link>
           <p className="mt-4 text-sm text-muted">{dict.tagline}</p>
           <address className="mt-5 space-y-1 text-sm not-italic text-muted">

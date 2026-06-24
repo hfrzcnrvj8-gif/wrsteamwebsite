@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ThemeToggle } from "./ThemeToggle";
@@ -48,13 +49,17 @@ export function Header({
       >
         <Link
           href={`/${lang}`}
-          className="flex items-baseline gap-1.5 text-lg font-semibold tracking-tightest"
+          aria-label="Wollny Reifenservice — Startseite"
+          className="flex items-center"
         >
-          <span>Wollny</span>
-          <span className="hidden text-xs font-medium uppercase tracking-[0.2em] text-muted sm:inline">
-            Reifenservice
-          </span>
-          <span className="text-liquid">.</span>
+          <Image
+            src="/logo.png"
+            alt="Wollny Reifenservice"
+            width={320}
+            height={98}
+            priority
+            className="h-7 w-auto sm:h-8"
+          />
         </Link>
 
         <ul className="hidden items-center gap-8 text-sm text-muted md:flex">
