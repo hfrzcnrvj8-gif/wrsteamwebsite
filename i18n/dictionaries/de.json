@@ -183,6 +183,15 @@
     ],
     "note": "Fragen Sie uns — wir sagen Ihnen ehrlich, welche Werte für Sie wirklich zählen."
   },
+  "reviews": {
+    "label": "Kundenstimmen",
+    "title": "Über 320-mal weiterempfohlen.",
+    "rating": "4,9",
+    "outOf": "von 5 Sternen",
+    "count": "über 320 Google-Bewertungen",
+    "subtitle": "Unsere Kundinnen und Kunden bewerten uns auf Google mit Spitzenwerten — danke für Ihr Vertrauen.",
+    "cta": "Alle Bewertungen auf Google ansehen"
+  },
   "approach": {
     "label": "Ablauf",
     "title": "In vier Schritten startklar.",

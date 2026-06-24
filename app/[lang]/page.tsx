@@ -6,6 +6,7 @@ import { ProblemVision } from "@/components/ProblemVision";
 import { Services } from "@/components/Services";
 import { Technik } from "@/components/Technik";
 import { FoundingOffer } from "@/components/FoundingOffer";
+import { Reviews } from "@/components/Reviews";
 import { ContactCta } from "@/components/ContactCta";
 import { Footer } from "@/components/Footer";
 import { StructuredData } from "@/components/StructuredData";
@@ -25,6 +26,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <Services dict={dict.services} />
         <Technik dict={dict.technik} />
         <FoundingOffer dict={dict.founding} lang={lang} />
+        <Reviews dict={dict.reviews} />
         <ContactCta dict={dict.pages.contactCta} lang={lang} />
       </main>
       <Footer lang={lang} dict={dict.footer} nav={dict.nav} />

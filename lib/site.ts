@@ -12,6 +12,11 @@ export const siteUrl = (
 export const bookingUrl =
   process.env.NEXT_PUBLIC_BOOKING_URL ?? "tel:+4951384520";
 
+// Link to the Google reviews of the workshop.
+export const googleReviewsUrl =
+  process.env.NEXT_PUBLIC_GOOGLE_REVIEWS_URL ??
+  "https://www.google.com/search?q=Wollny+Reifenservice+GmbH+Sehnde+Bewertungen";
+
 // Google Maps directions link to the workshop.
 export const mapsUrl =
   process.env.NEXT_PUBLIC_MAPS_URL ??

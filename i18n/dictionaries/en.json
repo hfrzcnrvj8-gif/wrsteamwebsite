@@ -171,6 +171,15 @@
     ],
     "note": "Just ask us — we will tell you honestly which values really matter for you."
   },
+  "reviews": {
+    "label": "Customer voices",
+    "title": "Recommended over 320 times.",
+    "rating": "4.9",
+    "outOf": "out of 5 stars",
+    "count": "over 320 Google reviews",
+    "subtitle": "Our customers give us top marks on Google — thank you for your trust.",
+    "cta": "See all reviews on Google"
+  },
   "approach": {
     "label": "How it works",
     "title": "Ready to roll in four steps.",

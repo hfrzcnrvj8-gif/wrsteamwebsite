@@ -159,6 +159,15 @@
     ],
     "note": "Zapytaj nas — uczciwie powiemy, które wartości naprawdę się dla Ciebie liczą."
   },
+  "reviews": {
+    "label": "Opinie klientów",
+    "title": "Polecani ponad 320 razy.",
+    "rating": "4,9",
+    "outOf": "na 5 gwiazdek",
+    "count": "ponad 320 opinii Google",
+    "subtitle": "Klienci oceniają nas w Google na najwyższe noty — dziękujemy za zaufanie.",
+    "cta": "Zobacz wszystkie opinie w Google"
+  },
   "approach": {
     "label": "Jak to działa",
     "title": "Gotowi do drogi w czterech krokach.",
