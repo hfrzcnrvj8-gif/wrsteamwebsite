@@ -6,8 +6,9 @@
   "nav": {
     "vision": "Why Wollny",
     "services": "Services",
-    "work": "Workshop",
-    "contact": "Appointment"
+    "work": "About us",
+    "contact": "Contact",
+    "book": "Appointment"
   },
   "pages": {
     "leistungen": {
@@ -24,6 +25,17 @@
       "eyebrow": "Contact",
       "title": "Contact & directions.",
       "subtitle": "Call us, write to us or simply drop by — we are here for you Monday to Friday."
+    },
+    "ueber": {
+      "metaTitle": "About us — Wollny Reifenservice GmbH",
+      "eyebrow": "About us",
+      "title": "Your master workshop since 1987.",
+      "subtitle": "Who we are, how we work and what we do every day for your safety."
+    },
+    "contactCta": {
+      "title": "Ready for your appointment?",
+      "text": "Call us or send a short note — we will find a suitable slot quickly.",
+      "button": "Book appointment"
     }
   },
   "hero": {
@@ -148,9 +160,15 @@
     "subtitle": "A look at the equipment and the care with which we work every day.",
     "items": [
       { "title": "Wheel alignment · 3D rig", "caption": "Computer-aided chassis measurement to the millimetre" },
-      { "title": "Tyre fitting", "caption": "Gentle fitting for alloy and steel rims" },
-      { "title": "Tyre storage", "caption": "Seasonal storage, neatly sorted and checked" }
+      { "title": "Tyre fitting", "caption": "Mounting and balancing right in the workshop" },
+      { "title": "Rims & complete wheels", "caption": "Branded rims and ready-mounted complete wheels from stock" }
     ]
+  },
+  "motorcycle": {
+    "label": "Motorcycles too",
+    "title": "Tyre service for motorcycles, too.",
+    "body": "Already removed wheels? We mount and balance them anytime — just drop them off. If the wheels are to be taken off the motorcycle itself, we are happy to arrange that by individual appointment.",
+    "cta": "Arrange an appointment"
   },
   "founding": {
     "label": "Private & business",
@@ -167,10 +185,10 @@
   "founder": {
     "label": "The workshop",
     "title": "Your tyre specialist in Sehnde since 1987.",
-    "body": "Wollny Reifenservice is an owner-managed master workshop with over three decades of experience. We are real professionals working with modern technology — from the simple tyre change to precise 3D wheel alignment. What sets us apart: honest advice, clean work and appointments that hold.",
-    "quote": "Safety starts with the tyre. That is why we treat every vehicle as if it were our own.",
+    "body": "Since 1987 and now in the second generation, we have been all about wheels. Good service, to us, means high customer satisfaction — that includes competent advice, professional workmanship and support even after the purchase. We are your service partner for everything around wheels.",
+    "quote": "Well advised means better bought — that is our motto.",
     "name": "Wollny Reifenservice GmbH",
-    "role": "Master workshop · Sehnde near Hannover"
+    "role": "Family business, 2nd generation · Sehnde near Hannover"
   },
   "faq": {
     "label": "Common questions",
@@ -178,7 +196,7 @@
     "items": [
       {
         "q": "Do I need an appointment for a tyre change?",
-        "a": "Yes, please arrange an appointment in advance — by phone on 05138 4520 or via the contact form. This avoids waiting times, especially during the seasonal peak. On Saturdays we are available by appointment only."
+        "a": "Yes, please arrange an appointment in advance — by phone on 05138 4520 or via the contact form. This avoids waiting times, especially during the seasonal peak. We are open Mon–Fri 07:00–15:30, closed on Saturdays — appointments outside opening hours by arrangement."
       },
       {
         "q": "When does a wheel alignment make sense?",
@@ -198,7 +216,7 @@
       },
       {
         "q": "Where can I find you?",
-        "a": "You will find us at Borsigring 38 in 31319 Sehnde, just a few minutes from Hannover. We are open Monday to Friday from 08:00 to 15:00."
+        "a": "You will find us at Borsigring 38 in 31319 Sehnde, just a few minutes from Hannover. We are open Monday to Friday from 07:00 to 15:30, closed on Saturdays."
       }
     ]
   },
@@ -217,9 +235,10 @@
       "email": "Post@Reifenberatung.com",
       "hoursLabel": "Opening hours",
       "hours": [
-        { "day": "Mon – Fri", "time": "08:00 – 15:00" },
-        { "day": "Saturday", "time": "by appointment only" }
+        { "day": "Mon – Fri", "time": "07:00 – 15:30" },
+        { "day": "Saturday", "time": "closed" }
       ],
+      "hoursNote": "Appointments outside opening hours possible by arrangement.",
       "mapsCta": "Get directions"
     },
     "form": {
@@ -251,9 +270,11 @@
   },
   "footer": {
     "tagline": "Your master workshop for tyres, rims and wheel alignment in Sehnde near Hannover — since 1987.",
-    "address": ["Borsigring 38, 31319 Sehnde", "Phone 05138 4520", "Post@Reifenberatung.com"],
+    "address": ["Borsigring 38, 31319 Sehnde", "Phone 05138 4520 · Fax 05138 3008", "Post@Reifenberatung.com"],
     "privacy": "Privacy policy",
     "impressum": "Legal notice",
+    "agb": "Terms (AGB)",
+    "widerruf": "Right of withdrawal",
     "rights": "All rights reserved.",
     "madeIn": "Sehnde · Hannover region"
   },

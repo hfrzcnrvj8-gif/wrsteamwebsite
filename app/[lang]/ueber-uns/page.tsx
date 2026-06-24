@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { i18n, type Locale } from "@/i18n/config";
 import { Header } from "@/components/Header";
-import { Services } from "@/components/Services";
-import { UseCases } from "@/components/UseCases";
-import { Approach } from "@/components/Approach";
-import { Motorcycle } from "@/components/Motorcycle";
+import { Founder } from "@/components/Founder";
+import { Showcase } from "@/components/Showcase";
 import { ContactCta } from "@/components/ContactCta";
 import { Footer } from "@/components/Footer";
 import { Reveal } from "@/components/Reveal";
@@ -17,29 +15,29 @@ export function generateStaticParams() {
 
 export async function generateMetadata({
   params,
-}: PageProps<"/[lang]/leistungen">): Promise<Metadata> {
+}: PageProps<"/[lang]/ueber-uns">): Promise<Metadata> {
   const { lang } = await params;
   const dict = await getDictionary(lang as Locale);
   return {
-    title: dict.pages.leistungen.metaTitle,
+    title: dict.pages.ueber.metaTitle,
     description: dict.meta.description,
-    alternates: { canonical: `/${lang}/leistungen` },
+    alternates: { canonical: `/${lang}/ueber-uns` },
   };
 }
 
-export default async function LeistungenPage({
+export default async function UeberUnsPage({
   params,
-}: PageProps<"/[lang]/leistungen">) {
+}: PageProps<"/[lang]/ueber-uns">) {
   const { lang: rawLang } = await params;
   const lang = rawLang as Locale;
   const dict = await getDictionary(lang);
-  const p = dict.pages.leistungen;
+  const p = dict.pages.ueber;
 
   return (
     <>
       <Header lang={lang} dict={dict.nav} />
       <main className="relative overflow-x-clip">
-        <section className="relative px-6 pb-8 pt-40 md:pt-48">
+        <section className="relative px-6 pb-4 pt-40 md:pt-48">
           <div
             className="orb pointer-events-none absolute left-1/2 top-10 -z-10 h-[40vw] w-[40vw] max-h-[480px] max-w-[480px] -translate-x-1/2 animate-orb-float rounded-full"
             aria-hidden
@@ -57,10 +55,8 @@ export default async function LeistungenPage({
           </Reveal>
         </section>
 
-        <Services dict={dict.services} />
-        <UseCases dict={dict.useCases} />
-        <Approach dict={dict.approach} />
-        <Motorcycle dict={dict.motorcycle} lang={lang} />
+        <Founder dict={dict.founder} />
+        <Showcase dict={dict.showcase} />
         <ContactCta dict={dict.pages.contactCta} lang={lang} />
       </main>
       <Footer lang={lang} dict={dict.footer} nav={dict.nav} />

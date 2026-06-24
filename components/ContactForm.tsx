@@ -219,7 +219,7 @@ export function ContactForm({
           <span>
             {dict.consent}{" "}
             <Link
-              href={`/${lang}/privacy`}
+              href={`/${lang}/datenschutz`}
               target="_blank"
               className="text-liquid underline-offset-2 hover:underline"
             >

@@ -6,8 +6,9 @@
   "nav": {
     "vision": "Warum Wollny",
     "services": "Leistungen",
-    "work": "Werkstatt",
-    "contact": "Termin"
+    "work": "Über uns",
+    "contact": "Kontakt",
+    "book": "Termin"
   },
   "pages": {
     "leistungen": {
@@ -24,6 +25,17 @@
       "eyebrow": "Kontakt",
       "title": "Kontakt & Anfahrt.",
       "subtitle": "Rufen Sie an, schreiben Sie uns oder kommen Sie direkt vorbei — Montag bis Freitag sind wir für Sie da."
+    },
+    "ueber": {
+      "metaTitle": "Über uns — Wollny Reifenservice GmbH",
+      "eyebrow": "Über uns",
+      "title": "Ihr Meisterbetrieb seit 1987.",
+      "subtitle": "Wer wir sind, wie wir arbeiten und womit wir täglich für Ihre Sicherheit sorgen."
+    },
+    "contactCta": {
+      "title": "Bereit für Ihren Termin?",
+      "text": "Rufen Sie an oder schreiben Sie uns kurz — wir finden zeitnah einen passenden Termin.",
+      "button": "Termin vereinbaren"
     }
   },
   "hero": {
@@ -148,9 +160,15 @@
     "subtitle": "Ein Blick auf die Ausstattung und die Sorgfalt, mit der wir jeden Tag arbeiten.",
     "items": [
       { "title": "Achsvermessung · 3D-Stand", "caption": "Computergestützte Fahrwerksvermessung auf den Millimeter genau" },
-      { "title": "Reifenmontage", "caption": "Schonende Montage für Alu- und Stahlfelgen" },
-      { "title": "Reifenlager", "caption": "Saisonale Einlagerung, sauber sortiert und geprüft" }
+      { "title": "Reifenmontage", "caption": "Montage und Wuchten direkt in der Werkstatt" },
+      { "title": "Felgen & Kompletträder", "caption": "Markenfelgen und fertig montierte Kompletträder ab Lager" }
     ]
+  },
+  "motorcycle": {
+    "label": "Auch für Motorräder",
+    "title": "Reifenservice auch fürs Motorrad.",
+    "body": "Bereits ausgebaute Räder montieren und wuchten wir jederzeit problemlos — einfach vorbeibringen. Soll das Rad direkt am Motorrad ab- und angebaut werden, erledigen wir das gerne nach individueller Terminabsprache.",
+    "cta": "Termin absprechen"
   },
   "founding": {
     "label": "Privat & Gewerbe",
@@ -167,10 +185,10 @@
   "founder": {
     "label": "Der Betrieb",
     "title": "Seit 1987 Ihr Reifenspezialist in Sehnde.",
-    "body": "Wollny Reifenservice ist ein inhabergeführter Meisterbetrieb mit über drei Jahrzehnten Erfahrung. Bei uns arbeiten echte Fachleute mit moderner Technik — vom einfachen Reifenwechsel bis zur präzisen 3D-Achsvermessung. Was uns auszeichnet: ehrliche Beratung, sauberes Arbeiten und Termine, die halten.",
-    "quote": "Sicherheit fängt beim Reifen an. Deshalb behandeln wir jedes Fahrzeug, als wäre es unser eigenes.",
+    "body": "Seit 1987 und mittlerweile in zweiter Generation beschäftigen wir uns mit Rädern. Unter einer guten Dienstleistung verstehen wir hohe Kundenzufriedenheit — dazu zählen kompetente Beratung, fachmännische Ausführung und Unterstützung auch nach dem Kauf. Wir sind als Dienstleister in allen Fragen rund ums Rad für Sie da.",
+    "quote": "Gut beraten, besser kaufen — das ist unser Motto.",
     "name": "Wollny Reifenservice GmbH",
-    "role": "Meisterbetrieb · Sehnde bei Hannover"
+    "role": "Familienbetrieb in 2. Generation · Sehnde bei Hannover"
   },
   "faq": {
     "label": "Häufige Fragen",
@@ -178,7 +196,7 @@
     "items": [
       {
         "q": "Brauche ich für den Reifenwechsel einen Termin?",
-        "a": "Ja, bitte vereinbaren Sie vorab einen Termin — telefonisch unter 05138 4520 oder über das Kontaktformular. So vermeiden Sie Wartezeiten, gerade im saisonalen Hochbetrieb. Samstags sind wir ausschließlich nach Terminabsprache für Sie da."
+        "a": "Ja, vereinbaren Sie bitte vorab einen Termin — telefonisch unter 05138 4520 oder über das Kontaktformular. So vermeiden Sie Wartezeiten, gerade im saisonalen Hochbetrieb. Geöffnet ist Mo–Fr von 07:00 bis 15:30 Uhr, samstags geschlossen — Termine außerhalb der Öffnungszeiten sind nach Vereinbarung möglich."
       },
       {
         "q": "Wann ist eine Achsvermessung sinnvoll?",
@@ -198,7 +216,7 @@
       },
       {
         "q": "Wo finde ich Sie?",
-        "a": "Sie finden uns am Borsigring 38 in 31319 Sehnde, nur wenige Minuten von Hannover entfernt. Geöffnet ist Montag bis Freitag von 08:00 bis 15:00 Uhr."
+        "a": "Sie finden uns am Borsigring 38 in 31319 Sehnde, nur wenige Minuten von Hannover entfernt. Geöffnet ist Montag bis Freitag von 07:00 bis 15:30 Uhr, samstags geschlossen."
       }
     ]
   },
@@ -217,9 +235,10 @@
       "email": "Post@Reifenberatung.com",
       "hoursLabel": "Öffnungszeiten",
       "hours": [
-        { "day": "Mo – Fr", "time": "08:00 – 15:00 Uhr" },
-        { "day": "Samstag", "time": "nur mit Termin" }
+        { "day": "Mo – Fr", "time": "07:00 – 15:30 Uhr" },
+        { "day": "Samstag", "time": "geschlossen" }
       ],
+      "hoursNote": "Termine außerhalb der Öffnungszeiten nach Vereinbarung möglich.",
       "mapsCta": "Route planen"
     },
     "form": {
@@ -251,9 +270,11 @@
   },
   "footer": {
     "tagline": "Ihr Meisterbetrieb für Reifen, Felgen und Achsvermessung in Sehnde bei Hannover — seit 1987.",
-    "address": ["Borsigring 38, 31319 Sehnde", "Tel. 05138 4520", "Post@Reifenberatung.com"],
+    "address": ["Borsigring 38, 31319 Sehnde", "Tel. 05138 4520 · Fax 05138 3008", "Post@Reifenberatung.com"],
     "privacy": "Datenschutzerklärung",
     "impressum": "Impressum",
+    "agb": "AGB",
+    "widerruf": "Widerrufsrecht",
     "rights": "Alle Rechte vorbehalten.",
     "madeIn": "Sehnde · Region Hannover"
   },

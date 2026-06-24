@@ -6,8 +6,9 @@
   "nav": {
     "vision": "Dlaczego Wollny",
     "services": "Usługi",
-    "work": "Warsztat",
-    "contact": "Wizyta"
+    "work": "O nas",
+    "contact": "Kontakt",
+    "book": "Wizyta"
   },
   "pages": {
     "leistungen": {
@@ -24,6 +25,17 @@
       "eyebrow": "Kontakt",
       "title": "Kontakt i dojazd.",
       "subtitle": "Zadzwoń, napisz lub po prostu wpadnij — jesteśmy do Twojej dyspozycji od poniedziałku do piątku."
+    },
+    "ueber": {
+      "metaTitle": "O nas — Wollny Reifenservice GmbH",
+      "eyebrow": "O nas",
+      "title": "Twój mistrzowski warsztat od 1987.",
+      "subtitle": "Kim jesteśmy, jak pracujemy i czym codziennie dbamy o Twoje bezpieczeństwo."
+    },
+    "contactCta": {
+      "title": "Gotowy na wizytę?",
+      "text": "Zadzwoń lub napisz krótko — szybko znajdziemy dogodny termin.",
+      "button": "Umów wizytę"
     }
   },
   "hero": {
@@ -148,9 +160,15 @@
     "subtitle": "Spojrzenie na wyposażenie i staranność, z jaką pracujemy każdego dnia.",
     "items": [
       { "title": "Geometria · stanowisko 3D", "caption": "Komputerowy pomiar zawieszenia co do milimetra" },
-      { "title": "Montaż opon", "caption": "Delikatny montaż felg alu i stalowych" },
-      { "title": "Magazyn opon", "caption": "Sezonowe przechowanie, posortowane i sprawdzone" }
+      { "title": "Montaż opon", "caption": "Montaż i wyważanie bezpośrednio w warsztacie" },
+      { "title": "Felgi i koła kompletne", "caption": "Markowe felgi i gotowe koła kompletne z magazynu" }
     ]
+  },
+  "motorcycle": {
+    "label": "Także motocykle",
+    "title": "Serwis opon także dla motocykli.",
+    "body": "Zdemontowane koła wymienimy i wyważymy bez problemu — wystarczy je przywieźć. A jeśli koła mają być zdjęte bezpośrednio z motocykla, zrobimy to po indywidualnym uzgodnieniu terminu.",
+    "cta": "Uzgodnij termin"
   },
   "founding": {
     "label": "Klienci i firmy",
@@ -167,10 +185,10 @@
   "founder": {
     "label": "Warsztat",
     "title": "Twój specjalista od opon w Sehnde od 1987.",
-    "body": "Wollny Reifenservice to prowadzony przez właściciela mistrzowski warsztat z ponad trzema dekadami doświadczenia. Pracują u nas prawdziwi fachowcy z nowoczesną techniką — od prostej wymiany opon po precyzyjną geometrię kół 3D. Wyróżnia nas: uczciwe doradztwo, czysta praca i terminy, które się trzymają.",
-    "quote": "Bezpieczeństwo zaczyna się od opony. Dlatego każde auto traktujemy jak własne.",
+    "body": "Od 1987 roku, a dziś już w drugim pokoleniu, zajmujemy się kołami. Dobra usługa to dla nas wysoka satysfakcja klienta — składają się na nią kompetentne doradztwo, fachowe wykonanie i wsparcie także po zakupie. Jesteśmy Twoim partnerem we wszystkich sprawach związanych z kołami.",
+    "quote": "Dobrze doradzone to lepiej kupione — oto nasze motto.",
     "name": "Wollny Reifenservice GmbH",
-    "role": "Mistrzowski warsztat · Sehnde koło Hanoweru"
+    "role": "Firma rodzinna, 2. pokolenie · Sehnde koło Hanoweru"
   },
   "faq": {
     "label": "Częste pytania",
@@ -178,7 +196,7 @@
     "items": [
       {
         "q": "Czy na wymianę opon potrzebny jest termin?",
-        "a": "Tak, prosimy o wcześniejsze umówienie terminu — telefonicznie pod 05138 4520 lub przez formularz kontaktowy. Dzięki temu unikniesz oczekiwania, zwłaszcza w sezonie szczytowym. W soboty pracujemy wyłącznie po wcześniejszym umówieniu."
+        "a": "Tak, prosimy o wcześniejsze umówienie terminu — telefonicznie pod 05138 4520 lub przez formularz kontaktowy. Dzięki temu unikniesz oczekiwania, zwłaszcza w sezonie szczytowym. Otwarte Pn–Pt 07:00–15:30, w soboty zamknięte — terminy poza godzinami po uzgodnieniu."
       },
       {
         "q": "Kiedy warto wykonać geometrię kół?",
@@ -198,7 +216,7 @@
       },
       {
         "q": "Gdzie Was znajdę?",
-        "a": "Znajdziesz nas przy Borsigring 38 w 31319 Sehnde, kilka minut od Hanoweru. Otwarte od poniedziałku do piątku w godzinach 08:00–15:00."
+        "a": "Znajdziesz nas przy Borsigring 38 w 31319 Sehnde, kilka minut od Hanoweru. Otwarte od poniedziałku do piątku w godzinach 07:00–15:30, w soboty zamknięte."
       }
     ]
   },
@@ -217,9 +235,10 @@
       "email": "Post@Reifenberatung.com",
       "hoursLabel": "Godziny otwarcia",
       "hours": [
-        { "day": "Pn – Pt", "time": "08:00 – 15:00" },
-        { "day": "Sobota", "time": "tylko po umówieniu" }
+        { "day": "Pn – Pt", "time": "07:00 – 15:30" },
+        { "day": "Sobota", "time": "zamknięte" }
       ],
+      "hoursNote": "Terminy poza godzinami otwarcia możliwe po uzgodnieniu.",
       "mapsCta": "Wyznacz trasę"
     },
     "form": {
@@ -251,9 +270,11 @@
   },
   "footer": {
     "tagline": "Twój mistrzowski warsztat opon, felg i geometrii kół w Sehnde koło Hanoweru — od 1987.",
-    "address": ["Borsigring 38, 31319 Sehnde", "Tel. 05138 4520", "Post@Reifenberatung.com"],
+    "address": ["Borsigring 38, 31319 Sehnde", "Tel. 05138 4520 · Faks 05138 3008", "Post@Reifenberatung.com"],
     "privacy": "Polityka prywatności",
     "impressum": "Nota prawna",
+    "agb": "Regulamin (AGB)",
+    "widerruf": "Prawo odstąpienia",
     "rights": "Wszelkie prawa zastrzeżone.",
     "madeIn": "Sehnde · region Hanoweru"
   },

@@ -11,20 +11,17 @@ import { Reveal } from "@/components/Reveal";
 // (e.g. `register` / `vat` if you are not registered / not VAT-registered).
 // ────────────────────────────────────────────────────────────────────────────
 const COMPANY = {
-  // Legal name + legal form
   name: "Wollny Reifenservice GmbH",
-  // Street, postal code, city, country
   address: ["Borsigring 38", "31319 Sehnde", "Deutschland"],
-  // Person legally representing the company (managing director / owner)
-  represented: "[Geschäftsführer/in — bitte ergänzen]",
-  email: "Post@Reifenberatung.com",
-  phone: "05138 4520",
-  // Commercial register (leave empty string "" to hide). DE: Handelsregister.
-  register: "[Handelsregister: Amtsgericht Hildesheim, HRB ... — bitte ergänzen]",
-  // VAT / tax ID (leave empty string "" to hide)
-  vat: "[USt-IdNr: DE... — bitte ergänzen]",
-  // Person responsible for content per § 18 (2) MStV (often same as represented)
-  responsible: "[Verantwortliche Person — bitte ergänzen]",
+  represented: "Sebastian Wollny, Rafael Wollny",
+  email: "info@Reifenberatung.com",
+  phone: "0 51 38 / 45 20",
+  fax: "0 51 38 / 30 08",
+  register: "Handelsregister: Amtsgericht Hildesheim, B201772",
+  vat: "USt-IdNr: DE265685242",
+  responsible: "Sebastian Wollny, Rafael Wollny",
+  dispute:
+    "Wir sind bereit, an einem außergerichtlichen Schlichtungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
 } as const;
 
 export function generateStaticParams() {
@@ -99,7 +96,8 @@ export default async function ImpressumPage({
               {t.labels.contact}
             </h2>
             <p className="mt-3 leading-relaxed text-muted">
-              <span className="block">{COMPANY.phone}</span>
+              <span className="block">Telefon: {COMPANY.phone}</span>
+              <span className="block">Fax: {COMPANY.fax}</span>
               <span className="block">{COMPANY.email}</span>
             </p>
           </section>
@@ -140,6 +138,15 @@ export default async function ImpressumPage({
                 {t.responsibleNote}
               </span>
             </p>
+          </section>
+        </Reveal>
+
+        <Reveal delay={0.24}>
+          <section>
+            <h2 className="text-xl font-semibold tracking-tight">
+              Verbraucherstreitbeilegung
+            </h2>
+            <p className="mt-3 leading-relaxed text-muted">{COMPANY.dispute}</p>
           </section>
         </Reveal>
 

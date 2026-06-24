@@ -22,7 +22,8 @@ export function StructuredData({
         logo: `${siteUrl}/icon.svg`,
         image: `${siteUrl}/icon.svg`,
         telephone: "+49 5138 4520",
-        email: "Post@Reifenberatung.com",
+        faxNumber: "+49 5138 3008",
+        email: "info@Reifenberatung.com",
         foundingDate: "1987",
         priceRange: "€€",
         address: {
@@ -44,8 +45,8 @@ export function StructuredData({
               "Thursday",
               "Friday",
             ],
-            opens: "08:00",
-            closes: "15:00",
+            opens: "07:00",
+            closes: "15:30",
           },
         ],
         makesOffer: [

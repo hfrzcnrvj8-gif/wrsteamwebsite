@@ -1,10 +1,13 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 
-export function Hero({ dict }: { dict: Dictionary["hero"] }) {
+export function Hero({ dict, lang }: { dict: Dictionary["hero"]; lang: Locale }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -36,6 +39,25 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
       ref={ref}
       className="relative flex min-h-[100svh] items-center justify-center overflow-hidden px-6 pb-16 pt-28 md:pt-24"
     >
+      {/* Workshop photo backdrop with dark automotive overlay */}
+      <div className="pointer-events-none absolute inset-0 -z-20" aria-hidden>
+        <Image
+          src="/images/web/img_3874.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(10,10,11,0.80) 0%, rgba(10,10,11,0.70) 42%, rgba(10,10,11,0.90) 78%, #0a0a0b 100%)",
+          }}
+        />
+      </div>
+
       {/* Liquid glass orbs */}
       <motion.div
         style={{ y: orbY }}
@@ -102,18 +124,18 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
           variants={item}
           className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
         >
-          <a
-            href="#contact"
+          <Link
+            href={`/${lang}/kontakt`}
             className="btn-primary w-full rounded-full px-8 py-3.5 text-base font-semibold sm:w-auto"
           >
             {dict.ctaPrimary}
-          </a>
-          <a
-            href="#services"
+          </Link>
+          <Link
+            href={`/${lang}/leistungen`}
             className="glass w-full rounded-full px-8 py-3.5 text-base font-medium transition-transform hover:scale-[1.02] sm:w-auto"
           >
             {dict.ctaSecondary}
-          </a>
+          </Link>
         </motion.div>
 
         <motion.dl

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Reveal } from "./Reveal";
 import { ContactForm } from "./ContactForm";
 import { bookingUrl, mapsUrl } from "@/lib/site";
@@ -18,6 +19,24 @@ export function CTA({
 
   return (
     <section id="contact" className="relative px-6 py-44 md:py-64">
+      {/* subtle workshop backdrop */}
+      <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden>
+        <Image
+          src="/images/web/img_7049.jpg"
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover opacity-20"
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(180deg, #0a0a0b 0%, rgba(10,10,11,0.86) 35%, rgba(10,10,11,0.86) 65%, #0a0a0b 100%)",
+          }}
+        />
+      </div>
+
       <Reveal className="mx-auto max-w-6xl">
         <div className="glow-border relative overflow-hidden rounded-[2.5rem]">
           <div className="card-surface relative rounded-[2.5rem] p-8 md:p-14">
@@ -95,6 +114,7 @@ export function CTA({
                         </div>
                       ))}
                     </dl>
+                    <p className="mt-3 text-xs text-muted">{info.hoursNote}</p>
                   </div>
                 </div>
               </div>

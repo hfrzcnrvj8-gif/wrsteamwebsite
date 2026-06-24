@@ -40,13 +40,31 @@ export function Footer({
             {nav.services}
           </Link>
           <Link
+            href={`/${lang}/ueber-uns`}
+            className="text-muted transition-colors hover:text-[var(--fg)]"
+          >
+            {nav.work}
+          </Link>
+          <Link
             href={`/${lang}/kontakt`}
             className="text-muted transition-colors hover:text-[var(--fg)]"
           >
             {nav.contact}
           </Link>
           <Link
-            href={`/${lang}/privacy`}
+            href={`/${lang}/agb`}
+            className="text-muted transition-colors hover:text-[var(--fg)]"
+          >
+            {dict.agb}
+          </Link>
+          <Link
+            href={`/${lang}/widerrufsrecht`}
+            className="text-muted transition-colors hover:text-[var(--fg)]"
+          >
+            {dict.widerruf}
+          </Link>
+          <Link
+            href={`/${lang}/datenschutz`}
             className="text-muted transition-colors hover:text-[var(--fg)]"
           >
             {dict.privacy}

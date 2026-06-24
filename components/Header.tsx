@@ -25,9 +25,9 @@ export function Header({
   }, []);
 
   const links = [
-    { href: `/${lang}#vision`, label: dict.vision },
     { href: `/${lang}/leistungen`, label: dict.services },
-    { href: `/${lang}#showcase`, label: dict.work },
+    { href: `/${lang}/ueber-uns`, label: dict.work },
+    { href: `/${lang}/kontakt`, label: dict.contact },
   ];
 
   return (
@@ -76,7 +76,7 @@ export function Header({
             href={`/${lang}/kontakt`}
             className="btn-primary hidden rounded-full px-5 py-2 text-sm font-semibold sm:inline-block"
           >
-            {dict.contact}
+            {dict.book}
           </Link>
         </div>
       </nav>

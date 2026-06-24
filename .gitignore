@@ -8,3 +8,6 @@
 *.tsbuildinfo
 next-env.d.ts
 .vercel
+
+# internal source material (screenshots etc.), not part of the site
+zrodlo-tresci/
