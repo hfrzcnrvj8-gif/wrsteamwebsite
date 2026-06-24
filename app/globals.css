@@ -151,14 +151,18 @@
     opacity: 1;
   }
 
-  /* LEGGERA LABS signature gradient (placeholder — swap for brand gradient) */
+  /* LEGGERA LABS signature gradient (violet → magenta → gold) */
   .leggera-gradient {
-    background: linear-gradient(90deg, #7aa2ff 0%, #b07cff 50%, #54e0ff 100%);
-    background-size: 200% 200%;
+    background: linear-gradient(
+      90deg,
+      #7c3aed 0%,
+      #c026d3 32%,
+      #e0a93b 68%,
+      #f5c563 100%
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: gradient-pan 8s ease infinite;
   }
 }
 

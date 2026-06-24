@@ -79,8 +79,22 @@ export function Footer({
         </div>
       </div>
 
-      <div className="mx-auto mt-12 max-w-6xl border-t pt-6 text-xs text-muted hairline">
-        © {year} Wollny Reifenservice GmbH. {dict.rights}
+      <div className="mx-auto mt-12 flex max-w-6xl flex-col gap-3 border-t pt-6 text-xs text-muted hairline sm:flex-row sm:items-center sm:justify-between">
+        <span>
+          © {year} Wollny Reifenservice GmbH. {dict.rights}
+        </span>
+        <a
+          href="https://patrykpiecyk.pl"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="opacity-80 transition-opacity hover:opacity-100"
+        >
+          powered by{" "}
+          <span className="leggera-gradient font-semibold tracking-wide">
+            LEGGERA LABS
+          </span>
+          <span className="leggera-gradient font-semibold"> .</span>
+        </a>
       </div>
     </footer>
   );
