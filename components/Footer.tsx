@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { mapsUrl } from "@/lib/site";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 
@@ -31,12 +32,30 @@ export function Footer({
             />
           </Link>
           <p className="mt-4 text-sm text-muted">{dict.tagline}</p>
-          <address className="mt-5 space-y-1 text-sm not-italic text-muted">
-            {dict.address.map((line) => (
-              <span key={line} className="block">
-                {line}
-              </span>
-            ))}
+          <address className="mt-5 space-y-1.5 text-sm not-italic text-muted">
+            <a
+              href={mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-fit transition-colors hover:text-[var(--fg)]"
+            >
+              Borsigring 38, 31319 Sehnde
+            </a>
+            <span className="block">
+              <a
+                href="tel:+4951384520"
+                className="transition-colors hover:text-[var(--fg)]"
+              >
+                Tel. 05138 4520
+              </a>{" "}
+              · Fax 05138 3008
+            </span>
+            <a
+              href="mailto:Post@Reifenberatung.com"
+              className="block w-fit transition-colors hover:text-[var(--fg)]"
+            >
+              Post@Reifenberatung.com
+            </a>
           </address>
           <p className="mt-4 text-xs text-muted">{dict.madeIn}</p>
         </div>
