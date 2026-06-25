@@ -1,176 +1,144 @@
-// Thematic SVG icons for Services and UseCases sections.
-// All viewBox 0 0 40 40, stroke="var(--accent)" for brand-red theming.
+// Service & UseCase icons — mix of Tabler Icons (MIT) and custom automotive SVGs.
+// Custom SVGs use viewBox="0 0 24 24" to match Tabler proportions.
 import type { SVGProps } from "react";
+import {
+  IconWheel,
+  IconStack2,
+  IconScale,
+  IconDroplets,
+  IconWaveSine,
+  IconTag,
+} from "@tabler/icons-react";
 
-const C = "var(--accent)";
+const A = "var(--accent)";
+const SZ = 40;
+const ST = 1.5;
+
+// ── Tabler wrappers (brand colour, consistent size) ───────────────────────────
+
+// Tyre service → generic wheel icon from Tabler
+export const IconTyreFit = () => (
+  <IconWheel size={SZ} stroke={ST} color={A} />
+);
+
+// Seasonal storage → stacked layers
+export const IconStorage = () => (
+  <IconStack2 size={SZ} stroke={ST} color={A} />
+);
+
+// Wheel balancing → balance scale (universal "balance" symbol)
+export const IconBalance = () => (
+  <IconScale size={SZ} stroke={ST} color={A} />
+);
+
+// Ultrasonic wash → water droplets
+export const IconUltrasonicWash = () => (
+  <IconDroplets size={SZ} stroke={ST} color={A} />
+);
+
+// Tyre diagnostics → sine / vibration wave
+export const IconDiagnostics = () => (
+  <IconWaveSine size={SZ} stroke={ST} color={A} />
+);
+
+// Custom order & used wheels → price tag
+export const IconCustomOrder = () => (
+  <IconTag size={SZ} stroke={ST} color={A} />
+);
+
+// ── Custom automotive SVGs (viewBox 0 0 24 24) ───────────────────────────────
 const SL: SVGProps<SVGSVGElement> = {
-  viewBox: "0 0 40 40",
+  viewBox: "0 0 24 24",
   fill: "none",
-  stroke: C,
-  strokeWidth: 1.5,
+  stroke: A,
+  strokeWidth: ST,
   strokeLinecap: "round" as const,
   strokeLinejoin: "round" as const,
+  width: SZ,
+  height: SZ,
 };
 
-// ── Services (4) ──────────────────────────────────────────────────────────────
-
-// Tyre cross-section with 5 lug nuts
-export function IconTyreFit() {
-  return (
-    <svg {...SL} aria-hidden>
-      <circle cx="20" cy="20" r="17" />
-      <circle cx="20" cy="20" r="9" />
-      {/* 5 lug nuts at r=13, every 72° clockwise from top */}
-      <circle cx="20"   cy="7"    r="2" fill={C} stroke="none" />
-      <circle cx="32.4" cy="16"   r="2" fill={C} stroke="none" />
-      <circle cx="27.6" cy="30.5" r="2" fill={C} stroke="none" />
-      <circle cx="12.4" cy="30.5" r="2" fill={C} stroke="none" />
-      <circle cx="7.6"  cy="16"   r="2" fill={C} stroke="none" />
-    </svg>
-  );
-}
-
-// Two wheels converging (toe-in view) — 3D alignment
-export function IconAlignment() {
-  return (
-    <svg {...SL} aria-hidden>
-      {/* Left wheel angled inward */}
-      <path d="M3 13 L12 15 L12 25 L3 27 Z" />
-      {/* Right wheel angled inward */}
-      <path d="M37 13 L28 15 L28 25 L37 27 Z" />
-      {/* Measurement axis */}
-      <line x1="12" y1="20" x2="28" y2="20" strokeDasharray="2.5 2" />
-      {/* Angle arc */}
-      <path d="M17 16 A5 5 0 0 1 23 16" strokeWidth="1.2" />
-    </svg>
-  );
-}
-
-// 5-spoke alloy wheel
+// 5-spoke alloy wheel (as it would appear looking straight at the face)
 export function IconAlloyWheel() {
   return (
     <svg {...SL} aria-hidden>
-      <circle cx="20" cy="20" r="17" />
-      <circle cx="20" cy="20" r="4" />
-      {/* 5 spokes from hub (r=4) to near rim (r=14), every 72° from top */}
-      <line x1="20"   y1="16"   x2="20"   y2="6"    />
-      <line x1="23.8" y1="18.8" x2="33.3" y2="15.7" />
-      <line x1="22.4" y1="23.2" x2="28.2" y2="31.3" />
-      <line x1="17.6" y1="23.2" x2="11.8" y2="31.3" />
-      <line x1="16.2" y1="18.8" x2="6.7"  y2="15.7" />
+      {/* outer rim */}
+      <circle cx="12" cy="12" r="10" />
+      {/* hub ring */}
+      <circle cx="12" cy="12" r="3" />
+      {/* 5 spokes, every 72° clockwise from top */}
+      <line x1="12"    y1="9"    x2="12"    y2="2"    />
+      <line x1="14.85" y1="11.1" x2="20.5"  y2="9.25" />
+      <line x1="13.78" y1="14.3" x2="17.31" y2="19.3" />
+      <line x1="10.22" y1="14.3" x2="6.69"  y2="19.3" />
+      <line x1="9.15"  y1="11.1" x2="3.5"   y2="9.25" />
     </svg>
   );
 }
 
-// Tyres stored upright — 3 stacked ovals with side walls
-export function IconStorage() {
+// 3D wheel alignment: two wheels in toe-in view + dashed axis + angle arc
+export function IconAlignment() {
   return (
     <svg {...SL} aria-hidden>
-      <ellipse cx="20" cy="31" rx="14" ry="4" />
-      <ellipse cx="20" cy="23" rx="14" ry="4" />
-      <ellipse cx="20" cy="15" rx="14" ry="4" />
-      <line x1="6"  y1="15" x2="6"  y2="31" />
-      <line x1="34" y1="15" x2="34" y2="31" />
+      {/* left wheel, angled inward */}
+      <path d="M2 7 L6 8.5 L6 15.5 L2 17 Z" />
+      {/* right wheel, angled inward */}
+      <path d="M22 7 L18 8.5 L18 15.5 L22 17 Z" />
+      {/* dashed measurement axis */}
+      <line x1="6" y1="12" x2="18" y2="12" strokeDasharray="2 1.5" />
+      {/* convergence angle arc */}
+      <path d="M9 9.5 A4 4 0 0 1 15 9.5" />
     </svg>
   );
 }
 
-// ── UseCases (6) ──────────────────────────────────────────────────────────────
-
-// Wheel with two clip-on balance weights
-export function IconBalance() {
-  return (
-    <svg {...SL} aria-hidden>
-      <circle cx="20" cy="20" r="14" />
-      <circle cx="20" cy="20" r="4" />
-      {/* Weight clips (filled rectangles) at top and 3 o'clock */}
-      <rect x="17" y="3"    width="6"   height="4" rx="1" fill={C} stroke="none" />
-      <rect x="33" y="17"   width="4"   height="6" rx="1" fill={C} stroke="none" />
-    </svg>
-  );
-}
-
-// Tyre circle + ultrasonic bubbles
-export function IconUltrasonicWash() {
-  return (
-    <svg {...SL} aria-hidden>
-      {/* Tyre */}
-      <circle cx="14" cy="20" r="11" />
-      <circle cx="14" cy="20" r="4.5" />
-      {/* Bubbles — varying sizes, floating right */}
-      <circle cx="31" cy="12" r="4"   />
-      <circle cx="37" cy="22" r="2.5" />
-      <circle cx="31" cy="30" r="3"   />
-      <circle cx="37" cy="32" r="1.5" />
-    </svg>
-  );
-}
-
-// Standard TPMS warning symbol: horseshoe + exclamation mark
+// TPMS — precise reproduction of ISO 7000-2496 dashboard warning symbol:
+// horseshoe cross-section + tread marks at bottom + exclamation mark inside
 export function IconTPMS() {
   return (
     <svg {...SL} aria-hidden>
-      {/* Horseshoe (tyre cross-section, open at bottom) */}
-      <path d="M8 33 L8 18 A12 12 0 0 1 32 18 L32 33" />
-      {/* Road line */}
-      <line x1="4" y1="33" x2="36" y2="33" />
-      {/* Exclamation body */}
-      <line x1="20" y1="11" x2="20" y2="23" strokeWidth="2.5" />
-      {/* Exclamation dot */}
-      <circle cx="20" cy="28" r="2" fill={C} stroke="none" />
+      {/* tyre horseshoe (open at bottom) */}
+      <path d="M5 20 L5 11 A7 7 0 0 1 19 11 L19 20" strokeWidth="2" />
+      {/* tread marks — vertical stubs around the bottom arc */}
+      <line x1="5"    y1="20"   x2="5"    y2="22.5" />
+      <line x1="8.5"  y1="21.2" x2="8.5"  y2="23.5" />
+      <line x1="12"   y1="21.5" x2="12"   y2="24"   />
+      <line x1="15.5" y1="21.2" x2="15.5" y2="23.5" />
+      <line x1="19"   y1="20"   x2="19"   y2="22.5" />
+      {/* exclamation body */}
+      <line x1="12" y1="6" x2="12" y2="13.5" strokeWidth="2.5" />
+      {/* exclamation dot */}
+      <circle cx="12" cy="17" r="1.5" fill={A} stroke="none" />
     </svg>
   );
 }
 
-// Runflat: tyre with RSC badge — as marked on the actual sidewall
+// RunFlat / Self-supporting tyre:
+// Three concentric rings — the notably thick gap between outer tyre (r=10) and
+// rim (r=7) visually represents the reinforced self-supporting sidewall.
 export function IconRunFlat() {
   return (
     <svg {...SL} aria-hidden>
-      <circle cx="20" cy="20" r="16" />
-      <circle cx="20" cy="20" r="6.5" />
-      {/* Red badge pill */}
-      <rect x="9" y="15.5" width="22" height="9" rx="4.5" fill={C} stroke="none" />
-      {/* RSC lettering */}
+      {/* outer tyre */}
+      <circle cx="12" cy="12" r="10" />
+      {/* inner rim — close to outer tyre = thick sidewall = runflat */}
+      <circle cx="12" cy="12" r="6.5" />
+      {/* hub */}
+      <circle cx="12" cy="12" r="2" />
+      {/* RF label in the air chamber area */}
       <text
-        x="20" y="22.5"
+        x="12"
+        y="13.2"
         textAnchor="middle"
-        fill="white"
-        fontSize="7"
-        fontWeight="700"
+        fill={A}
+        fontSize="5"
+        fontWeight="900"
         fontFamily="ui-sans-serif,system-ui,sans-serif"
         stroke="none"
+        letterSpacing="-0.5"
       >
-        RSC
+        RF
       </text>
-    </svg>
-  );
-}
-
-// Vibration / sine wave — tyre diagnostics
-export function IconDiagnostics() {
-  return (
-    <svg {...SL} aria-hidden>
-      {/* Sine wave */}
-      <path d="M2 20 C6 20 8 8 12 8 C16 8 18 32 22 32 C26 32 28 8 32 8 C36 8 38 20 38 20" />
-      {/* Small tyre in bottom-left corner */}
-      <circle cx="6" cy="34" r="4"   />
-      <circle cx="6" cy="34" r="1.5" />
-    </svg>
-  );
-}
-
-// Price tag — custom order & used wheels
-export function IconCustomOrder() {
-  return (
-    <svg {...SL} aria-hidden>
-      {/* Tag shape */}
-      <path d="M7 5 L25 5 L35 20 L25 35 L7 35 Z" />
-      {/* Mounting hole */}
-      <circle cx="13" cy="20" r="3" />
-      {/* Lines suggesting specs/custom selection */}
-      <line x1="19" y1="14" x2="30" y2="14" />
-      <line x1="19" y1="20" x2="30" y2="20" />
-      <line x1="19" y1="26" x2="26" y2="26" />
     </svg>
   );
 }
