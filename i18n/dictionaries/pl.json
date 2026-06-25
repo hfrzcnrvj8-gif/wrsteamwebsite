@@ -80,7 +80,7 @@
     "items": [
       {
         "title": "Serwis i montaż opon",
-        "description": "Montaż, wyważanie i sezonowa wymiana dla aut osobowych, SUV-ów i aut Performance — delikatnie na maszynie Hunter Revolution i z kontrolą momentu dokręcania.",
+        "description": "Montaż, wyważanie i sezonowa wymiana dla aut osobowych, SUV-ów i aut Performance — na maszynie Hunter Revolution z kontrolą momentu dokręcania.",
         "tags": ["Osobowe", "SUV", "Performance", "Hunter Revolution", "TPMS"]
       },
       {
@@ -144,7 +144,7 @@
     "items": [
       { "title": "Hawkeye Elite® · geometria 3D", "description": "Pomiar kamerowy 3D w kilka sekund — z dokładnością co do stopnia i minuty. Od razu widać, czy zbieżność i pochylenie są idealne.", "impact": "Dokładne wartości, mniejsze zużycie" },
       { "title": "Road Force® · wyważanie diagnostyczne", "description": "Więcej niż wyważanie: Road Force® wykrywa, gdy to opona lub felga są źródłem drgań — i rozwiązuje problemy, których zwykłe wyważanie nie znajdzie.", "impact": "Znajduje przyczynę, nie tylko objaw" },
-      { "title": "SmartWeight® · wydajne wyważanie", "description": "Zoptymalizowane wyważanie z mniejszą liczbą ciężarków — łagodniej dla felgi i środowiska, przy doskonałej płynności i ciszy biegu.", "impact": "Mniej ciężarków, spokojniejszy bieg" }
+      { "title": "SmartWeight® · wydajne wyważanie", "description": "Wyważanie z minimalną liczbą ciężarków dobranych do idealnego balansu — mniejsza ingerencja w felgę, spokojny i cichy bieg koła.", "impact": "Mniej ciężarków, spokojniejszy bieg" }
     ],
     "attribution": "Hawkeye Elite®, Road Force® i SmartWeight® są znakami towarowymi Hunter Engineering Company."
   },
@@ -231,7 +231,7 @@
   "motorcycle": {
     "label": "Także motocykle",
     "title": "Serwis opon także dla motocykli.",
-    "body": "Zdemontowane koła wymienimy i wyważymy bez problemu — wystarczy je przywieźć. A jeśli koła mają być zdjęte bezpośrednio z motocykla, zrobimy to po indywidualnym uzgodnieniu terminu.",
+    "body": "Zdemontowane koła wymienimy i wyważymy bez problemu — wystarczy je przywieźć. A jeśli koła mają być zdjęte bezpośrednio z motocykla, zrobimy to po wcześniejszym uzgodnieniu.",
     "cta": "Uzgodnij termin"
   },
   "founding": {
@@ -264,7 +264,7 @@
       },
       {
         "q": "Kiedy warto wykonać geometrię kół?",
-        "a": "Zawsze gdy auto ściąga na bok, opony zużywają się nierównomiernie, po pracach przy zawieszeniu lub po kontakcie z krawężnikiem. Nasze urządzenie Hunter 3D mierzy z dokładnością do stopnia i minuty, czy zbieżność i pochylenie są prawidłowe."
+        "a": "Zawsze gdy auto ściąga na bok, opony zużywają się nierównomiernie, po pracach przy zawieszeniu lub po kontakcie z krawężnikiem. Nasze urządzenie Hunter 3D mierzy zbieżność i pochylenie z dokładnością do stopnia i minuty i od razu pokazuje, czy wartości są prawidłowe."
       },
       {
         "q": "Czy przechowujecie moje opony sezonowe?",
