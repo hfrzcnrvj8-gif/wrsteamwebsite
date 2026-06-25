@@ -90,8 +90,11 @@ export default async function OpengraphImage({
         </div>
 
         {/* Tagline */}
-        <div style={{ display: "flex", fontSize: 30, color: "#9A9AA3" }}>
-          {dict.problem.title}
+        <div style={{ display: "flex", alignItems: "center", fontSize: 30 }}>
+          <span style={{ color: "#C9C9D1" }}>
+            Reifen · Felgen · Achsvermessung · seit 1987 · Sehnde bei Hannover
+          </span>
+          <span style={{ color: "#f5c563", marginLeft: 18 }}>★ 4,9</span>
         </div>
       </div>
     ),
