@@ -28,6 +28,7 @@ export function Faq({ dict }: { dict: Dictionary["faq"] }) {
                   <button
                     onClick={() => setOpen(isOpen ? null : i)}
                     aria-expanded={isOpen}
+                    aria-controls={`faq-panel-${i}`}
                     className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
                   >
                     <span className="text-base font-medium sm:text-lg">
@@ -37,6 +38,7 @@ export function Faq({ dict }: { dict: Dictionary["faq"] }) {
                       animate={{ rotate: isOpen ? 45 : 0 }}
                       transition={{ duration: 0.2 }}
                       className="grid h-7 w-7 shrink-0 place-items-center rounded-full text-lg text-muted"
+                      aria-hidden
                     >
                       +
                     </motion.span>
@@ -44,6 +46,7 @@ export function Faq({ dict }: { dict: Dictionary["faq"] }) {
                   <AnimatePresence initial={false}>
                     {isOpen && (
                       <motion.div
+                        id={`faq-panel-${i}`}
                         initial={{ height: 0, opacity: 0 }}
                         animate={{ height: "auto", opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}

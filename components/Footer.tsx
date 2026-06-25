@@ -113,7 +113,7 @@ export function Footer({
 
         {/* Col 4 — opening hours */}
         <div className="flex flex-col gap-0 text-sm">
-          <span className="text-xs uppercase tracking-[0.14em] text-muted">{dict.hoursLabel}</span>
+          <h3 className="text-xs uppercase tracking-[0.14em] text-muted">{dict.hoursLabel}</h3>
           <dl className="mt-3 space-y-1.5 text-sm">
             {dict.hours.map((h) => (
               <div key={h.day} className="flex flex-col gap-0.5">

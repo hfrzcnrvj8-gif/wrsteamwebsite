@@ -14,7 +14,7 @@ export function ThemeToggle() {
 
   return (
     <button
-      aria-label="Toggle theme"
+      aria-label={isDark ? "Helles Design aktivieren" : "Dunkles Design aktivieren"}
       onClick={() => setTheme(isDark ? "light" : "dark")}
       className="glass relative grid h-10 w-10 place-items-center rounded-full transition-transform hover:scale-105 active:scale-95"
     >

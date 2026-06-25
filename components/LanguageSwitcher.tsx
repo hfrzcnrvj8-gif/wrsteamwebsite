@@ -37,6 +37,7 @@ export function LanguageSwitcher({ current }: { current: Locale }) {
         className="glass flex h-10 items-center gap-1.5 rounded-full px-4 text-sm font-medium uppercase tracking-wide transition-transform hover:scale-105"
         aria-haspopup="listbox"
         aria-expanded={open}
+        aria-label="Sprache wählen"
       >
         {current}
         <span className="text-[10px] opacity-60">▾</span>
