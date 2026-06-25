@@ -92,53 +92,45 @@ export function IconAlignment() {
   );
 }
 
-// TPMS — precise reproduction of ISO 7000-2496 dashboard warning symbol:
-// horseshoe cross-section + tread marks at bottom + exclamation mark inside
+// TPMS — ISO 7000-2496 dashboard warning symbol, faithful reproduction:
+// TWO separate C-curve arms (not a horseshoe) + flat bar + 5 rectangular teeth + exclamation
 export function IconTPMS() {
   return (
     <svg {...SL} aria-hidden>
-      {/* tyre horseshoe (open at bottom) */}
-      <path d="M5 20 L5 11 A7 7 0 0 1 19 11 L19 20" strokeWidth="2" />
-      {/* tread marks — vertical stubs around the bottom arc */}
-      <line x1="5"    y1="20"   x2="5"    y2="22.5" />
-      <line x1="8.5"  y1="21.2" x2="8.5"  y2="23.5" />
-      <line x1="12"   y1="21.5" x2="12"   y2="24"   />
-      <line x1="15.5" y1="21.2" x2="15.5" y2="23.5" />
-      <line x1="19"   y1="20"   x2="19"   y2="22.5" />
-      {/* exclamation body */}
-      <line x1="12" y1="6" x2="12" y2="13.5" strokeWidth="2.5" />
+      {/* left arm: starts at base, curves up and outward, ends with rounded tip pointing inward */}
+      <path d="M 5 16 C 2 15 2 11.5 2 9 C 2 5.5 4 2 8 1" strokeWidth="2.5" />
+      {/* right arm: mirrored */}
+      <path d="M 19 16 C 22 15 22 11.5 22 9 C 22 5.5 20 2 16 1" strokeWidth="2.5" />
+      {/* horizontal base bar connecting both arms */}
+      <line x1="3.5" y1="16" x2="20.5" y2="16" strokeWidth="2.5" />
+      {/* 5 tread teeth hanging from base bar */}
+      <line x1="6"  y1="17.5" x2="6"  y2="21" strokeWidth="2" />
+      <line x1="9"  y1="17.5" x2="9"  y2="21" strokeWidth="2" />
+      <line x1="12" y1="17.5" x2="12" y2="21" strokeWidth="2" />
+      <line x1="15" y1="17.5" x2="15" y2="21" strokeWidth="2" />
+      <line x1="18" y1="17.5" x2="18" y2="21" strokeWidth="2" />
+      {/* exclamation body (pill-shaped via round linecap + thick stroke) */}
+      <line x1="12" y1="3.5" x2="12" y2="10" strokeWidth="2.5" />
       {/* exclamation dot */}
-      <circle cx="12" cy="17" r="1.5" fill={A} stroke="none" />
+      <circle cx="12" cy="13" r="1.5" fill={A} stroke="none" />
     </svg>
   );
 }
 
-// RunFlat / Self-supporting tyre:
-// Three concentric rings — the notably thick gap between outer tyre (r=10) and
-// rim (r=7) visually represents the reinforced self-supporting sidewall.
+// RunFlat — tyre cross-section (as if tyre cut in half and viewed end-on):
+// outer rubber profile + RED filled sidewall inserts (the self-supporting reinforcement
+// visible as pink wedges in technical diagrams) + inner air chamber
 export function IconRunFlat() {
   return (
     <svg {...SL} aria-hidden>
-      {/* outer tyre */}
-      <circle cx="12" cy="12" r="10" />
-      {/* inner rim — close to outer tyre = thick sidewall = runflat */}
-      <circle cx="12" cy="12" r="6.5" />
-      {/* hub */}
-      <circle cx="12" cy="12" r="2" />
-      {/* RF label in the air chamber area */}
-      <text
-        x="12"
-        y="13.2"
-        textAnchor="middle"
-        fill={A}
-        fontSize="5"
-        fontWeight="900"
-        fontFamily="ui-sans-serif,system-ui,sans-serif"
-        stroke="none"
-        letterSpacing="-0.5"
-      >
-        RF
-      </text>
+      {/* outer tyre profile: flat tread on top, vertical sides, rounded bead at bottom */}
+      <path d="M 3 4 L 21 4 L 22 5 L 22 16 Q 22 20 19 21 L 5 21 Q 2 20 2 16 L 2 5 Z" strokeWidth="1.5" />
+      {/* LEFT sidewall reinforcement insert — filled accent trapezoid */}
+      <path d="M 2.5 6 L 6.5 7 L 6.5 18.5 L 2.5 19.5 Z" fill={A} stroke="none" />
+      {/* RIGHT sidewall reinforcement insert — mirrored */}
+      <path d="M 21.5 6 L 17.5 7 L 17.5 18.5 L 21.5 19.5 Z" fill={A} stroke="none" />
+      {/* inner air chamber */}
+      <rect x="7" y="6.5" width="10" height="12" rx="1" strokeWidth="1.5" />
     </svg>
   );
 }
