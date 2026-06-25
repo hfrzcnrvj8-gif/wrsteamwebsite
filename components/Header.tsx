@@ -78,9 +78,6 @@ export function Header({
 
         <div className="flex items-center gap-2">
           <LegalMenu lang={lang} navLinks={links} />
-          <div className="hidden sm:block">
-            <LanguageSwitcher current={lang} />
-          </div>
           {/* Mobile: bare emoji, no border */}
           <a href={workshopPhoneHref} aria-label="Anrufen" className="text-2xl leading-none sm:hidden">📞</a>
           {/* Desktop: red outlined pill with label */}

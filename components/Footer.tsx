@@ -114,9 +114,7 @@ export function Footer({
         <span>
           © {year} Wollny Reifenservice GmbH. {dict.rights}
         </span>
-        <div className="sm:hidden">
-          <LanguageSwitcher current={lang} />
-        </div>
+        <LanguageSwitcher current={lang} />
         <a
           href="https://patrykpiecyk.pl"
           target="_blank"
