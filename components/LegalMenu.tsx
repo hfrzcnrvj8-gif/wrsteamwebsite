@@ -59,7 +59,7 @@ export function LegalMenu({
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -8, scale: 0.96 }}
             transition={{ duration: 0.18 }}
-            className="glass absolute right-0 top-12 w-56 overflow-hidden rounded-2xl p-1.5 shadow-2xl"
+            className="glass-overlay absolute right-0 top-12 w-56 overflow-hidden rounded-2xl p-1.5 shadow-2xl"
           >
             {/* Mobile-only CTAs: visually grouped card */}
             <li className="md:hidden px-0.5 pt-0.5 pb-1">
