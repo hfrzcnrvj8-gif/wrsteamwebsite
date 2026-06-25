@@ -72,7 +72,7 @@ export function PhotoBand({
           className="absolute inset-0 md:hidden"
           style={{
             background:
-              "linear-gradient(180deg, rgba(10,10,11,0) 28%, rgba(10,10,11,0.5) 58%, rgba(10,10,11,0.9) 100%)",
+              "linear-gradient(180deg, rgba(10,10,11,0.2) 20%, rgba(10,10,11,0.65) 55%, rgba(10,10,11,0.95) 100%)",
           }}
         />
         {/* desktop: directional scrim */}

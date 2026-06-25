@@ -1,5 +1,9 @@
 import type { Locale } from "@/i18n/config";
 
+// Workshop phone number — used for tel: links across the site.
+export const workshopPhone = "05138 4520";
+export const workshopPhoneHref = `tel:${workshopPhone.replace(/\s+/g, "")}`;
+
 // Canonical production URL. Override per-environment with NEXT_PUBLIC_SITE_URL
 // (e.g. on the host) so sitemap, robots and canonical/OG tags point at the
 // real domain. Falls back to the production domain.

@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { LegalMenu } from "./LegalMenu";
+import { workshopPhoneHref } from "@/lib/site";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 
@@ -76,8 +77,15 @@ export function Header({
         </ul>
 
         <div className="flex items-center gap-2">
-          <LegalMenu lang={lang} />
+          <LegalMenu lang={lang} navLinks={links} />
           <LanguageSwitcher current={lang} />
+          <a
+            href={workshopPhoneHref}
+            aria-label="Anrufen"
+            className="glass grid h-10 w-10 place-items-center rounded-full text-base transition-transform hover:scale-105"
+          >
+            ✆
+          </a>
 
           <Link
             href={`/${lang}/kontakt`}

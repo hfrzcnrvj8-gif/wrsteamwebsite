@@ -53,7 +53,7 @@ export function Hero({ dict, lang }: { dict: Dictionary["hero"]; lang: Locale })
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, rgba(10,10,11,0.80) 0%, rgba(10,10,11,0.70) 42%, rgba(10,10,11,0.90) 78%, #0a0a0b 100%)",
+              "linear-gradient(180deg, rgba(10,10,11,0.55) 0%, rgba(10,10,11,0.50) 42%, rgba(10,10,11,0.88) 78%, #0a0a0b 100%)",
           }}
         />
       </div>

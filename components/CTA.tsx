@@ -80,7 +80,7 @@ export function CTA({
                     href={mailHref}
                     className="glass group flex items-center gap-4 rounded-2xl px-5 py-4 transition-transform hover:scale-[1.01]"
                   >
-                    <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-brand-cyan/15 text-brand-cyan">
+                    <span className="glass grid h-11 w-11 shrink-0 place-items-center rounded-xl text-[var(--fg)]">
                       ✉
                     </span>
                     <span>
