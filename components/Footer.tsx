@@ -19,51 +19,52 @@ export function Footer({
     <footer className="relative border-t px-6 py-16 hairline">
       <div className="mx-auto max-w-6xl">
 
-        {/* Top row — logo+contact (left) | hours (right) */}
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
-          <div>
-            <Link
-              href={`/${lang}`}
-              aria-label="Wollny Reifenservice — Startseite"
-              className="inline-flex"
-            >
-              <Image
-                src="/logo.png"
-                alt="Wollny Reifenservice"
-                width={320}
-                height={98}
-                className="h-9 w-auto"
-              />
-            </Link>
-            <address className="mt-5 space-y-1 text-sm not-italic text-muted">
-              <a
-                href={mapsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-fit transition-colors hover:text-[var(--fg)]"
-              >
-                Borsigring 38, 31319 Sehnde
-              </a>
-              <span className="block">
-                <a href="tel:+4951384520" className="transition-colors hover:text-[var(--fg)]">
-                  Tel. 05138 4520
-                </a>{" "}
-                · Fax 05138 3008
-              </span>
-              <a
-                href="mailto:Post@Reifenberatung.com"
-                className="block w-fit transition-colors hover:text-[var(--fg)]"
-              >
-                Post@Reifenberatung.com
-              </a>
-            </address>
-          </div>
+        {/* Top — flat grid: cols 1+2 share rows, col 3 (hours) spans all */}
+        <div className="grid items-start gap-x-16 gap-y-2.5 md:grid-cols-[1fr_1fr_auto]">
 
-          <div>
+          {/* Row 1, col 1 — logo */}
+          <Link href={`/${lang}`} aria-label="Wollny Reifenservice — Startseite" className="inline-flex self-start">
+            <Image src="/logo.png" alt="Wollny Reifenservice" width={320} height={98} className="h-9 w-auto" />
+          </Link>
+
+          {/* Row 1, col 2 — "KONTAKT" label aligned to bottom of logo row */}
+          <p className="self-end pb-0.5 text-xs uppercase tracking-[0.14em] text-muted">Kontakt</p>
+
+          {/* Col 3 — hours, spans all 4 rows */}
+          <div className="row-span-4 border-l pl-10 hairline max-md:hidden">
             <h3 className="text-xs uppercase tracking-[0.14em] text-muted">{dict.hoursLabel}</h3>
             <dl className="mt-3 space-y-2 text-sm">
               {dict.hours.map((h) => (
-                <div key={h.day} className="flex items-baseline gap-4">
+                <div key={h.day} className="flex gap-4">
+                  <dt className="w-20 shrink-0 text-muted">{h.day}</dt>
+                  <dd className="font-medium">{h.time}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+
+          {/* Row 2 */}
+          <p className="text-sm text-muted">Borsigring 38</p>
+          <a href="tel:+4951384520" className="text-sm text-muted transition-colors hover:text-[var(--fg)]">Tel. 05138 4520</a>
+
+          {/* Row 3 */}
+          <p className="text-sm text-muted">31319 Sehnde</p>
+          <p className="text-sm text-muted">Fax 05138 3008</p>
+
+          {/* Row 4 */}
+          <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="text-sm text-muted transition-colors hover:text-[var(--fg)]">
+            Region Hannover · Deutschland
+          </a>
+          <a href="mailto:Post@Reifenberatung.com" className="text-sm text-muted transition-colors hover:text-[var(--fg)]">
+            Post@Reifenberatung.com
+          </a>
+
+          {/* Hours visible on mobile (below cols 1+2) */}
+          <div className="col-span-2 mt-2 md:hidden">
+            <h3 className="text-xs uppercase tracking-[0.14em] text-muted">{dict.hoursLabel}</h3>
+            <dl className="mt-3 space-y-2 text-sm">
+              {dict.hours.map((h) => (
+                <div key={h.day} className="flex gap-4">
                   <dt className="w-20 shrink-0 text-muted">{h.day}</dt>
                   <dd className="font-medium">{h.time}</dd>
                 </div>
