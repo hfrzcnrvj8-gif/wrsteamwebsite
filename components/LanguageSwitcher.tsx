@@ -2,13 +2,21 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { i18n, localeNames, type Locale } from "@/i18n/config";
 
 export function LanguageSwitcher({ current }: { current: Locale }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const scheduleClose = () => {
+    closeTimer.current = setTimeout(() => setOpen(false), 200);
+  };
+  const cancelClose = () => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+  };
 
   const redirectedPath = (locale: Locale) => {
     if (!pathname) return `/${locale}`;
@@ -20,7 +28,8 @@ export function LanguageSwitcher({ current }: { current: Locale }) {
   return (
     <div
       className="relative"
-      onMouseLeave={() => setOpen(false)}
+      onMouseLeave={scheduleClose}
+      onMouseEnter={cancelClose}
     >
       <button
         onClick={() => setOpen((v) => !v)}

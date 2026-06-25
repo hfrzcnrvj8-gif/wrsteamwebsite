@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { ThemeToggle } from "./ThemeToggle";
+
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { LegalMenu } from "./LegalMenu";
 import type { Locale } from "@/i18n/config";
@@ -78,7 +78,7 @@ export function Header({
         <div className="flex items-center gap-2">
           <LegalMenu lang={lang} />
           <LanguageSwitcher current={lang} />
-          <ThemeToggle />
+
           <Link
             href={`/${lang}/kontakt`}
             className="btn-primary hidden rounded-full px-5 py-2 text-sm font-semibold sm:inline-block"
