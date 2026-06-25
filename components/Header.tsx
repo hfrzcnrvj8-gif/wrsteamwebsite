@@ -83,21 +83,22 @@ export function Header({
           </div>
           {/* Mobile: bare emoji, no border */}
           <a href={workshopPhoneHref} aria-label="Anrufen" className="text-2xl leading-none sm:hidden">📞</a>
-          {/* Desktop: red outlined pill */}
+          {/* Desktop: red outlined pill with label */}
           <a
             href={workshopPhoneHref}
             aria-label="Anrufen"
-            className="hidden h-10 place-items-center rounded-full border border-brand-red px-3.5 text-sm text-brand-red transition-transform hover:scale-105 hover:bg-brand-red/10 sm:grid"
+            className="hidden h-10 items-center gap-1.5 rounded-full border border-brand-red px-4 text-sm text-brand-red transition-transform hover:scale-105 hover:bg-brand-red/10 sm:flex"
           >
-            ✆
+            <span>✆</span>
+            <span>Anrufen</span>
           </a>
 
           {/* Mobile: bare calendar emoji */}
           <Link href={`/${lang}/kontakt`} aria-label={dict.book} className="text-2xl leading-none sm:hidden">📅</Link>
-          {/* Desktop: full Termin button */}
+          {/* Desktop: filled Termin button — same height/padding as phone */}
           <Link
             href={`/${lang}/kontakt`}
-            className="btn-primary hidden rounded-full px-5 py-2 text-sm font-semibold sm:inline-block"
+            className="btn-primary hidden h-10 place-items-center rounded-full px-4 text-sm font-semibold sm:grid"
           >
             {dict.book}
           </Link>

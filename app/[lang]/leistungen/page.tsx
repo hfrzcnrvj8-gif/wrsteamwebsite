@@ -41,7 +41,7 @@ export default async function LeistungenPage({
     <>
       <Header lang={lang} dict={dict.nav} />
       <main className="relative overflow-x-clip">
-        <section className="relative px-6 pb-8 pt-40 md:pt-48">
+        <section className="relative min-h-[55vh] px-6 pb-8 pt-40 md:pt-48">
           <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden>
             <Image
               src="/images/web/img_7412.jpg"
@@ -49,7 +49,8 @@ export default async function LeistungenPage({
               fill
               priority
               sizes="100vw"
-              className="object-cover object-center opacity-25"
+              className="object-cover opacity-25"
+              style={{ objectPosition: "center 85%" }}
             />
             <div
               className="absolute inset-0"
