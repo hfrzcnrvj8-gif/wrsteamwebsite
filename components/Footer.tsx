@@ -63,8 +63,8 @@ export function Footer({
             <h3 className="text-xs uppercase tracking-[0.14em] text-muted">{dict.hoursLabel}</h3>
             <dl className="mt-3 space-y-2 text-sm">
               {dict.hours.map((h) => (
-                <div key={h.day} className="flex items-baseline justify-between gap-4">
-                  <dt className="text-muted">{h.day}</dt>
+                <div key={h.day} className="flex items-baseline gap-4">
+                  <dt className="w-20 shrink-0 text-muted">{h.day}</dt>
                   <dd className="font-medium">{h.time}</dd>
                 </div>
               ))}
