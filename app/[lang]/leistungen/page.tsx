@@ -44,7 +44,7 @@ export default async function LeistungenPage({
         <section className="relative min-h-[55vh] px-6 pb-8 pt-40 md:pt-48">
           <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden>
             <Image
-              src="/images/web/img_7412.jpg"
+              src="/images/web/img_8047.jpg"
               alt=""
               fill
               priority

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { mapsUrl } from "@/lib/site";
-import { LanguageSwitcher } from "./LanguageSwitcher";
+import { FooterLangLinks } from "./FooterLangLinks";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 
@@ -80,6 +80,7 @@ export function Footer({
           >
             {nav.contact}
           </Link>
+          <FooterLangLinks current={lang} />
         </nav>
 
         <nav className="flex flex-col gap-3 text-sm">
@@ -114,7 +115,6 @@ export function Footer({
         <span>
           © {year} Wollny Reifenservice GmbH. {dict.rights}
         </span>
-        <LanguageSwitcher current={lang} />
         <a
           href="https://patrykpiecyk.pl"
           target="_blank"
