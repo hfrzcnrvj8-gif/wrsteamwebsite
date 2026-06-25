@@ -139,19 +139,6 @@ export function Hero({ dict, lang }: { dict: Dictionary["hero"]; lang: Locale })
           </Link>
         </motion.div>
 
-        <motion.dl
-          variants={item}
-          className="mx-auto mt-24 grid max-w-2xl grid-cols-3 gap-6 md:mt-28"
-        >
-          {dict.stats.map((s) => (
-            <div key={s.label} className="text-center">
-              <dt className="text-3xl font-semibold tracking-tight sm:text-4xl">
-                {s.value}
-              </dt>
-              <dd className="mt-1 text-xs text-muted sm:text-sm">{s.label}</dd>
-            </div>
-          ))}
-        </motion.dl>
       </motion.div>
     </section>
   );
