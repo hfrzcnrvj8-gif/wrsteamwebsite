@@ -216,7 +216,7 @@
       {
         "step": "02",
         "title": "Fahrzeugannahme",
-        "description": "Wir nehmen Ihr Fahrzeug auf, besprechen den Umfang und prüfen Reifen und Fahrwerk."
+        "description": "Wir nehmen Ihr Fahrzeug auf und besprechen den Umfang. Bei Achsvermessungen prüfen wir vorab den Zustand von Reifen und Fahrwerk — denn eine Einstellung macht nur Sinn, wenn die Bauteile in Ordnung sind. Sind Verschleißteile fällig, listen wir sie klar auf."
       },
       {
         "step": "03",
@@ -226,7 +226,7 @@
       {
         "step": "04",
         "title": "Übergabe & Beratung",
-        "description": "Sie erhalten Ihr Fahrzeug startklar zurück, inklusive klarer Empfehlung für die nächste Saison."
+        "description": "Sie erhalten Ihr Fahrzeug startklar zurück. Wir besprechen, was gemacht wurde — bei Diagnosen wie Vibrationsmessungen oder Achsvermessungen erklären wir die Ergebnisse und geben eine klare Empfehlung."
       }
     ]
   },
