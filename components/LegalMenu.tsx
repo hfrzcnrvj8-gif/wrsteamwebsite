@@ -4,16 +4,16 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import type { Locale } from "@/i18n/config";
+import { workshopPhoneHref, workshopPhone } from "@/lib/site";
 
-// Collapsible header menu for the legal pages (kept German — legal docs are DE).
-// On mobile the `navLinks` (main navigation) are prepended so users can navigate
-// without the desktop nav bar.
 export function LegalMenu({
   lang,
   navLinks,
+  bookLabel,
 }: {
   lang: Locale;
   navLinks?: Array<{ href: string; label: string }>;
+  bookLabel?: string;
 }) {
   const [open, setOpen] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -25,7 +25,7 @@ export function LegalMenu({
     if (closeTimer.current) clearTimeout(closeTimer.current);
   };
 
-  const links = [
+  const legalLinks = [
     { href: `/${lang}/agb`, label: "AGB" },
     { href: `/${lang}/widerrufsrecht`, label: "Widerrufsrecht" },
     { href: `/${lang}/datenschutz`, label: "Datenschutz" },
@@ -56,26 +56,49 @@ export function LegalMenu({
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -8, scale: 0.96 }}
             transition={{ duration: 0.18 }}
-            className="glass absolute right-0 top-12 w-52 overflow-hidden rounded-2xl p-1.5 shadow-2xl"
+            className="glass absolute right-0 top-12 w-56 overflow-hidden rounded-2xl p-1.5 shadow-2xl"
           >
-            {/* Main nav — only shown on mobile where the nav bar is hidden */}
-            {navLinks && navLinks.length > 0 && (
-              <>
-                {navLinks.map((l) => (
-                  <li key={l.href} className="md:hidden">
-                    <Link
-                      href={l.href}
-                      onClick={() => setOpen(false)}
-                      className="block rounded-xl px-3 py-2.5 text-sm font-medium transition-colors hover:bg-white/10 hover:text-[var(--fg)]"
-                    >
-                      {l.label}
-                    </Link>
-                  </li>
-                ))}
-                <li className="md:hidden my-1 mx-1 border-t border-white/10" role="separator" />
-              </>
-            )}
-            {links.map((l) => (
+            {/* Mobile-only CTAs: call + appointment */}
+            <li className="md:hidden">
+              <a
+                href={workshopPhoneHref}
+                onClick={() => setOpen(false)}
+                className="flex items-center gap-2.5 rounded-xl px-3 py-2.5 text-sm font-semibold text-brand-red transition-colors hover:bg-brand-red/10"
+              >
+                <span>✆</span>
+                <span>{workshopPhone}</span>
+              </a>
+            </li>
+            <li className="md:hidden">
+              <Link
+                href={`/${lang}/kontakt`}
+                onClick={() => setOpen(false)}
+                className="block rounded-xl px-3 py-2.5 text-sm font-semibold transition-colors hover:bg-white/10 hover:text-[var(--fg)]"
+              >
+                {bookLabel ?? "Termin vereinbaren"} →
+              </Link>
+            </li>
+
+            {/* Separator before nav */}
+            <li className="my-1 mx-1 border-t border-white/10 md:hidden" role="separator" />
+
+            {/* Main nav — mobile only */}
+            {navLinks?.map((l) => (
+              <li key={l.href} className="md:hidden">
+                <Link
+                  href={l.href}
+                  onClick={() => setOpen(false)}
+                  className="block rounded-xl px-3 py-2.5 text-sm font-medium transition-colors hover:bg-white/10 hover:text-[var(--fg)]"
+                >
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+
+            {/* Separator before legal */}
+            <li className="my-1 mx-1 border-t border-white/10" role="separator" />
+
+            {legalLinks.map((l) => (
               <li key={l.href}>
                 <Link
                   href={l.href}

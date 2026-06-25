@@ -3,9 +3,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
-import { LanguageSwitcher } from "./LanguageSwitcher";
 import { LegalMenu } from "./LegalMenu";
 import { workshopPhoneHref } from "@/lib/site";
 import type { Locale } from "@/i18n/config";
@@ -19,6 +19,7 @@ export function Header({
   dict: Dictionary["nav"];
 }) {
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -32,6 +33,12 @@ export function Header({
     { href: `/${lang}/ueber-uns`, label: dict.work },
     { href: `/${lang}/kontakt`, label: dict.contact },
   ];
+
+  const handleNavClick = (href: string) => {
+    if (pathname === href) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
 
   return (
     <motion.header
@@ -63,11 +70,13 @@ export function Header({
           />
         </Link>
 
+        {/* Desktop nav */}
         <ul className="hidden items-center gap-8 text-sm text-muted md:flex">
           {links.map((l) => (
             <li key={l.href}>
               <Link
                 href={l.href}
+                onClick={() => handleNavClick(l.href)}
                 className="transition-colors hover:text-[var(--fg)]"
               >
                 {l.label}
@@ -77,23 +86,20 @@ export function Header({
         </ul>
 
         <div className="flex items-center gap-2">
-          <LegalMenu lang={lang} navLinks={links} />
-          {/* Mobile: bare emoji, no border */}
-          <a href={workshopPhoneHref} aria-label="Anrufen" className="text-2xl leading-none sm:hidden">📞</a>
-          {/* Desktop: red outlined pill with label */}
+          {/* ··· opens nav + CTAs on mobile, legal on all */}
+          <LegalMenu lang={lang} navLinks={links} bookLabel={dict.book} />
+
+          {/* Desktop only: Anrufen + Termin pills */}
           <a
             href={workshopPhoneHref}
             aria-label="Anrufen"
-            className="hidden h-10 items-center gap-1.5 rounded-full border border-brand-red px-4 text-sm text-brand-red transition-transform hover:scale-105 hover:bg-brand-red/10 sm:flex"
+            className="hidden h-10 items-center rounded-full border border-brand-red px-4 text-sm text-brand-red transition-transform hover:scale-105 hover:bg-brand-red/10 sm:flex"
           >
             Anrufen
           </a>
-
-          {/* Mobile: bare calendar emoji */}
-          <Link href={`/${lang}/kontakt`} aria-label={dict.book} className="text-2xl leading-none sm:hidden">📅</Link>
-          {/* Desktop: filled Termin button — same height/padding as phone */}
           <Link
             href={`/${lang}/kontakt`}
+            onClick={() => handleNavClick(`/${lang}/kontakt`)}
             className="btn-primary hidden h-10 place-items-center rounded-full px-4 text-sm font-semibold sm:grid"
           >
             {dict.book}
