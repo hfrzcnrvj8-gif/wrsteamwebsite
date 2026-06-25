@@ -16,23 +16,17 @@ const ST = 1.5;
 
 // ── Tabler wrappers (brand colour, consistent size) ───────────────────────────
 
-// Tyre tread icon — top-down view of a tyre contact patch.
-// 40×40 px: two outer block columns (offset) + one solid center rib.
+// Tyre tread icon — adapted from user-provided bieznik_4rowki_v2.svg.
+// 5 longitudinal ribs, 4 grooves as transparent gaps, zone-A sipes on left rib.
+// viewBox 0 0 400 400 (square crop of portrait 400×800 original) → 40×40 px.
 export function IconTyreFit() {
   return (
-    <svg viewBox="0 0 36 40" width={SZ} height={SZ} aria-hidden style={{ fill: A }}>
-      {/* Left outer blocks */}
-      <rect x="0" y="0"  width="11" height="8"  rx="1.5"/>
-      <rect x="0" y="11" width="11" height="6"  rx="1.5"/>
-      <rect x="0" y="20" width="11" height="8"  rx="1.5"/>
-      <rect x="0" y="31" width="11" height="9"  rx="1.5"/>
-      {/* Center continuous rib */}
-      <rect x="14" y="0" width="8"  height="40"/>
-      {/* Right outer blocks — offset by half pitch */}
-      <rect x="25" y="4"  width="11" height="6"  rx="1.5"/>
-      <rect x="25" y="13" width="11" height="8"  rx="1.5"/>
-      <rect x="25" y="24" width="11" height="6"  rx="1.5"/>
-      <rect x="25" y="33" width="11" height="7"  rx="1.5"/>
+    <svg viewBox="0 0 170 400" width={SZ} height={SZ} aria-hidden style={{ fill: A }}>
+      <rect x="0"   y="0" width="10" height="400"/>
+      <rect x="40"  y="0" width="10" height="400"/>
+      <rect x="80"  y="0" width="10" height="400"/>
+      <rect x="120" y="0" width="10" height="400"/>
+      <rect x="160" y="0" width="10" height="400"/>
     </svg>
   );
 }
