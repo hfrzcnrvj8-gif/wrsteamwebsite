@@ -86,8 +86,7 @@ export function Header({
             aria-label="Anrufen"
             className="hidden h-10 items-center gap-1.5 rounded-full border border-brand-red px-4 text-sm text-brand-red transition-transform hover:scale-105 hover:bg-brand-red/10 sm:flex"
           >
-            <span>✆</span>
-            <span>Anrufen</span>
+            Anrufen
           </a>
 
           {/* Mobile: bare calendar emoji */}

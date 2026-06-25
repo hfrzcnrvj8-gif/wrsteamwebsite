@@ -62,9 +62,7 @@ export function CTA({
                     href={telHref}
                     className="glass group flex items-center gap-4 rounded-2xl px-5 py-4 transition-transform hover:scale-[1.01]"
                   >
-                    <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-brand-red/15 text-brand-red">
-                      ✆
-                    </span>
+                    <span className="shrink-0 text-2xl leading-none">✆</span>
                     <span>
                       <span className="block text-xs uppercase tracking-[0.18em] text-muted">
                         {info.phoneLabel}
@@ -80,9 +78,7 @@ export function CTA({
                     href={mailHref}
                     className="glass group flex items-center gap-4 rounded-2xl px-5 py-4 transition-transform hover:scale-[1.01]"
                   >
-                    <span className="glass grid h-11 w-11 shrink-0 place-items-center rounded-xl text-[var(--fg)]">
-                      ✉
-                    </span>
+                    <span className="shrink-0 text-2xl leading-none">✉</span>
                     <span>
                       <span className="block text-xs uppercase tracking-[0.18em] text-muted">
                         {info.emailLabel}
@@ -116,7 +112,7 @@ export function CTA({
                         rel="noopener noreferrer"
                         className="text-liquid text-sm font-medium underline-offset-2 hover:underline"
                       >
-                        {info.mapsCta} →
+                        📍 {info.mapsCta} →
                       </a>
                     </div>
                   </div>
