@@ -29,9 +29,6 @@ export function Services({ dict }: { dict: Dictionary["services"] }) {
                     }}
                     aria-hidden
                   />
-                  <span className="pointer-events-none absolute right-8 top-6 select-none text-6xl font-bold leading-none tracking-tighter text-white/[0.06]" aria-hidden>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
                   <h3 className="text-2xl font-semibold tracking-tight">
                     {item.title}
                   </h3>
