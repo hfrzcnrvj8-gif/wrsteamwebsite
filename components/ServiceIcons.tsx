@@ -16,10 +16,74 @@ const ST = 1.5;
 
 // ── Tabler wrappers (brand colour, consistent size) ───────────────────────────
 
-// Tyre service → generic wheel icon from Tabler
-export const IconTyreFit = () => (
-  <IconWheel size={SZ} stroke={ST} color={A} />
-);
+// Tyre service → Pirelli P Zero PZ5 tread pattern (pirelli_pz5_bieznik.svg, user-provided).
+// Blocks in accent colour, sipes omitted (too fine at 40 px), no background rect.
+export function IconTyreFit() {
+  return (
+    <svg viewBox="30 10 620 480" width={SZ} height={SZ} preserveAspectRatio="none" aria-hidden>
+      {/* Bark zewnętrzny (lewy) */}
+      <g fill={A}>
+        <rect x="32" y="14"  width="80" height="38" rx="2"/>
+        <rect x="32" y="60"  width="80" height="30" rx="2"/>
+        <rect x="32" y="98"  width="80" height="38" rx="2"/>
+        <rect x="32" y="144" width="80" height="30" rx="2"/>
+        <rect x="32" y="182" width="80" height="38" rx="2"/>
+        <rect x="32" y="228" width="80" height="30" rx="2"/>
+        <rect x="32" y="266" width="80" height="38" rx="2"/>
+        <rect x="32" y="312" width="80" height="30" rx="2"/>
+        <rect x="32" y="350" width="80" height="38" rx="2"/>
+        <rect x="32" y="396" width="80" height="30" rx="2"/>
+        <rect x="32" y="434" width="80" height="55" rx="2"/>
+      </g>
+      {/* Bloki zewnętrzne */}
+      <g fill={A}>
+        <rect x="134" y="14"  width="94" height="46" rx="2"/>
+        <rect x="134" y="70"  width="94" height="26" rx="2"/>
+        <rect x="134" y="106" width="94" height="46" rx="2"/>
+        <rect x="134" y="162" width="94" height="26" rx="2"/>
+        <rect x="134" y="198" width="94" height="46" rx="2"/>
+        <rect x="134" y="254" width="94" height="26" rx="2"/>
+        <rect x="134" y="290" width="94" height="46" rx="2"/>
+        <rect x="134" y="346" width="94" height="26" rx="2"/>
+        <rect x="134" y="382" width="94" height="46" rx="2"/>
+        <rect x="134" y="438" width="94" height="51" rx="2"/>
+      </g>
+      {/* Żebro środkowe zewnętrzne — ciągłe */}
+      <rect x="252" y="10" width="86" height="480" fill={A}/>
+      {/* Żebro środkowe wewnętrzne — ciągłe */}
+      <rect x="362" y="10" width="84" height="480" fill={A}/>
+      {/* Bloki wewnętrzne */}
+      <g fill={A}>
+        <rect x="468" y="14"  width="86" height="36" rx="2"/>
+        <rect x="468" y="62"  width="86" height="24" rx="2"/>
+        <rect x="468" y="98"  width="86" height="36" rx="2"/>
+        <rect x="468" y="146" width="86" height="24" rx="2"/>
+        <rect x="468" y="182" width="86" height="36" rx="2"/>
+        <rect x="468" y="230" width="86" height="24" rx="2"/>
+        <rect x="468" y="266" width="86" height="36" rx="2"/>
+        <rect x="468" y="314" width="86" height="24" rx="2"/>
+        <rect x="468" y="350" width="86" height="36" rx="2"/>
+        <rect x="468" y="398" width="86" height="24" rx="2"/>
+        <rect x="468" y="434" width="86" height="55" rx="2"/>
+      </g>
+      {/* Bark wewnętrzny (prawy) */}
+      <g fill={A}>
+        <rect x="558" y="14"  width="88" height="34" rx="2"/>
+        <rect x="558" y="58"  width="88" height="22" rx="2"/>
+        <rect x="558" y="90"  width="88" height="34" rx="2"/>
+        <rect x="558" y="134" width="88" height="22" rx="2"/>
+        <rect x="558" y="166" width="88" height="34" rx="2"/>
+        <rect x="558" y="210" width="88" height="22" rx="2"/>
+        <rect x="558" y="242" width="88" height="34" rx="2"/>
+        <rect x="558" y="286" width="88" height="22" rx="2"/>
+        <rect x="558" y="318" width="88" height="34" rx="2"/>
+        <rect x="558" y="362" width="88" height="22" rx="2"/>
+        <rect x="558" y="394" width="88" height="34" rx="2"/>
+        <rect x="558" y="438" width="88" height="51" rx="2"/>
+      </g>
+    </svg>
+  );
+}
 
 // Seasonal storage → stacked layers
 export const IconStorage = () => (
@@ -120,20 +184,23 @@ export function IconTPMS() {
   );
 }
 
-// RunFlat — tyre cross-section (as if tyre cut in half and viewed end-on):
-// outer rubber profile + RED filled sidewall inserts (the self-supporting reinforcement
-// visible as pink wedges in technical diagrams) + inner air chamber
+// RunFlat — paths copied 1:1 from runflat_symbol.svg (user-provided file).
+// Original: fill="#888888", transform flips y-axis. Accent color replaces gray.
 export function IconRunFlat() {
   return (
-    <svg {...SL} aria-hidden>
-      {/* outer tyre profile: flat tread on top, vertical sides, rounded bead at bottom */}
-      <path d="M 3 4 L 21 4 L 22 5 L 22 16 Q 22 20 19 21 L 5 21 Q 2 20 2 16 L 2 5 Z" strokeWidth="1.5" />
-      {/* LEFT sidewall reinforcement insert — filled accent trapezoid */}
-      <path d="M 2.5 6 L 6.5 7 L 6.5 18.5 L 2.5 19.5 Z" fill={A} stroke="none" />
-      {/* RIGHT sidewall reinforcement insert — mirrored */}
-      <path d="M 21.5 6 L 17.5 7 L 17.5 18.5 L 21.5 19.5 Z" fill={A} stroke="none" />
-      {/* inner air chamber */}
-      <rect x="7" y="6.5" width="10" height="12" rx="1" strokeWidth="1.5" />
+    <svg version="1.0" viewBox="0 0 680 741" width={SZ} height={SZ} aria-hidden>
+      <g transform="translate(0,741) scale(0.4072,-0.4072)" fill={A} stroke="none">
+        <path d="M1140 1657 c0 -137 37 -285 145 -576 22 -62 26 -87 23 -146 -5 -103 -46 -182 -158 -299 -73 -76 -102 -99 -160 -126 -40 -18 -110 -43 -157 -56 -47 -13 -89 -26 -92 -30 -9 -10 205 6 286 22 40 7 93 22 118 33 66 29 154 102 200 166 61 86 84 154 84 258 1 69 -5 105 -25 165 -14 42 -52 136 -85 207 -88 189 -115 259 -140 358 -12 48 -25 87 -30 87 -5 0 -9 -28 -9 -63z" />
+        <path d="M1250 1674 c0 -14 42 -170 57 -207 8 -23 56 -127 106 -231 l91 -189 4 -93 c4 -74 0 -107 -17 -161 -27 -90 -83 -183 -151 -252 -66 -67 -128 -102 -230 -131 -84 -23 -118 -25 -635 -41 -203 -6 -372 -13 -374 -14 -6 -6 77 -150 121 -209 l41 -56 58 0 58 0 6 38 c11 77 20 105 36 115 29 18 48 0 64 -60 9 -32 20 -65 24 -73 7 -12 30 -14 132 -11 68 2 153 6 189 10 l65 6 11 69 c6 37 18 72 25 77 34 22 56 -3 81 -91 12 -42 15 -45 46 -44 17 0 84 1 147 2 l115 2 25 39 c16 23 33 73 44 127 14 67 32 115 74 194 76 143 108 254 114 401 4 76 1 135 -7 170 -7 30 -47 126 -90 214 -85 174 -130 290 -130 335 0 24 -7 33 -40 50 -39 20 -60 25 -60 14z" />
+        <path d="M1005 1480 c-24 -27 -22 -70 5 -92 28 -23 62 -23 82 0 28 31 30 57 7 85 -25 33 -68 36 -94 7z" />
+        <path d="M1056 1298 c-9 -12 -16 -32 -16 -44 0 -25 43 -64 69 -64 27 0 61 38 61 69 0 15 -8 35 -18 44 -27 25 -78 22 -96 -5z" />
+        <path d="M1097 1122 c-25 -27 -22 -78 5 -96 12 -9 32 -16 44 -16 25 0 64 43 64 71 0 28 -36 59 -68 59 -16 0 -36 -8 -45 -18z" />
+        <path d="M1096 936 c-30 -29 -33 -56 -8 -84 39 -47 112 -23 112 37 0 35 -18 58 -52 66 -21 5 -33 1 -52 -19z" />
+        <path d="M1007 772 c-10 -10 -17 -31 -17 -45 0 -32 32 -67 60 -67 26 0 70 43 70 67 0 10 -7 29 -16 41 -19 28 -74 30 -97 4z" />
+        <path d="M857 662 c-25 -28 -21 -67 9 -91 15 -12 32 -21 39 -21 7 0 24 9 39 21 50 39 24 109 -41 109 -16 0 -37 -8 -46 -18z" />
+        <path d="M703 610 c-25 -10 -38 -48 -29 -84 7 -28 51 -47 83 -35 23 8 43 38 43 64 0 19 -44 65 -62 64 -7 0 -23 -4 -35 -9z" />
+        <path d="M507 542 c-10 -10 -17 -31 -17 -45 0 -32 32 -67 60 -67 12 0 32 11 45 25 14 13 25 33 25 45 0 29 -35 60 -68 60 -16 0 -36 -8 -45 -18z" />
+      </g>
     </svg>
   );
 }

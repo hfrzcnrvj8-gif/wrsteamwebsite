@@ -352,7 +352,12 @@
     "agb": "AGB",
     "widerruf": "Widerrufsrecht",
     "rights": "Alle Rechte vorbehalten.",
-    "madeIn": "Sehnde · Region Hannover"
+    "madeIn": "Sehnde · Region Hannover",
+    "hoursLabel": "Öffnungszeiten",
+    "hours": [
+      { "day": "Mo – Fr", "time": "07:00 – 15:30 Uhr" },
+      { "day": "Samstag", "time": "geschlossen" }
+    ]
   },
   "privacy": {
     "title": "Datenschutzerklärung",

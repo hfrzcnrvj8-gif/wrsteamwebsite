@@ -352,7 +352,12 @@
     "agb": "Terms (AGB)",
     "widerruf": "Right of withdrawal",
     "rights": "All rights reserved.",
-    "madeIn": "Sehnde · Hannover region"
+    "madeIn": "Sehnde · Hannover region",
+    "hoursLabel": "Opening hours",
+    "hours": [
+      { "day": "Mon – Fri", "time": "07:00 – 15:30" },
+      { "day": "Saturday", "time": "closed" }
+    ]
   },
   "privacy": {
     "title": "Privacy Policy",

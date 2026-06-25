@@ -54,8 +54,8 @@ export function CookieBanner({ lang }: { lang: Locale }) {
           aria-live="polite"
           className="fixed bottom-4 left-4 right-4 z-[60] mx-auto max-w-2xl"
         >
-          <div className="glass flex flex-col gap-4 rounded-3xl px-6 py-5 shadow-2xl sm:flex-row sm:items-center">
-            <p className="flex-1 text-sm leading-relaxed text-muted">
+          <div className="glass-overlay flex flex-col gap-3 rounded-2xl px-4 py-4 shadow-2xl sm:flex-row sm:items-center sm:gap-4 sm:rounded-3xl sm:px-6 sm:py-5">
+            <p className="flex-1 text-xs leading-snug text-muted sm:text-sm sm:leading-relaxed">
               {s.text}{" "}
               <Link
                 href={`/${lang}/datenschutz`}
@@ -65,16 +65,16 @@ export function CookieBanner({ lang }: { lang: Locale }) {
               </Link>
               .
             </p>
-            <div className="flex shrink-0 gap-3">
+            <div className="flex shrink-0 gap-2 sm:gap-3">
               <button
                 onClick={() => respond("declined")}
-                className="glass rounded-full px-5 py-2.5 text-sm font-medium transition-opacity hover:opacity-80"
+                className="glass rounded-full px-4 py-2 text-xs font-medium transition-opacity hover:opacity-80 sm:px-5 sm:py-2.5 sm:text-sm"
               >
                 {s.decline}
               </button>
               <button
                 onClick={() => respond("accepted")}
-                className="btn-primary rounded-full px-5 py-2.5 text-sm font-semibold"
+                className="btn-primary rounded-full px-4 py-2 text-xs font-semibold sm:px-5 sm:py-2.5 sm:text-sm"
               >
                 {s.accept}
               </button>

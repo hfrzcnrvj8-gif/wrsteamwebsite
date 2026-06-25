@@ -17,7 +17,8 @@ export function Footer({
   const year = new Date().getFullYear();
   return (
     <footer className="relative border-t px-6 py-16 hairline">
-      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-x-8 gap-y-12 md:grid-cols-[1.7fr_1fr_1fr] md:gap-10">
+      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-x-8 gap-y-12 md:grid-cols-[1.4fr_1fr_1fr_1fr] md:gap-10">
+        {/* Col 1 — logo + contact */}
         <div className="col-span-2 max-w-sm md:col-span-1">
           <Link
             href={`/${lang}`}
@@ -32,7 +33,6 @@ export function Footer({
               className="h-9 w-auto"
             />
           </Link>
-          <p className="mt-4 text-sm text-muted">{dict.tagline}</p>
           <address className="mt-5 space-y-1.5 text-sm not-italic text-muted">
             <a
               href={mapsUrl}
@@ -58,9 +58,9 @@ export function Footer({
               Post@Reifenberatung.com
             </a>
           </address>
-          <p className="mt-4 text-xs text-muted">{dict.madeIn}</p>
         </div>
 
+        {/* Col 2 — navigation */}
         <nav className="flex flex-col gap-3 text-sm">
           <Link
             href={`/${lang}/leistungen`}
@@ -83,6 +83,7 @@ export function Footer({
           <FooterLangLinks current={lang} />
         </nav>
 
+        {/* Col 3 — legal */}
         <nav className="flex flex-col gap-3 text-sm">
           <Link
             href={`/${lang}/agb`}
@@ -109,6 +110,19 @@ export function Footer({
             {dict.impressum}
           </Link>
         </nav>
+
+        {/* Col 4 — opening hours */}
+        <div className="flex flex-col gap-0 text-sm">
+          <span className="text-xs uppercase tracking-[0.14em] text-muted">{dict.hoursLabel}</span>
+          <dl className="mt-3 space-y-1.5 text-sm">
+            {dict.hours.map((h) => (
+              <div key={h.day} className="flex flex-col gap-0.5">
+                <dt className="text-xs text-muted">{h.day}</dt>
+                <dd className="font-medium">{h.time}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
       </div>
 
       <div className="mx-auto mt-12 flex max-w-6xl flex-col gap-4 border-t pt-6 text-xs text-muted hairline sm:flex-row sm:items-center sm:justify-between">

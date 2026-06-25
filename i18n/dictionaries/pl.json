@@ -340,7 +340,12 @@
     "agb": "Regulamin (AGB)",
     "widerruf": "Prawo odstąpienia",
     "rights": "Wszelkie prawa zastrzeżone.",
-    "madeIn": "Sehnde · region Hanoweru"
+    "madeIn": "Sehnde · region Hanoweru",
+    "hoursLabel": "Godziny otwarcia",
+    "hours": [
+      { "day": "Pn – Pt", "time": "07:00 – 15:30" },
+      { "day": "Sobota", "time": "zamknięte" }
+    ]
   },
   "privacy": {
     "title": "Polityka prywatności",
