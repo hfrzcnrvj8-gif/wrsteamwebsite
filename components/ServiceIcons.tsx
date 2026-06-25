@@ -16,62 +16,25 @@ const ST = 1.5;
 
 // ── Tabler wrappers (brand colour, consistent size) ───────────────────────────
 
-// Tyre service → Pirelli P Zero PZ5 tread pattern (pirelli_pz5_bieznik.svg, user-provided).
-// Blocks in accent colour, sipes omitted (too fine at 40 px), no background rect.
+// Tyre tread icon — simplified portrait pattern designed for 40px display.
+// Two outer block columns + one solid center rib, matching PZ5 visual language.
 export function IconTyreFit() {
   return (
-    <svg viewBox="134 10 320 480" width={SZ} height={SZ} aria-hidden style={{ fill: A }}>
-      {/* Bark zewnętrzny (lewy) */}
-      <rect x="32" y="14"  width="80" height="38" rx="2"/>
-      <rect x="32" y="60"  width="80" height="30" rx="2"/>
-      <rect x="32" y="98"  width="80" height="38" rx="2"/>
-      <rect x="32" y="144" width="80" height="30" rx="2"/>
-      <rect x="32" y="182" width="80" height="38" rx="2"/>
-      <rect x="32" y="228" width="80" height="30" rx="2"/>
-      <rect x="32" y="266" width="80" height="38" rx="2"/>
-      <rect x="32" y="312" width="80" height="30" rx="2"/>
-      <rect x="32" y="350" width="80" height="38" rx="2"/>
-      <rect x="32" y="396" width="80" height="30" rx="2"/>
-      <rect x="32" y="434" width="80" height="55" rx="2"/>
-      {/* Bloki zewnętrzne */}
-      <rect x="134" y="14"  width="94" height="46" rx="2"/>
-      <rect x="134" y="70"  width="94" height="26" rx="2"/>
-      <rect x="134" y="106" width="94" height="46" rx="2"/>
-      <rect x="134" y="162" width="94" height="26" rx="2"/>
-      <rect x="134" y="198" width="94" height="46" rx="2"/>
-      <rect x="134" y="254" width="94" height="26" rx="2"/>
-      <rect x="134" y="290" width="94" height="46" rx="2"/>
-      <rect x="134" y="346" width="94" height="26" rx="2"/>
-      <rect x="134" y="382" width="94" height="46" rx="2"/>
-      <rect x="134" y="438" width="94" height="51" rx="2"/>
-      {/* Żebra środkowe */}
-      <rect x="252" y="10" width="86" height="480"/>
-      <rect x="362" y="10" width="84" height="480"/>
-      {/* Bloki wewnętrzne */}
-      <rect x="468" y="14"  width="86" height="36" rx="2"/>
-      <rect x="468" y="62"  width="86" height="24" rx="2"/>
-      <rect x="468" y="98"  width="86" height="36" rx="2"/>
-      <rect x="468" y="146" width="86" height="24" rx="2"/>
-      <rect x="468" y="182" width="86" height="36" rx="2"/>
-      <rect x="468" y="230" width="86" height="24" rx="2"/>
-      <rect x="468" y="266" width="86" height="36" rx="2"/>
-      <rect x="468" y="314" width="86" height="24" rx="2"/>
-      <rect x="468" y="350" width="86" height="36" rx="2"/>
-      <rect x="468" y="398" width="86" height="24" rx="2"/>
-      <rect x="468" y="434" width="86" height="55" rx="2"/>
-      {/* Bark wewnętrzny (prawy) */}
-      <rect x="558" y="14"  width="88" height="34" rx="2"/>
-      <rect x="558" y="58"  width="88" height="22" rx="2"/>
-      <rect x="558" y="90"  width="88" height="34" rx="2"/>
-      <rect x="558" y="134" width="88" height="22" rx="2"/>
-      <rect x="558" y="166" width="88" height="34" rx="2"/>
-      <rect x="558" y="210" width="88" height="22" rx="2"/>
-      <rect x="558" y="242" width="88" height="34" rx="2"/>
-      <rect x="558" y="286" width="88" height="22" rx="2"/>
-      <rect x="558" y="318" width="88" height="34" rx="2"/>
-      <rect x="558" y="362" width="88" height="22" rx="2"/>
-      <rect x="558" y="394" width="88" height="34" rx="2"/>
-      <rect x="558" y="438" width="88" height="51" rx="2"/>
+    <svg viewBox="0 0 13 40" width={20} height={SZ} aria-hidden style={{ fill: A }}>
+      {/* Left block column */}
+      <rect x="0" y="0"  width="5" height="9"  rx="1"/>
+      <rect x="0" y="11" width="5" height="5"  rx="1"/>
+      <rect x="0" y="18" width="5" height="9"  rx="1"/>
+      <rect x="0" y="29" width="5" height="5"  rx="1"/>
+      <rect x="0" y="36" width="5" height="4"  rx="1"/>
+      {/* Center solid rib */}
+      <rect x="7" y="0"  width="3" height="40"/>
+      {/* Right block column (offset by half a pitch) */}
+      <rect x="11" y="4"  width="2" height="7"  rx="1"/>
+      <rect x="11" y="13" width="2" height="4"  rx="1"/>
+      <rect x="11" y="19" width="2" height="7"  rx="1"/>
+      <rect x="11" y="28" width="2" height="4"  rx="1"/>
+      <rect x="11" y="34" width="2" height="6"  rx="1"/>
     </svg>
   );
 }
