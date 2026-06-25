@@ -51,6 +51,7 @@ export function Header({
       className="fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-4"
     >
       <nav
+        aria-label="Hauptnavigation"
         className={`flex w-full max-w-6xl items-center justify-between rounded-full px-5 py-2.5 transition-all duration-500 ${
           scrolled ? "glass shadow-xl" : "border border-transparent"
         }`}

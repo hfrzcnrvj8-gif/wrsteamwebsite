@@ -114,10 +114,13 @@ export function ContactForm({
               autoComplete="name"
               placeholder={dict.namePlaceholder}
               className={inputBase}
+              aria-required="true"
+              aria-invalid={errors.name ? "true" : undefined}
+              aria-describedby={errors.name ? "name-error" : undefined}
             />
           </div>
           {errors.name && (
-            <p className="mt-1.5 text-xs text-red-400">{dict.errors.name}</p>
+            <p id="name-error" role="alert" className="mt-1.5 text-xs text-red-400">{dict.errors.name}</p>
           )}
         </div>
 
@@ -133,10 +136,13 @@ export function ContactForm({
               autoComplete="email"
               placeholder={dict.emailPlaceholder}
               className={inputBase}
+              aria-required="true"
+              aria-invalid={errors.email ? "true" : undefined}
+              aria-describedby={errors.email ? "email-error" : undefined}
             />
           </div>
           {errors.email && (
-            <p className="mt-1.5 text-xs text-red-400">{dict.errors.email}</p>
+            <p id="email-error" role="alert" className="mt-1.5 text-xs text-red-400">{dict.errors.email}</p>
           )}
         </div>
       </div>
@@ -201,10 +207,13 @@ export function ContactForm({
             rows={5}
             placeholder={dict.messagePlaceholder}
             className={`${inputBase} resize-none`}
+            aria-required="true"
+            aria-invalid={errors.message ? "true" : undefined}
+            aria-describedby={errors.message ? "message-error" : undefined}
           />
         </div>
         {errors.message && (
-          <p className="mt-1.5 text-xs text-red-400">{dict.errors.message}</p>
+          <p id="message-error" role="alert" className="mt-1.5 text-xs text-red-400">{dict.errors.message}</p>
         )}
       </div>
 

@@ -2,33 +2,34 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { useRef } from "react";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 
 export function Hero({ dict, lang }: { dict: Dictionary["hero"]; lang: Locale }) {
   const ref = useRef<HTMLDivElement>(null);
+  const reduced = useReducedMotion();
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
   });
-  const orbY = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
-  const contentY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
+  const orbY = useTransform(scrollYProgress, [0, 1], reduced ? ["0%", "0%"] : ["0%", "40%"]);
+  const contentY = useTransform(scrollYProgress, [0, 1], reduced ? ["0%", "0%"] : ["0%", "30%"]);
   const contentOpacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   const container = {
     hidden: {},
-    visible: { transition: { staggerChildren: 0.14, delayChildren: 0.2 } },
+    visible: { transition: { staggerChildren: reduced ? 0 : 0.14, delayChildren: reduced ? 0 : 0.2 } },
   };
   const item = {
-    hidden: { opacity: 0, y: 36, filter: "blur(8px)" },
+    hidden: { opacity: 0, y: reduced ? 0 : 36, filter: reduced ? "blur(0px)" : "blur(8px)" },
     visible: {
       opacity: 1,
       y: 0,
       filter: "blur(0px)",
       transition: {
-        duration: 0.9,
+        duration: reduced ? 0.15 : 0.9,
         ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
       },
     },

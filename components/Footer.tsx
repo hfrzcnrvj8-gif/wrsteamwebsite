@@ -61,7 +61,7 @@ export function Footer({
         </div>
 
         {/* Col 2 — navigation */}
-        <nav className="flex flex-col gap-3 text-sm">
+        <nav aria-label="Seitennavigation" className="flex flex-col gap-3 text-sm">
           <Link
             href={`/${lang}/leistungen`}
             className="text-muted transition-colors hover:text-[var(--fg)]"
@@ -84,7 +84,7 @@ export function Footer({
         </nav>
 
         {/* Col 3 — legal */}
-        <nav className="flex flex-col gap-3 text-sm">
+        <nav aria-label="Rechtliche Informationen" className="flex flex-col gap-3 text-sm">
           <Link
             href={`/${lang}/agb`}
             className="text-muted transition-colors hover:text-[var(--fg)]"
