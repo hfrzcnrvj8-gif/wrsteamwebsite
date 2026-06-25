@@ -78,18 +78,20 @@ export function Header({
 
         <div className="flex items-center gap-2">
           <LegalMenu lang={lang} navLinks={links} />
-          <LanguageSwitcher current={lang} />
+          <div className="hidden sm:block">
+            <LanguageSwitcher current={lang} />
+          </div>
           <a
             href={workshopPhoneHref}
             aria-label="Anrufen"
-            className="glass grid h-10 w-10 place-items-center rounded-full text-base transition-transform hover:scale-105"
+            className="grid h-10 w-10 place-items-center rounded-full border border-brand-red text-brand-red transition-transform hover:scale-105 hover:bg-brand-red/10"
           >
             ✆
           </a>
 
           <Link
             href={`/${lang}/kontakt`}
-            className="btn-primary hidden rounded-full px-5 py-2 text-sm font-semibold sm:inline-block"
+            className="btn-primary inline-block rounded-full px-5 py-2 text-sm font-semibold"
           >
             {dict.book}
           </Link>

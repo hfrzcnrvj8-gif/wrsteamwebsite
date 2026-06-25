@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { mapsUrl } from "@/lib/site";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 
@@ -109,10 +110,13 @@ export function Footer({
         </nav>
       </div>
 
-      <div className="mx-auto mt-12 flex max-w-6xl flex-col gap-3 border-t pt-6 text-xs text-muted hairline sm:flex-row sm:items-center sm:justify-between">
+      <div className="mx-auto mt-12 flex max-w-6xl flex-col gap-4 border-t pt-6 text-xs text-muted hairline sm:flex-row sm:items-center sm:justify-between">
         <span>
           © {year} Wollny Reifenservice GmbH. {dict.rights}
         </span>
+        <div className="sm:hidden">
+          <LanguageSwitcher current={lang} />
+        </div>
         <a
           href="https://patrykpiecyk.pl"
           target="_blank"
