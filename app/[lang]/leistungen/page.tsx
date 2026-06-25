@@ -50,7 +50,7 @@ export default async function LeistungenPage({
               priority
               sizes="100vw"
               className="object-cover opacity-25"
-              style={{ objectPosition: "center 20%" }}
+              style={{ objectPosition: "center 38%" }}
             />
             <div
               className="absolute inset-0"
