@@ -52,8 +52,8 @@
   },
   "problem": {
     "label": "Why Wollny",
-    "title": "A misaligned chassis costs you on every kilometre.",
-    "subtitle": "Just a few millimetres of toe deviation mean faster wear, higher consumption and less grip. We bring every detail back to the point.",
+    "title": "Poor wheel alignment costs you on every kilometre.",
+    "subtitle": "Just a few millimetres of toe deviation mean faster wear, higher consumption and less grip. We bring every parameter back to spec.",
     "cloud": {
       "title": "Without professional alignment",
       "points": [
@@ -206,7 +206,7 @@
   "approach": {
     "label": "How it works",
     "title": "Ready to roll in four steps.",
-    "subtitle": "No unnecessary paperwork, no waiting without a plan — you always know what we are working on.",
+    "subtitle": "No unnecessary paperwork, no unnecessary waiting — you always know what we're working on.",
     "steps": [
       {
         "step": "01",
@@ -243,7 +243,7 @@
   "motorcycle": {
     "label": "Motorcycles too",
     "title": "Tyre service for motorcycles, too.",
-    "body": "Already removed wheels? We mount and balance them anytime — just drop them off. If the wheels are to be taken off the motorcycle itself, we are happy to arrange that by individual appointment.",
+    "body": "Already removed wheels? We mount and balance them anytime — just drop them off. If the wheels are still on the bike, we'll remove and refit them too — just book an individual appointment.",
     "cta": "Arrange an appointment"
   },
   "founding": {

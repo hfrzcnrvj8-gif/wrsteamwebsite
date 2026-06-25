@@ -15,7 +15,7 @@
       "metaTitle": "Leistungen — Wollny Reifenservice GmbH",
       "eyebrow": "Unsere Leistungen",
       "title": "Reifen, Felgen und Fahrwerk — alles aus einer Hand.",
-      "subtitle": "Ein vollständiger Überblick über unsere Werkstattleistungen in Sehnde — von der saisonalen Reifenmontage bis zur präzisen 3D-Achsvermessung auf Grad und Bogenminute.",
+      "subtitle": "Ein vollständiger Überblick über unsere Werkstattleistungen in Sehnde — von der saisonalen Reifenmontage bis zur präzisen 3D-Achsvermessung auf Grad und Minute.",
       "ctaTitle": "Bereit für Ihren Termin?",
       "ctaText": "Vereinbaren Sie jetzt einen Termin — telefonisch oder bequem über das Kontaktformular.",
       "ctaButton": "Zum Kontakt"
@@ -41,7 +41,7 @@
   "hero": {
     "badge": "Seit 1987 · Ihr Reifenspezialist in Sehnde bei Hannover",
     "titleLines": ["Präzision, die Sie", "auf der Straße spüren."],
-    "subtitle": "Reifen, Felgen und 3D-Achsvermessung auf Grad und Bogenminute — von einem Familienbetrieb, der seit über 35 Jahren für Sicherheit, Laufruhe und ehrliche Beratung steht.",
+    "subtitle": "Reifen, Felgen und 3D-Achsvermessung auf Grad und Minute — von einem Familienbetrieb, der seit über 35 Jahren für Sicherheit, Laufruhe und ehrliche Beratung steht.",
     "ctaPrimary": "Termin vereinbaren",
     "ctaSecondary": "Unsere Leistungen",
     "stats": [
@@ -66,7 +66,7 @@
     "local": {
       "title": "Mit fachgerechter Einstellung",
       "points": [
-        "3D-Achsvermessung auf Grad und Bogenminute",
+        "3D-Achsvermessung auf Grad und Minute",
         "Maximale Laufleistung Ihrer Reifen",
         "Spürbar ruhiger und sicherer Geradeauslauf",
         "Volle Bodenhaftung und kurze Bremswege"
@@ -85,7 +85,7 @@
       },
       {
         "title": "3D-Achsvermessung mit Hunter",
-        "description": "Computergestützte 3D-Fahrwerksvermessung auf einer Hunter-Anlage. Wir messen und stellen Spur und Sturz auf Grad und Bogenminute genau ein — für ruhigen Geradeauslauf und gleichmäßigen Reifenverschleiß.",
+        "description": "Computergestützte 3D-Fahrwerksvermessung auf einer Hunter-Anlage. Wir messen und stellen Spur und Sturz auf Grad und Minute genau ein — für ruhigen Geradeauslauf und gleichmäßigen Reifenverschleiß.",
         "tags": ["Spur", "Sturz", "Hunter 3D", "Fahrwerk"]
       },
       {
@@ -144,7 +144,7 @@
     "items": [
       {
         "title": "Hawkeye Elite® · 3D-Achsvermessung",
-        "description": "Kamerabasierte 3D-Vermessung in Sekunden — auf Grad und Bogenminute genau. Wir sehen sofort, ob Spur und Sturz exakt stimmen.",
+        "description": "Kamerabasierte 3D-Vermessung in Sekunden — auf Grad und Minute genau. Wir sehen sofort, ob Spur und Sturz exakt stimmen.",
         "impact": "Exakte Werte, weniger Verschleiß"
       },
       {
@@ -276,7 +276,7 @@
       },
       {
         "q": "Wann ist eine Achsvermessung sinnvoll?",
-        "a": "Immer dann, wenn Ihr Fahrzeug einseitig zieht, die Reifen ungleichmäßig abnutzen oder nach Arbeiten am Fahrwerk und nach Bordsteinkontakt. Unsere 3D-Achsvermessung zeigt auf Grad und Bogenminute, ob Spur und Sturz stimmen."
+        "a": "Immer dann, wenn Ihr Fahrzeug einseitig zieht, die Reifen ungleichmäßig abnutzen oder nach Arbeiten am Fahrwerk und nach Bordsteinkontakt. Unsere 3D-Achsvermessung zeigt auf Grad und Minute, ob Spur und Sturz stimmen."
       },
       {
         "q": "Lagern Sie meine Saisonreifen ein?",
