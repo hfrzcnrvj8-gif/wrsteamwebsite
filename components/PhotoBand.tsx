@@ -4,9 +4,10 @@ import Image from "next/image";
 import type { ReactNode } from "react";
 import { Reveal } from "./Reveal";
 
-// Full-bleed, hero-sized photo section. Stacks seamlessly: the top + bottom
-// fades blend into the deep-black page background so consecutive bands flow
-// into each other with soft gradient transitions.
+// Full-bleed, hero-sized photo section. The image sits in an absolute layer of a
+// min-height section (robust on iOS Safari, where `fill` inside a flex+min-height
+// box can collapse). On mobile the copy drops to the bottom with a bottom-up
+// scrim; on desktop it uses the directional `align` scrim.
 export function PhotoBand({
   src,
   alt = "",
@@ -26,7 +27,7 @@ export function PhotoBand({
   className?: string;
   children: ReactNode;
 }) {
-  const scrim =
+  const desktopScrim =
     align === "center"
       ? "rgba(10,10,11,0.55)"
       : align === "right"
@@ -34,18 +35,21 @@ export function PhotoBand({
         : "linear-gradient(90deg, rgba(10,10,11,0.92) 0%, rgba(10,10,11,0.64) 38%, rgba(10,10,11,0.12) 70%, rgba(10,10,11,0) 100%)";
   const contentClass =
     align === "center"
-      ? "mx-auto max-w-2xl text-center"
+      ? "mx-auto max-w-xl text-center"
       : align === "right"
-        ? "ml-auto max-w-xl"
-        : "max-w-xl";
+        ? "md:ml-auto md:max-w-xl"
+        : "md:max-w-xl";
+  const vClass =
+    valign === "bottom"
+      ? "md:items-end md:pb-24"
+      : "md:items-center md:pb-0";
 
   return (
-    <section className={`relative w-full overflow-hidden ${className}`}>
-      <div
-        className={`relative flex min-h-[85vh] w-full ${
-          valign === "bottom" ? "items-end pb-20 md:pb-28" : "items-center"
-        }`}
-      >
+    <section
+      className={`relative flex min-h-[88vh] w-full items-end overflow-hidden pb-16 pt-28 md:min-h-[85vh] md:pt-0 ${vClass} ${className}`}
+    >
+      {/* image + overlays as an absolute layer of the section */}
+      <div className="absolute inset-0">
         <Image
           src={src}
           alt={alt}
@@ -55,24 +59,31 @@ export function PhotoBand({
           className="object-cover"
           style={{ objectPosition }}
         />
-
         {/* vertical fades — seamless stacking between bands */}
         <div
-          className="pointer-events-none absolute inset-0"
+          className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, #0a0a0b 0%, rgba(10,10,11,0) 15%, rgba(10,10,11,0) 70%, rgba(10,10,11,0.97) 100%)",
+              "linear-gradient(180deg, #0a0a0b 0%, rgba(10,10,11,0) 15%, rgba(10,10,11,0) 68%, rgba(10,10,11,0.97) 100%)",
           }}
         />
-        {/* directional scrim for text legibility */}
+        {/* mobile: bottom-up scrim for legibility */}
         <div
-          className="pointer-events-none absolute inset-0"
-          style={{ background: scrim }}
+          className="absolute inset-0 md:hidden"
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(10,10,11,0) 28%, rgba(10,10,11,0.5) 58%, rgba(10,10,11,0.9) 100%)",
+          }}
         />
+        {/* desktop: directional scrim */}
+        <div
+          className="absolute inset-0 hidden md:block"
+          style={{ background: desktopScrim }}
+        />
+      </div>
 
-        <div className="relative mx-auto w-full max-w-6xl px-6">
-          <Reveal className={contentClass}>{children}</Reveal>
-        </div>
+      <div className="relative mx-auto w-full max-w-6xl px-6">
+        <Reveal className={contentClass}>{children}</Reveal>
       </div>
     </section>
   );

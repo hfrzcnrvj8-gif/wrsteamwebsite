@@ -147,6 +147,17 @@ export default async function ImpressumPage({
               Verbraucherstreitbeilegung
             </h2>
             <p className="mt-3 leading-relaxed text-muted">{COMPANY.dispute}</p>
+            <p className="mt-3 leading-relaxed text-muted">
+              Plattform der EU-Kommission zur Online-Streitbeilegung (OS):{" "}
+              <a
+                href="https://ec.europa.eu/consumers/odr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-liquid underline-offset-2 hover:underline"
+              >
+                https://ec.europa.eu/consumers/odr
+              </a>
+            </p>
           </section>
         </Reveal>
 

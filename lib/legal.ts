@@ -259,62 +259,34 @@ export const datenschutz: LegalDoc = {
       ],
     },
     {
-      heading: "1. Zugriffsdaten und Hosting",
+      heading: "1. Hosting und Server-Logfiles",
       blocks: [
-        "Sie können unsere Webseiten besuchen, ohne Angaben zu Ihrer Person zu machen. Bei jedem Aufruf einer Webseite speichert der Webserver lediglich automatisch ein sogenanntes Server-Logfile, das z.B. den Namen der angeforderten Datei, Ihre IP-Adresse, Datum und Uhrzeit des Abrufs, übertragene Datenmenge und den anfragenden Provider (Zugriffsdaten) enthält und den Abruf dokumentiert. Diese Zugriffsdaten werden ausschließlich zum Zwecke der Sicherstellung eines störungsfreien Betriebs der Seite sowie der Verbesserung unseres Angebots ausgewertet. Dies dient der Wahrung unserer im Rahmen einer Interessensabwägung überwiegenden berechtigten Interessen an einer korrekten Darstellung unseres Angebots gemäß Art. 6 Abs. 1 S. 1 lit. f DSGVO. Alle Zugriffsdaten werden nur so lange verarbeitet, wie dies für die Erreichung der oben genannten Verarbeitungszwecke erforderlich ist.",
-        "1.1 Hosting: Die Dienste zum Hosting und zur Darstellung der Webseite werden teilweise durch unsere Dienstleister im Rahmen einer Verarbeitung in unserem Auftrag erbracht. Soweit nichts anderes erläutert wird, werden alle Zugriffsdaten sowie alle Daten, die in dafür vorgesehenen Formularen erhoben werden, auf ihren Servern verarbeitet.",
-        "1.2 Content Delivery Network: Zum Zwecke einer kürzeren Ladezeit setzen wir bei einigen Angeboten ein sogenanntes Content Delivery Network („CDN“) ein. Bei diesem Dienst werden Inhalte über regional verteilte Server externer CDN-Dienstleister ausgeliefert. Daher werden auf den Servern der Dienstleister Zugriffsdaten verarbeitet.",
+        "Sie können unsere Website besuchen, ohne Angaben zu Ihrer Person zu machen. Bei jedem Aufruf speichert der Webserver automatisch ein sogenanntes Server-Logfile, das z.B. Ihre IP-Adresse, Datum und Uhrzeit des Abrufs, den Namen der angeforderten Datei, die übertragene Datenmenge sowie Browser- und Betriebssystem-Informationen enthält. Diese Daten dienen ausschließlich dem störungsfreien und sicheren Betrieb der Website und werden auf Grundlage unseres berechtigten Interesses gemäß Art. 6 Abs. 1 S. 1 lit. f DSGVO verarbeitet und nur kurzzeitig gespeichert.",
+        "Unsere Website wird bei der Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA, gehostet, die als Auftragsverarbeiter für uns tätig ist. Eine etwaige Übermittlung in die USA stützt sich auf Standardvertragsklauseln der EU-Kommission bzw. das EU-US Data Privacy Framework.",
       ],
     },
     {
-      heading: "2. Datenverarbeitung zur Vertragsabwicklung und Kontaktaufnahme",
+      heading: "2. Kontaktformular und E-Mail",
       blocks: [
-        "Wir erheben personenbezogene Daten, wenn Sie uns diese im Rahmen Ihrer Bestellung oder bei einer Kontaktaufnahme (z.B. per Kontaktformular oder E-Mail) freiwillig mitteilen. Pflichtfelder werden als solche gekennzeichnet, da wir die Daten zwingend zur Vertragsabwicklung bzw. zur Bearbeitung Ihrer Kontaktaufnahme benötigen. Wir verwenden die mitgeteilten Daten zur Vertragsabwicklung und Bearbeitung Ihrer Anfragen gemäß Art. 6 Abs. 1 S. 1 lit. b DSGVO.",
-        "Nach vollständiger Bearbeitung Ihrer Anfrage bzw. Abwicklung des Vertrages werden Ihre Daten für die weitere Verarbeitung eingeschränkt und nach Ablauf etwaiger steuer- und handelsrechtlicher Aufbewahrungsfristen gemäß Art. 6 Abs. 1 S. 1 lit. c DSGVO gelöscht, sofern Sie nicht ausdrücklich in eine weitere Nutzung eingewilligt haben.",
+        "Wenn Sie unser Kontaktformular nutzen oder uns per E-Mail schreiben, verarbeiten wir die von Ihnen angegebenen Daten — Name und E-Mail-Adresse, optional Telefonnummer, Fahrzeug und Firma sowie Ihre Nachricht — um Ihre Anfrage zu bearbeiten und einen Termin abzustimmen. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b und lit. f DSGVO. Pflichtfelder sind als solche gekennzeichnet.",
+        "Für den technischen Versand des Formulars als E-Mail setzen wir den Dienstleister Resend (Resend, Inc., USA) als Auftragsverarbeiter ein; eine Übermittlung in die USA stützt sich auf Standardvertragsklauseln bzw. das EU-US Data Privacy Framework. Ihre Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungsfristen entgegenstehen.",
       ],
     },
     {
-      heading: "3. Datenverarbeitung zur Versandabwicklung",
+      heading: "3. Karten und externe Links",
       blocks: [
-        "Zur Vertragserfüllung gemäß Art. 6 Abs. 1 S. 1 lit. b DSGVO geben wir Ihre Daten an den mit der Lieferung beauftragten Versanddienstleister weiter, soweit dies zur Lieferung bestellter Waren erforderlich ist.",
+        "Wir binden keine Karten- oder Drittanbieterdienste direkt in unsere Website ein. Die Schaltfläche „Route planen“ ist lediglich ein Link zu Google Maps. Erst wenn Sie diesen Link anklicken, verlassen Sie unsere Website und es gelten die Datenschutzbestimmungen von Google. Auf die dortige Verarbeitung haben wir keinen Einfluss.",
       ],
     },
     {
-      heading: "4. Datenverarbeitung zur Zahlungsabwicklung",
+      heading: "4. Cookies und lokale Speicherung",
       blocks: [
-        "Bei der Abwicklung von Zahlungen arbeiten wir mit technischen Dienstleistern, Kreditinstituten und Zahlungsdienstleistern zusammen. Je nach ausgewählter Zahlungsart geben wir die für die Abwicklung der Zahlungstransaktion notwendigen Daten weiter, soweit dies zur Abwicklung der Zahlung erforderlich ist (Art. 6 Abs. 1 S. 1 lit. b DSGVO). Gegebenenfalls werden weitere Daten zum Zwecke der Betrugsprävention und der Optimierung unserer Zahlungsprozesse gemäß Art. 6 Abs. 1 S. 1 lit. f DSGVO verarbeitet.",
+        "Unsere Website verwendet keine Tracking-, Analyse- oder Marketing-Cookies. Es werden weder Webanalyse-Dienste noch Werbe- oder Social-Media-Plugins geladen — daher ist kein Cookie-Banner erforderlich.",
+        "Für eine technisch notwendige Funktion (Ihre gewählte helle oder dunkle Darstellung) speichern wir einen Wert im lokalen Speicher Ihres Browsers. Diese Speicherung ist für den von Ihnen gewünschten Dienst erforderlich und bedarf keiner Einwilligung. Sie können sie jederzeit über die Einstellungen Ihres Browsers zurücksetzen.",
       ],
     },
     {
-      heading: "5. Cookies und weitere Technologien",
-      blocks: [
-        "Um den Besuch unserer Webseite attraktiv zu gestalten und die Nutzung bestimmter Funktionen zu ermöglichen, verwenden wir auf verschiedenen Seiten Technologien einschließlich sogenannter Cookies. Cookies sind kleine Textdateien, die automatisch auf Ihrem Endgerät gespeichert werden. Einige Cookies werden nach Ende der Browser-Sitzung wieder gelöscht (Sitzungs-Cookies), andere verbleiben auf Ihrem Endgerät (persistente Cookies).",
-        "Bei nicht unbedingt erforderlichen Funktionen bedarf die Speicherung von Informationen in Ihrem Endgerät oder der Zugriff auf Informationen Ihrer Einwilligung. Ihre etwaig erteilten Einwilligungen bleiben solange bestehen, bis Sie die jeweiligen Einstellungen in Ihrem Endgerät anpassen oder zurücksetzen. Soweit Sie eingewilligt haben (Art. 6 Abs. 1 S. 1 lit. a DSGVO), können Sie Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen.",
-        "Zur Verwaltung von Einwilligungen setzen wir das Jimdo Consent Manager Tool der Jimdo GmbH, Stresemannstraße 375, 22761 Hamburg, ein.",
-      ],
-    },
-    {
-      heading: "6. Einsatz von Cookies und anderen Technologien",
-      blocks: [
-        "Wir verwenden auf unserer Webseite u.a. die folgenden Technologien von Drittanbietern, soweit nichts anderes angegeben ist auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1 S. 1 lit. a DSGVO:",
-        {
-          list: [
-            "Cloudflare (Content Delivery Network / Sicherheit der Webseite),",
-            "Google Maps zur Darstellung der Anfahrt (Anbieter: Google),",
-            "Google Analytics zur pseudonymisierten Webseitenanalyse (Anbieter: Google).",
-          ],
-        },
-        "Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft über die Cookie-Einstellungen widerrufen.",
-      ],
-    },
-    {
-      heading: "7. Social Media",
-      blocks: [
-        "Soweit Sie hierzu Ihre Einwilligung nach Art. 6 Abs. 1 S. 1 lit. a DSGVO erteilt haben, werden bei Besuch unserer Onlinepräsenzen auf sozialen Medien (z.B. Facebook by Meta, Meta Platforms Ireland Ltd., Dublin) Ihre Daten für Marktforschungs- und Werbezwecke erhoben und Nutzungsprofile erstellt. Details entnehmen Sie bitte den Datenschutzhinweisen des jeweiligen Anbieters.",
-      ],
-    },
-    {
-      heading: "8. Ihre Rechte",
+      heading: "5. Ihre Rechte",
       blocks: [
         "Als Betroffener haben Sie folgende Rechte:",
         {
