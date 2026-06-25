@@ -38,29 +38,18 @@ export function LegalMenu({
       onMouseLeave={scheduleClose}
       onMouseEnter={cancelClose}
     >
-      {/* Mobile: hamburger → X, no border/background */}
-      <button
-        onClick={() => setOpen((v) => !v)}
-        aria-haspopup="true"
-        aria-expanded={open}
-        aria-label="Menü"
-        className="flex h-10 w-10 flex-col items-center justify-center gap-[5px] sm:hidden"
-      >
-        <span className={`block h-px w-5 bg-current transition-all duration-300 origin-center ${open ? "translate-y-[6px] rotate-45" : ""}`} />
-        <span className={`block h-px w-5 bg-current transition-all duration-200 ${open ? "opacity-0 scale-x-0" : ""}`} />
-        <span className={`block h-px w-5 bg-current transition-all duration-300 origin-center ${open ? "-translate-y-[6px] -rotate-45" : ""}`} />
-      </button>
-
-      {/* Desktop: glass pill with ··· */}
+      {/* Hamburger → X on all breakpoints, no border/background */}
       <button
         onClick={() => setOpen((v) => !v)}
         onMouseEnter={() => setOpen(true)}
         aria-haspopup="true"
         aria-expanded={open}
         aria-label="Menü"
-        className="glass hidden h-10 min-w-[4.5rem] items-center justify-center rounded-full px-4 text-base transition-transform hover:scale-105 sm:flex"
+        className="flex h-10 w-10 flex-col items-center justify-center gap-[5px]"
       >
-        <span className="-mt-1.5 tracking-widest">···</span>
+        <span className={`block h-px w-5 bg-current transition-all duration-300 origin-center ${open ? "translate-y-[6px] rotate-45" : ""}`} />
+        <span className={`block h-px w-5 bg-current transition-all duration-200 ${open ? "opacity-0 scale-x-0" : ""}`} />
+        <span className={`block h-px w-5 bg-current transition-all duration-300 origin-center ${open ? "-translate-y-[6px] -rotate-45" : ""}`} />
       </button>
 
       <AnimatePresence>
