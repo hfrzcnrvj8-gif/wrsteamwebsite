@@ -16,25 +16,23 @@ const ST = 1.5;
 
 // ── Tabler wrappers (brand colour, consistent size) ───────────────────────────
 
-// Tyre tread icon — simplified portrait pattern designed for 40px display.
-// Two outer block columns + one solid center rib, matching PZ5 visual language.
+// Tyre tread icon — top-down view of a tyre contact patch.
+// 40×40 px: two outer block columns (offset) + one solid center rib.
 export function IconTyreFit() {
   return (
-    <svg viewBox="0 0 13 40" width={20} height={SZ} aria-hidden style={{ fill: A }}>
-      {/* Left block column */}
-      <rect x="0" y="0"  width="5" height="9"  rx="1"/>
-      <rect x="0" y="11" width="5" height="5"  rx="1"/>
-      <rect x="0" y="18" width="5" height="9"  rx="1"/>
-      <rect x="0" y="29" width="5" height="5"  rx="1"/>
-      <rect x="0" y="36" width="5" height="4"  rx="1"/>
-      {/* Center solid rib */}
-      <rect x="7" y="0"  width="3" height="40"/>
-      {/* Right block column (offset by half a pitch) */}
-      <rect x="11" y="4"  width="2" height="7"  rx="1"/>
-      <rect x="11" y="13" width="2" height="4"  rx="1"/>
-      <rect x="11" y="19" width="2" height="7"  rx="1"/>
-      <rect x="11" y="28" width="2" height="4"  rx="1"/>
-      <rect x="11" y="34" width="2" height="6"  rx="1"/>
+    <svg viewBox="0 0 36 40" width={SZ} height={SZ} aria-hidden style={{ fill: A }}>
+      {/* Left outer blocks */}
+      <rect x="0" y="0"  width="11" height="8"  rx="1.5"/>
+      <rect x="0" y="11" width="11" height="6"  rx="1.5"/>
+      <rect x="0" y="20" width="11" height="8"  rx="1.5"/>
+      <rect x="0" y="31" width="11" height="9"  rx="1.5"/>
+      {/* Center continuous rib */}
+      <rect x="14" y="0" width="8"  height="40"/>
+      {/* Right outer blocks — offset by half pitch */}
+      <rect x="25" y="4"  width="11" height="6"  rx="1.5"/>
+      <rect x="25" y="13" width="11" height="8"  rx="1.5"/>
+      <rect x="25" y="24" width="11" height="6"  rx="1.5"/>
+      <rect x="25" y="33" width="11" height="7"  rx="1.5"/>
     </svg>
   );
 }
