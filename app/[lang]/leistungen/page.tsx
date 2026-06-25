@@ -4,7 +4,7 @@ import { i18n, type Locale } from "@/i18n/config";
 import { Header } from "@/components/Header";
 import { Services } from "@/components/Services";
 import { UseCases } from "@/components/UseCases";
-import { Reifenlabel } from "@/components/Reifenlabel";
+import { Ganzjahresreifen } from "@/components/Ganzjahresreifen";
 import { Approach } from "@/components/Approach";
 import { Motorcycle } from "@/components/Motorcycle";
 import { ContactCta } from "@/components/ContactCta";
@@ -60,7 +60,7 @@ export default async function LeistungenPage({
 
         <Services dict={dict.services} />
         <UseCases dict={dict.useCases} />
-        <Reifenlabel dict={dict.reifenlabel} />
+        <Ganzjahresreifen dict={dict.ganzjahr} />
         <Approach dict={dict.approach} />
         <Motorcycle dict={dict.motorcycle} lang={lang} />
         <ContactCta dict={dict.pages.contactCta} lang={lang} />

@@ -80,8 +80,8 @@
     "items": [
       {
         "title": "Reifenservice & Montage",
-        "description": "Montage, Wuchten und saisonaler Wechsel für Pkw, SUV und Performance-Fahrzeuge — schonend auf der Hunter-Evolution-Montagemaschine und mit kontrolliertem Drehmoment.",
-        "tags": ["Pkw", "SUV", "Performance", "Hunter Evolution", "RDKS"]
+        "description": "Montage, Wuchten und saisonaler Wechsel für Pkw, SUV und Performance-Fahrzeuge — schonend auf der Hunter-Revolution-Montagemaschine und mit kontrolliertem Drehmoment.",
+        "tags": ["Pkw", "SUV", "Performance", "Hunter Revolution", "RDKS"]
       },
       {
         "title": "3D-Achsvermessung mit Hunter",
@@ -160,28 +160,24 @@
     ],
     "attribution": "Hawkeye Elite®, Road Force® und SmartWeight® sind Marken der Hunter Engineering Company."
   },
-  "reifenlabel": {
+  "ganzjahr": {
     "label": "Gut zu wissen",
-    "title": "Das EU-Reifenlabel — einfach erklärt.",
-    "subtitle": "Jeder neue Reifen trägt ein EU-Label mit drei Kennwerten. Wir helfen Ihnen, sie richtig zu lesen — und das Richtige für Ihr Fahrprofil zu wählen.",
-    "items": [
-      {
-        "grade": "A–E",
-        "title": "Kraftstoffeffizienz",
-        "description": "Wie stark der Rollwiderstand Verbrauch und CO₂ beeinflusst. Eine bessere Klasse spart bares Geld."
-      },
-      {
-        "grade": "A–E",
-        "title": "Nasshaftung",
-        "description": "Wie kurz der Bremsweg auf nasser Fahrbahn ist. Ein Buchstabe kann mehrere Meter ausmachen."
-      },
-      {
-        "grade": "dB",
-        "title": "Externes Rollgeräusch",
-        "description": "In Dezibel: Wie laut der Reifen abrollt. Leiser bedeutet spürbar mehr Komfort."
-      }
+    "title": "Ganzjahresreifen — immer beliebter.",
+    "subtitle": "Allwetterreifen sparen den saisonalen Wechsel und sind das ganze Jahr einsatzbereit. Wir beraten ehrlich, ob sie zu Ihrem Fahrprofil passen — und halten sie mit unserer Allwetterreifenpflege länger fit.",
+    "prosTitle": "Die Vorteile",
+    "pros": [
+      "Kein saisonaler Wechsel und keine Einlagerung — bequem und kostensparend",
+      "Mit Schneeflocken-Symbol (3PMSF) ganzjährig wintertauglich und zugelassen",
+      "Ideal für Wenigfahrer, Stadt und Regionen mit mildem Winter"
     ],
-    "note": "Fragen Sie uns — wir sagen Ihnen ehrlich, welche Werte für Sie wirklich zählen."
+    "consTitle": "Gut zu wissen",
+    "cons": [
+      "Ein Kompromiss — nicht so spezialisiert wie reine Sommer- oder Winterreifen",
+      "Bei viel Schnee oder sportlicher Fahrweise sind Saisonreifen im Vorteil",
+      "Tendenziell etwas höherer Verschleiß und Verbrauch"
+    ],
+    "careTitle": "Unsere Allwetterreifenpflege",
+    "careText": "Wir empfehlen, die Reifen etwa alle 10.000 km zu tauschen — vorne gegen hinten, bei laufrichtungsungebundenen Reifen und gleicher Größe an allen vier Rädern auch über Kreuz — jeweils mit neuem Auswuchten. So nutzen sich alle vier Reifen gleichmäßig ab und der ganze Satz hält deutlich länger."
   },
   "reviews": {
     "label": "Kundenstimmen",

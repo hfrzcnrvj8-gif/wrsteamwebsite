@@ -80,8 +80,8 @@
     "items": [
       {
         "title": "Tyre service & fitting",
-        "description": "Fitting, balancing and seasonal changes for cars, SUVs and performance vehicles — gently on our Hunter Evolution machine and with controlled torque.",
-        "tags": ["Car", "SUV", "Performance", "Hunter Evolution", "TPMS"]
+        "description": "Fitting, balancing and seasonal changes for cars, SUVs and performance vehicles — gently on our Hunter Revolution machine and with controlled torque.",
+        "tags": ["Car", "SUV", "Performance", "Hunter Revolution", "TPMS"]
       },
       {
         "title": "3D wheel alignment with Hunter",
@@ -160,16 +160,24 @@
     ],
     "attribution": "Hawkeye Elite®, Road Force® and SmartWeight® are trademarks of Hunter Engineering Company."
   },
-  "reifenlabel": {
+  "ganzjahr": {
     "label": "Good to know",
-    "title": "The EU tyre label — simply explained.",
-    "subtitle": "Every new tyre carries an EU label with three values. We help you read them correctly — and choose the right tyre for how you drive.",
-    "items": [
-      { "grade": "A–E", "title": "Fuel efficiency", "description": "How much rolling resistance affects consumption and CO₂. A better class saves real money." },
-      { "grade": "A–E", "title": "Wet grip", "description": "How short the braking distance is on a wet road. One letter can mean several metres." },
-      { "grade": "dB", "title": "External rolling noise", "description": "In decibels: how loud the tyre rolls. Quieter means noticeably more comfort." }
+    "title": "All-season tyres — more popular than ever.",
+    "subtitle": "All-weather tyres save the seasonal change and are ready all year round. We advise honestly whether they suit how you drive — and keep them in shape longer with our all-weather tyre care.",
+    "prosTitle": "The advantages",
+    "pros": [
+      "No seasonal change and no storage — convenient and cost-saving",
+      "With the snowflake symbol (3PMSF) winter-approved all year round",
+      "Ideal for low-mileage drivers, the city and regions with mild winters"
     ],
-    "note": "Just ask us — we will tell you honestly which values really matter for you."
+    "consTitle": "Worth knowing",
+    "cons": [
+      "A compromise — not as specialised as pure summer or winter tyres",
+      "In heavy snow or with a sporty driving style, seasonal tyres have the edge",
+      "Tend to wear and consume slightly more"
+    ],
+    "careTitle": "Our all-weather tyre care",
+    "careText": "We recommend rotating the tyres roughly every 10,000 km — front to rear, or crosswise for non-directional tyres with the same size on all four wheels — each time with fresh balancing. That way all four tyres wear evenly and the whole set lasts noticeably longer."
   },
   "reviews": {
     "label": "Customer voices",
