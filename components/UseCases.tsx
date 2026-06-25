@@ -8,7 +8,7 @@ const icons = ["◇", "⊞", "✉", "★"];
 
 export function UseCases({ dict }: { dict: Dictionary["useCases"] }) {
   return (
-    <section id="use-cases" className="relative px-6 py-44 md:py-60">
+    <section id="use-cases" className="relative px-6 py-24 md:py-36">
       <div className="mx-auto max-w-6xl">
         <Reveal className="max-w-3xl">
           <SectionLabel>{dict.label}</SectionLabel>

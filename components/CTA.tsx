@@ -19,7 +19,7 @@ export function CTA({
   const mailHref = `mailto:${info.email}`;
 
   return (
-    <section id="contact" className="relative px-6 py-44 md:py-64">
+    <section id="contact" className="relative px-6 py-24 md:py-36">
       {/* subtle workshop backdrop */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden>
         <Image

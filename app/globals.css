@@ -57,6 +57,11 @@
     background: rgba(230, 0, 0, 0.35);
     color: #fff;
   }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
 }
 
 @layer components {

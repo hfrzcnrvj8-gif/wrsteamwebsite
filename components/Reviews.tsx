@@ -7,7 +7,7 @@ import type { Dictionary } from "@/i18n/types";
 
 export function Reviews({ dict }: { dict: Dictionary["reviews"] }) {
   return (
-    <section id="reviews" className="relative px-6 py-44 md:py-60">
+    <section id="reviews" className="relative px-6 py-24 md:py-36">
       <Reveal className="mx-auto max-w-3xl text-center">
         <div className="flex justify-center">
           <SectionLabel>{dict.label}</SectionLabel>

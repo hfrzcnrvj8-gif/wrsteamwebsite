@@ -7,7 +7,7 @@ import type { Dictionary } from "@/i18n/types";
 
 export function ProblemVision({ dict }: { dict: Dictionary["problem"] }) {
   return (
-    <section id="vision" className="relative px-6 py-44 md:py-60">
+    <section id="vision" className="relative px-6 py-24 md:py-36">
       <div className="mx-auto max-w-6xl">
         <Reveal className="max-w-3xl">
           <SectionLabel>{dict.label}</SectionLabel>

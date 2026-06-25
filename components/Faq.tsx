@@ -10,7 +10,7 @@ export function Faq({ dict }: { dict: Dictionary["faq"] }) {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="relative px-6 py-44 md:py-60">
+    <section id="faq" className="relative px-6 py-24 md:py-36">
       <div className="mx-auto max-w-3xl">
         <Reveal>
           <SectionLabel>{dict.label}</SectionLabel>

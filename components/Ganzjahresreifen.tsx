@@ -6,7 +6,7 @@ import type { Dictionary } from "@/i18n/types";
 
 export function Ganzjahresreifen({ dict }: { dict: Dictionary["ganzjahr"] }) {
   return (
-    <section id="ganzjahr" className="relative px-6 py-44 md:py-60">
+    <section id="ganzjahr" className="relative px-6 py-24 md:py-36">
       <div className="mx-auto max-w-6xl">
         <Reveal className="max-w-3xl">
           <SectionLabel>{dict.label}</SectionLabel>
