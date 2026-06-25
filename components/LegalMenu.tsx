@@ -58,25 +58,26 @@ export function LegalMenu({
             transition={{ duration: 0.18 }}
             className="glass absolute right-0 top-12 w-56 overflow-hidden rounded-2xl p-1.5 shadow-2xl"
           >
-            {/* Mobile-only CTAs: call + appointment */}
-            <li className="md:hidden">
-              <a
-                href={workshopPhoneHref}
-                onClick={() => setOpen(false)}
-                className="flex items-center gap-2.5 rounded-xl px-3 py-2.5 text-sm font-semibold text-brand-red transition-colors hover:bg-brand-red/10"
-              >
-                <span>✆</span>
-                <span>{workshopPhone}</span>
-              </a>
-            </li>
-            <li className="md:hidden">
-              <Link
-                href={`/${lang}/kontakt`}
-                onClick={() => setOpen(false)}
-                className="block rounded-xl px-3 py-2.5 text-sm font-semibold transition-colors hover:bg-white/10 hover:text-[var(--fg)]"
-              >
-                {bookLabel ?? "Termin vereinbaren"} →
-              </Link>
+            {/* Mobile-only CTAs: visually grouped card */}
+            <li className="md:hidden px-0.5 pt-0.5 pb-1">
+              <div className="rounded-xl bg-white/6 overflow-hidden">
+                <a
+                  href={workshopPhoneHref}
+                  onClick={() => setOpen(false)}
+                  className="flex items-center justify-between px-3.5 py-3 text-sm transition-colors hover:bg-white/8"
+                >
+                  <span className="font-semibold">Anrufen</span>
+                  <span className="text-xs text-muted">{workshopPhone}</span>
+                </a>
+                <div className="mx-3 border-t border-white/8" />
+                <Link
+                  href={`/${lang}/kontakt`}
+                  onClick={() => setOpen(false)}
+                  className="block px-3.5 py-3 text-sm font-semibold transition-colors hover:bg-white/8"
+                >
+                  {bookLabel ?? "Termin vereinbaren"}
+                </Link>
+              </div>
             </li>
 
             {/* Separator before nav */}
