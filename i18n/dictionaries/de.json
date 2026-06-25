@@ -185,11 +185,26 @@
   },
   "reviews": {
     "label": "Kundenstimmen",
-    "title": "Über 320-mal weiterempfohlen.",
+    "title": "Über 360-mal weiterempfohlen.",
     "rating": "4,9",
     "outOf": "von 5 Sternen",
-    "count": "über 320 Google-Bewertungen",
+    "count": "über 360 Google-Bewertungen",
     "subtitle": "Unsere Kundinnen und Kunden bewerten uns auf Google mit Spitzenwerten — danke für Ihr Vertrauen.",
+    "via": "Google-Bewertung",
+    "quotes": [
+      {
+        "name": "Hanno Weisensee",
+        "text": "Fachlich sehr kompetent, freundlich und kommunikativ. Mein Vibrationsproblem wurde zielgerichtet und nachhaltig behoben. Der beste Reifenservice, bei dem ich bisher war. Klare Empfehlung."
+      },
+      {
+        "name": "Olaf Heisterkamp",
+        "text": "Schon immer ein super Reifenservice mit total netten und kompetenten Mitarbeitenden. Für mich 10 von 10."
+      },
+      {
+        "name": "Michael Wittenberg",
+        "text": "Super Service."
+      }
+    ],
     "cta": "Alle Bewertungen auf Google ansehen"
   },
   "approach": {

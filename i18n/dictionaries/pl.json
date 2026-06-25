@@ -161,11 +161,26 @@
   },
   "reviews": {
     "label": "Opinie klientów",
-    "title": "Polecani ponad 320 razy.",
+    "title": "Polecani ponad 360 razy.",
     "rating": "4,9",
     "outOf": "na 5 gwiazdek",
-    "count": "ponad 320 opinii Google",
+    "count": "ponad 360 opinii Google",
     "subtitle": "Klienci oceniają nas w Google na najwyższe noty — dziękujemy za zaufanie.",
+    "via": "opinia Google",
+    "quotes": [
+      {
+        "name": "Hanno Weisensee",
+        "text": "Fachlich sehr kompetent, freundlich und kommunikativ. Mein Vibrationsproblem wurde zielgerichtet und nachhaltig behoben. Der beste Reifenservice, bei dem ich bisher war. Klare Empfehlung."
+      },
+      {
+        "name": "Olaf Heisterkamp",
+        "text": "Schon immer ein super Reifenservice mit total netten und kompetenten Mitarbeitenden. Für mich 10 von 10."
+      },
+      {
+        "name": "Michael Wittenberg",
+        "text": "Super Service."
+      }
+    ],
     "cta": "Zobacz wszystkie opinie w Google"
   },
   "approach": {
