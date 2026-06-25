@@ -60,6 +60,7 @@ export function Header({
           href={`/${lang}`}
           aria-label="Wollny Reifenservice — Startseite"
           className="flex items-center"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
           <Image
             src="/logo.png"
