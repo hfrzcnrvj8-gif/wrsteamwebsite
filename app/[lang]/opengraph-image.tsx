@@ -94,7 +94,7 @@ export default async function OpengraphImage({
           <span style={{ color: "#C9C9D1" }}>
             Reifen · Felgen · Achsvermessung · seit 1987 · Sehnde bei Hannover
           </span>
-          <span style={{ color: "#f5c563", marginLeft: 18 }}>★ 4,9</span>
+          <span style={{ color: "#f5c563", marginLeft: 18 }}>4,9 / 5</span>
         </div>
       </div>
     ),
