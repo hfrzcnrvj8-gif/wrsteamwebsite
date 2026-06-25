@@ -8,7 +8,7 @@
     "services": "Usługi",
     "work": "O nas",
     "contact": "Kontakt",
-    "book": "Wizyta"
+    "book": "Umów wizytę"
   },
   "pages": {
     "leistungen": {
@@ -66,7 +66,7 @@
     "local": {
       "title": "Z fachowym ustawieniem",
       "points": [
-        "Geometria kół 3D z dokładnością do milimetra",
+        "Geometria kół 3D — precyzja co do stopnia i minuty kąta",
         "Maksymalny przebieg Twoich opon",
         "Wyraźnie spokojniejsza, bezpieczna jazda na wprost",
         "Pełna przyczepność i krótka droga hamowania"
@@ -85,7 +85,7 @@
       },
       {
         "title": "Geometria kół 3D Hunter",
-        "description": "Komputerowy pomiar i regulacja zbieżności oraz pochylenia na urządzeniu Hunter 3D — z dokładnością do milimetra, dla spokojnej jazdy na wprost i równomiernego zużycia opon.",
+        "description": "Komputerowy pomiar i regulacja zbieżności oraz pochylenia na urządzeniu Hunter 3D — z dokładnością co do stopnia i minuty kąta, dla spokojnej jazdy na wprost i równomiernego zużycia opon.",
         "tags": ["Zbieżność", "Pochylenie", "Hunter 3D", "Zawieszenie"]
       },
       {
@@ -142,7 +142,7 @@
     "title": "Pracujemy na Hunterze — to standard w branży.",
     "subtitle": "Precyzja to nie przypadek. Korzystamy z urządzeń Hunter Engineering — tej samej techniki, której ufają producenci i profesjonaliści.",
     "items": [
-      { "title": "Hawkeye Elite® · geometria 3D", "description": "Pomiar kamerowy 3D w kilka sekund, co do milimetra. Od razu widać, czy zbieżność i pochylenie są idealne.", "impact": "Dokładne wartości, mniejsze zużycie" },
+      { "title": "Hawkeye Elite® · geometria 3D", "description": "Pomiar kamerowy 3D w kilka sekund — z dokładnością co do stopnia i minuty kąta. Od razu widać, czy zbieżność i pochylenie są idealne.", "impact": "Dokładne wartości, mniejsze zużycie" },
       { "title": "Road Force® · wyważanie diagnostyczne", "description": "Więcej niż wyważanie: Road Force® wykrywa, gdy to opona lub felga są źródłem drgań — i rozwiązuje problemy, których zwykłe wyważanie nie znajdzie.", "impact": "Znajduje przyczynę, nie tylko objaw" },
       { "title": "SmartWeight® · wydajne wyważanie", "description": "Zoptymalizowane wyważanie z mniejszą liczbą ciężarków — łagodniej dla felgi i środowiska, przy najlepszej kulturze pracy.", "impact": "Mniej ciężarków, spokojniejszy bieg" }
     ],
@@ -204,7 +204,7 @@
       {
         "step": "02",
         "title": "Przyjęcie pojazdu",
-        "description": "Przyjmujemy auto, omawiamy zakres prac i sprawdzamy opony oraz zawieszenie."
+        "description": "Przyjmujemy auto i omawiamy zakres. Przy geometrii kół sprawdzamy najpierw stan opon i układu jezdnego — regulacja ma sens tylko wtedy, gdy elementy są sprawne. Zużyte części wyraźnie wymieniamy."
       },
       {
         "step": "03",
@@ -221,9 +221,9 @@
   "showcase": {
     "label": "Z bliska",
     "title": "Nowoczesna technika. Czysty warsztat.",
-    "subtitle": "Spojrzenie na wyposażenie i staranność, z jaką pracujemy każdego dnia.",
+    "subtitle": "Zajrzyj za kulisy — sprzęt i precyzja, które stoją za każdą naszą usługą.",
     "items": [
-      { "title": "Geometria kół 3D", "caption": "Precyzyjny pomiar zawieszenia co do milimetra" },
+      { "title": "Geometria kół 3D", "caption": "Precyzyjny pomiar geometrii kół — do stopnia i minuty" },
       { "title": "Montaż opon", "caption": "Montaż i wyważanie bezpośrednio w warsztacie" },
       { "title": "Felgi i koła kompletne", "caption": "Markowe felgi i koła kompletne — dobrane indywidualnie i zamontowane" }
     ]
@@ -235,7 +235,7 @@
     "cta": "Uzgodnij termin"
   },
   "founding": {
-    "label": "Klienci i firmy",
+    "label": "Prywatnie i dla firm",
     "title": "Opony i felgi — dla klientów prywatnych i flot.",
     "description": "Czy to pojedynczy komplet opon zimowych, czy obsługa całej floty: dostarczamy markowy towar w uczciwych warunkach, zajmujemy się montażem i przechowaniem i utrzymujemy Twoje pojazdy bezpiecznie na drodze przez cały rok.",
     "points": [
@@ -264,7 +264,7 @@
       },
       {
         "q": "Kiedy warto wykonać geometrię kół?",
-        "a": "Zawsze gdy auto ściąga na bok, opony zużywają się nierównomiernie, po pracach przy zawieszeniu lub po kontakcie z krawężnikiem. Nasze urządzenie Hunter 3D mierzy co do milimetra, czy zbieżność i pochylenie są prawidłowe."
+        "a": "Zawsze gdy auto ściąga na bok, opony zużywają się nierównomiernie, po pracach przy zawieszeniu lub po kontakcie z krawężnikiem. Nasze urządzenie Hunter 3D mierzy z dokładnością do stopnia i minuty łuku, czy zbieżność i pochylenie są prawidłowe."
       },
       {
         "q": "Czy przechowujecie moje opony sezonowe?",
@@ -286,8 +286,8 @@
   },
   "cta": {
     "title": "Umów wizytę.",
-    "subtitle": "Opisz krótko, czego potrzebujesz i jaki masz pojazd — odezwiemy się z dogodnym terminem.",
-    "bookingText": "Ten formularz służy do ogólnych pytań. Terminy umawiasz najłatwiej",
+    "subtitle": "Napisz, czego potrzebujesz i jaki masz samochód — odezwiemy się z propozycją terminu.",
+    "bookingText": "Formularz do pytań ogólnych. Termin najszybciej umówisz",
     "bookingCta": "telefonicznie",
     "info": {
       "title": "Jak nas znaleźć",
@@ -316,7 +316,7 @@
       "vehiclePlaceholder": "np. VW Golf 7 (opcjonalnie)",
       "company": "Firma",
       "companyPlaceholder": "Tylko klienci biznesowi (opcjonalnie)",
-      "message": "Twoja sprawa",
+      "message": "Twoje zapytanie",
       "messagePlaceholder": "O co chodzi? np. wymiana opon, geometria kół, dobór felg …",
       "submit": "Wyślij wiadomość",
       "sending": "Wysyłanie…",

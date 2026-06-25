@@ -8,14 +8,14 @@
     "services": "Services",
     "work": "About us",
     "contact": "Contact",
-    "book": "Appointment"
+    "book": "Book now"
   },
   "pages": {
     "leistungen": {
       "metaTitle": "Services — Wollny Reifenservice GmbH",
       "eyebrow": "Our services",
       "title": "Tyres, rims and chassis — all from one source.",
-      "subtitle": "A complete overview of our workshop services in Sehnde — from the seasonal tyre change to millimetre-precise 3D wheel alignment.",
+      "subtitle": "A complete overview of our workshop services in Sehnde — from the seasonal tyre change to 3D wheel alignment precise to the degree and arc minute.",
       "ctaTitle": "Ready for your appointment?",
       "ctaText": "Book an appointment now — by phone or conveniently via the contact form.",
       "ctaButton": "Go to contact"
@@ -41,7 +41,7 @@
   "hero": {
     "badge": "Since 1987 · Your tyre specialist in Sehnde near Hannover",
     "titleLines": ["Precision you feel", "on every road."],
-    "subtitle": "Tyres, rims and millimetre-precise 3D wheel alignment — from a family business that has stood for safety, smooth running and honest advice for over 35 years.",
+    "subtitle": "Tyres, rims and 3D wheel alignment precise to the degree and arc minute — from a family business that has stood for safety, smooth running and honest advice for over 35 years.",
     "ctaPrimary": "Book appointment",
     "ctaSecondary": "Our services",
     "stats": [
@@ -66,7 +66,7 @@
     "local": {
       "title": "With professional alignment",
       "points": [
-        "Millimetre-precise 3D wheel alignment",
+        "3D wheel alignment to the degree and arc minute",
         "Maximum mileage from your tyres",
         "Noticeably calmer, safer straight-line running",
         "Full grip and short braking distances"
@@ -85,7 +85,7 @@
       },
       {
         "title": "3D wheel alignment with Hunter",
-        "description": "Computer-aided 3D chassis alignment on a Hunter rig. We measure and adjust toe and camber to the millimetre — for calm straight-line running and even tyre wear.",
+        "description": "Computer-aided 3D chassis alignment on a Hunter rig. We measure and adjust toe and camber to the degree and arc minute — for calm straight-line running and even tyre wear.",
         "tags": ["Toe", "Camber", "Hunter 3D", "Chassis"]
       },
       {
@@ -144,7 +144,7 @@
     "items": [
       {
         "title": "Hawkeye Elite® · 3D alignment",
-        "description": "Camera-based 3D measurement in seconds, to the millimetre. We see immediately whether toe and camber are exactly right.",
+        "description": "Camera-based 3D measurement in seconds — to the degree and arc minute. We see immediately whether toe and camber are exactly right.",
         "impact": "Exact values, less wear"
       },
       {
@@ -216,7 +216,7 @@
       {
         "step": "02",
         "title": "Vehicle handover",
-        "description": "We take in your vehicle, discuss the scope and inspect tyres and chassis."
+        "description": "We take your vehicle in and discuss the scope. For alignment jobs, we first check the condition of tyres and chassis — an adjustment only makes sense when the components are in order. Any worn parts are listed clearly."
       },
       {
         "step": "03",
@@ -233,9 +233,9 @@
   "showcase": {
     "label": "Inside",
     "title": "Modern technology. Clean workshop.",
-    "subtitle": "A look at the equipment and the care with which we work every day.",
+    "subtitle": "A glimpse behind the scenes — the equipment and precision behind every service.",
     "items": [
-      { "title": "3D wheel alignment", "caption": "Precise chassis measurement to the millimetre" },
+      { "title": "3D wheel alignment", "caption": "Precise alignment measurement to the degree and arc minute" },
       { "title": "Tyre fitting", "caption": "Mounting and balancing right in the workshop" },
       { "title": "Rims & complete wheels", "caption": "Branded rims and complete wheels — individually chosen and fitted" }
     ]
@@ -262,7 +262,7 @@
     "label": "The workshop",
     "title": "Your tyre specialist in Sehnde since 1987.",
     "body": "Since 1987 and now in the second generation, we have been all about wheels. Good service, to us, means high customer satisfaction — that includes competent advice, professional workmanship and support even after the purchase. We are your service partner for everything around wheels.",
-    "quote": "Well advised means better bought — that is our motto.",
+    "quote": "Good advice leads to better decisions — that's what we've stood for since 1987.",
     "name": "Wollny Reifenservice GmbH",
     "role": "Family business, 2nd generation · Sehnde near Hannover"
   },
@@ -276,7 +276,7 @@
       },
       {
         "q": "When does a wheel alignment make sense?",
-        "a": "Whenever your vehicle pulls to one side, the tyres wear unevenly, after work on the chassis or after kerb contact. Our 3D wheel alignment shows to the millimetre whether toe and camber are correct."
+        "a": "Whenever your vehicle pulls to one side, the tyres wear unevenly, after work on the chassis or after kerb contact. Our 3D wheel alignment shows to the degree and arc minute whether toe and camber are correct."
       },
       {
         "q": "Do you store my seasonal tyres?",
@@ -298,8 +298,8 @@
   },
   "cta": {
     "title": "Book an appointment.",
-    "subtitle": "Tell us briefly about your request and your vehicle — we will get back to you with a suitable slot.",
-    "bookingText": "This form is for general questions. To book an appointment, the easiest way is",
+    "subtitle": "Tell us what you need and your vehicle — we'll get back to you with a convenient appointment.",
+    "bookingText": "This form is for general enquiries. For appointments, the quickest way is",
     "bookingCta": "to call us",
     "info": {
       "title": "How to reach us",
