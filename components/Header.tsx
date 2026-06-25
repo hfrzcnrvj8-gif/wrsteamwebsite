@@ -93,7 +93,7 @@ export function Header({
           <Link
             href={`/${lang}/kontakt`}
             onClick={() => handleNavClick(`/${lang}/kontakt`)}
-            className="btn-primary hidden h-10 place-items-center rounded-full px-4 text-sm font-semibold sm:grid"
+            className="hidden h-10 place-items-center rounded-full border border-brand-red px-4 text-sm font-semibold text-brand-red transition-colors hover:bg-brand-red hover:text-white sm:grid"
           >
             {dict.book}
           </Link>
