@@ -34,7 +34,7 @@
     },
     "contactCta": {
       "title": "Ready for your appointment?",
-      "text": "Call us or send a short note — we will find a suitable slot quickly.",
+      "text": "Call us or send a short note — we'll find a time that works.",
       "button": "Book appointment"
     }
   },
@@ -59,7 +59,7 @@
       "points": [
         "Uneven, premature tyre wear",
         "Higher fuel consumption from rolling resistance",
-        "Restless steering and pulling to one side",
+        "Wandering steering and pulling to one side",
         "Longer braking distance when it matters"
       ]
     },
@@ -68,7 +68,7 @@
       "points": [
         "3D wheel alignment to the degree and arc minute",
         "Maximum mileage from your tyres",
-        "Noticeably calmer, safer straight-line running",
+        "Noticeably calmer, more stable straight-line tracking",
         "Full grip and short braking distances"
       ]
     }
@@ -80,7 +80,7 @@
     "items": [
       {
         "title": "Tyre service & fitting",
-        "description": "Fitting, balancing and seasonal changes for cars, SUVs and performance vehicles — gently on our Hunter Revolution machine and with controlled torque.",
+        "description": "Fitting, balancing and seasonal changes for cars, SUVs and performance vehicles — with care on our Hunter Revolution machine and with controlled torque.",
         "tags": ["Car", "SUV", "Performance", "Hunter Revolution", "TPMS"]
       },
       {
@@ -154,7 +154,7 @@
       },
       {
         "title": "SmartWeight® · efficient balancing",
-        "description": "Optimised balancing with fewer weights — gentler on the rim and the environment, with the best smoothness.",
+        "description": "Optimised balancing with fewer weights — gentler on the rim and the environment, for the smoothest, quietest ride.",
         "impact": "Fewer weights, smoother running"
       }
     ],
@@ -163,7 +163,7 @@
   "ganzjahr": {
     "label": "Good to know",
     "title": "All-season tyres — more popular than ever.",
-    "subtitle": "All-weather tyres save the seasonal change and are ready all year round. We advise honestly whether they suit how you drive — and keep them in shape longer with our all-weather tyre care.",
+    "subtitle": "All-weather tyres eliminate the need for a seasonal change and are ready all year round. We advise honestly whether they suit how you drive — and keep them in shape longer with our all-weather tyre care.",
     "prosTitle": "The advantages",
     "pros": [
       "No seasonal change and no storage — convenient and cost-saving",
@@ -226,7 +226,7 @@
       {
         "step": "04",
         "title": "Handover & advice",
-        "description": "You get your vehicle back ready to go, including a clear recommendation for the next season."
+        "description": "You get your vehicle back road-ready. We walk you through what was done — for diagnostics, vibration measurements or alignment, we explain the results and give a clear recommendation."
       }
     ]
   },
@@ -249,7 +249,7 @@
   "founding": {
     "label": "Private & business",
     "title": "Tyres and rims — for private customers and fleets.",
-    "description": "Whether a single set of winter tyres or looking after your entire fleet: we supply branded goods at fair conditions, handle fitting and storage and keep your vehicles safely on the road all year round.",
+    "description": "Whether a single set of winter tyres or looking after your entire fleet: we supply branded goods at fair prices, handle fitting and storage and keep your vehicles safely on the road all year round.",
     "points": [
       "Branded tyres & rims at fair prices",
       "Fleet service for business customers (B2B)",
@@ -288,7 +288,7 @@
       },
       {
         "q": "Do you also look after company vehicles and fleets?",
-        "a": "Yes, we are an experienced partner for business customers. Ask us about fleet conditions, predictable appointments and storage."
+        "a": "Yes, we are an experienced partner for business customers. Ask us about fleet pricing, predictable scheduling and storage."
       },
       {
         "q": "Where can I find you?",
@@ -298,7 +298,7 @@
   },
   "cta": {
     "title": "Book an appointment.",
-    "subtitle": "Tell us what you need and your vehicle — we'll get back to you with a convenient appointment.",
+    "subtitle": "Tell us what you need and what you drive — we'll get back to you with a convenient appointment.",
     "bookingText": "This form is for general enquiries. For appointments, the quickest way is",
     "bookingCta": "to call us",
     "info": {

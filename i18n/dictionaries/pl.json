@@ -30,7 +30,7 @@
       "metaTitle": "O nas — Wollny Reifenservice GmbH",
       "eyebrow": "O nas",
       "title": "Twój rodzinny warsztat od 1987.",
-      "subtitle": "Kim jesteśmy, jak pracujemy i czym codziennie dbamy o Twoje bezpieczeństwo."
+      "subtitle": "Kim jesteśmy, jak pracujemy i co robimy każdego dnia dla Twojego bezpieczeństwa."
     },
     "contactCta": {
       "title": "Gotowy na wizytę?",
@@ -41,7 +41,7 @@
   "hero": {
     "badge": "Od 1987 · Twój specjalista od opon w Sehnde koło Hanoweru",
     "titleLines": ["Precyzja, którą czujesz", "na każdej drodze."],
-    "subtitle": "Opony, felgi i precyzyjna geometria kół 3D — od firmy rodzinnej w drugim pokoleniu, która od 1987 roku oznacza bezpieczeństwo, spokojną jazdę i uczciwe doradztwo.",
+    "subtitle": "Opony, felgi i precyzyjna geometria kół 3D — od firmy rodzinnej w drugim pokoleniu, dla której bezpieczeństwo, spokojna jazda i uczciwe doradztwo są synonimem od 1987 roku.",
     "ctaPrimary": "Umów wizytę",
     "ctaSecondary": "Nasze usługi",
     "stats": [
@@ -86,7 +86,7 @@
       {
         "title": "Geometria kół 3D Hunter",
         "description": "Komputerowy pomiar i regulacja zbieżności oraz pochylenia na urządzeniu Hunter 3D — z dokładnością co do stopnia i minuty, dla spokojnej jazdy na wprost i równomiernego zużycia opon.",
-        "tags": ["Zbieżność", "Pochylenie", "Hunter 3D", "Zawieszenie"]
+        "tags": ["Zbieżność", "Pochylenie", "Hunter 3D", "Układ jezdny"]
       },
       {
         "title": "Felgi, koła kompletne i opony",
@@ -144,14 +144,14 @@
     "items": [
       { "title": "Hawkeye Elite® · geometria 3D", "description": "Pomiar kamerowy 3D w kilka sekund — z dokładnością co do stopnia i minuty. Od razu widać, czy zbieżność i pochylenie są idealne.", "impact": "Dokładne wartości, mniejsze zużycie" },
       { "title": "Road Force® · wyważanie diagnostyczne", "description": "Więcej niż wyważanie: Road Force® wykrywa, gdy to opona lub felga są źródłem drgań — i rozwiązuje problemy, których zwykłe wyważanie nie znajdzie.", "impact": "Znajduje przyczynę, nie tylko objaw" },
-      { "title": "SmartWeight® · wydajne wyważanie", "description": "Zoptymalizowane wyważanie z mniejszą liczbą ciężarków — łagodniej dla felgi i środowiska, przy najlepszej kulturze pracy.", "impact": "Mniej ciężarków, spokojniejszy bieg" }
+      { "title": "SmartWeight® · wydajne wyważanie", "description": "Zoptymalizowane wyważanie z mniejszą liczbą ciężarków — łagodniej dla felgi i środowiska, przy doskonałej płynności i ciszy biegu.", "impact": "Mniej ciężarków, spokojniejszy bieg" }
     ],
     "attribution": "Hawkeye Elite®, Road Force® i SmartWeight® są znakami towarowymi Hunter Engineering Company."
   },
   "ganzjahr": {
     "label": "Warto wiedzieć",
     "title": "Opony całoroczne — coraz popularniejsze.",
-    "subtitle": "Opony całoroczne oszczędzają sezonową wymianę i są gotowe przez cały rok. Doradzamy uczciwie, czy pasują do Twojego stylu jazdy — i z naszą pielęgnacją służą dłużej.",
+    "subtitle": "Opony całoroczne eliminują konieczność sezonowej wymiany i są gotowe przez cały rok. Doradzamy uczciwie, czy pasują do Twojego stylu jazdy — i z naszą pielęgnacją służą dłużej.",
     "prosTitle": "Zalety",
     "pros": [
       "Brak sezonowej wymiany i przechowywania — wygodnie i taniej",
@@ -214,7 +214,7 @@
       {
         "step": "04",
         "title": "Wydanie i doradztwo",
-        "description": "Odbierasz auto gotowe do jazdy, wraz z jasną rekomendacją na kolejny sezon."
+        "description": "Odbierasz auto gotowe do drogi. Tłumaczymy, co zostało zrobione — przy diagnostyce, pomiarze drgań lub geometrii kół omawiamy wyniki i dajemy konkretne zalecenia."
       }
     ]
   },
@@ -260,7 +260,7 @@
     "items": [
       {
         "q": "Czy na wymianę opon potrzebny jest termin?",
-        "a": "Tak, prosimy o wcześniejsze umówienie terminu — telefonicznie pod 05138 4520 lub przez formularz kontaktowy. Dzięki temu unikniesz oczekiwania, zwłaszcza w sezonie szczytowym. Otwarte Pn–Pt 07:00–15:30, w soboty zamknięte — terminy poza godzinami po uzgodnieniu."
+        "a": "Tak, prosimy o wcześniejsze umówienie terminu — telefonicznie pod 05138 4520 lub przez formularz kontaktowy. Dzięki temu unikniesz oczekiwania, zwłaszcza w sezonie szczytowym. Czynni Pn–Pt 07:00–15:30, w soboty nieczynni — terminy poza godzinami otwarcia możliwe po uzgodnieniu."
       },
       {
         "q": "Kiedy warto wykonać geometrię kół?",
