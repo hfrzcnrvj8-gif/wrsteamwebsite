@@ -281,7 +281,8 @@ export const datenschutz: LegalDoc = {
     {
       heading: "4. Cookies und lokale Speicherung",
       blocks: [
-        "Unsere Website verwendet keine Tracking-, Analyse- oder Marketing-Cookies. Es werden weder Webanalyse-Dienste noch Werbe- oder Social-Media-Plugins geladen — daher ist kein Cookie-Banner erforderlich.",
+        "Beim ersten Besuch unserer Website erscheint ein Hinweis-Banner, in dem Sie der Verwendung von Analyse-Cookies zustimmen oder diese ablehnen können. Ihre Wahl wird im lokalen Speicher Ihres Browsers gespeichert und gilt für alle weiteren Besuche. Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie den lokalen Speicher Ihres Browsers leeren (Einstellungen → Datenschutz → Browserdaten löschen).",
+        "Wenn Sie Analyse-Cookies ablehnen oder noch keine Auswahl getroffen haben, werden keine Analyse- oder Marketing-Cookies gesetzt.",
         "Für eine technisch notwendige Funktion (Ihre gewählte helle oder dunkle Darstellung) speichern wir einen Wert im lokalen Speicher Ihres Browsers. Diese Speicherung ist für den von Ihnen gewünschten Dienst erforderlich und bedarf keiner Einwilligung. Sie können sie jederzeit über die Einstellungen Ihres Browsers zurücksetzen.",
       ],
     },

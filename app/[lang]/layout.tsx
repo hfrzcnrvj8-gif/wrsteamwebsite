@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { CookieBanner } from "@/components/CookieBanner";
 import { i18n, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { siteUrl, ogLocale } from "@/lib/site";
@@ -70,6 +71,7 @@ export default async function LangLayout({
         <ThemeProvider>
           {children}
           <ScrollToTop />
+          <CookieBanner lang={lang as Locale} />
         </ThemeProvider>
       </body>
     </html>
