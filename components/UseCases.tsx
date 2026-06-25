@@ -2,9 +2,24 @@
 
 import { Reveal } from "./Reveal";
 import { SectionLabel } from "./SectionLabel";
+import {
+  IconBalance,
+  IconUltrasonicWash,
+  IconTPMS,
+  IconRunFlat,
+  IconDiagnostics,
+  IconCustomOrder,
+} from "./ServiceIcons";
 import type { Dictionary } from "@/i18n/types";
 
-const icons = ["◇", "⊞", "✉", "★"];
+const icons = [
+  IconBalance,
+  IconUltrasonicWash,
+  IconTPMS,
+  IconRunFlat,
+  IconDiagnostics,
+  IconCustomOrder,
+];
 
 export function UseCases({ dict }: { dict: Dictionary["useCases"] }) {
   return (
@@ -19,10 +34,12 @@ export function UseCases({ dict }: { dict: Dictionary["useCases"] }) {
         </Reveal>
 
         <div className="mt-20 grid gap-6 sm:grid-cols-2 md:mt-24">
-          {dict.items.map((item, i) => (
+          {dict.items.map((item, i) => {
+            const Icon = icons[i] ?? icons[0];
+            return (
             <Reveal key={item.title} delay={(i % 2) * 0.1}>
               <article className="card-surface group h-full rounded-3xl p-8 transition-colors hover:border-brand-cyan/40">
-                <span className="text-liquid text-3xl">{icons[i] ?? "◆"}</span>
+                <span className="block h-10 w-10"><Icon /></span>
                 <h3 className="mt-5 text-xl font-semibold tracking-tight">
                   {item.title}
                 </h3>
@@ -33,7 +50,8 @@ export function UseCases({ dict }: { dict: Dictionary["useCases"] }) {
                 </p>
               </article>
             </Reveal>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

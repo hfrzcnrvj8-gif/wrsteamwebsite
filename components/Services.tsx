@@ -2,9 +2,15 @@
 
 import { Reveal } from "./Reveal";
 import { SectionLabel } from "./SectionLabel";
+import {
+  IconTyreFit,
+  IconAlignment,
+  IconAlloyWheel,
+  IconStorage,
+} from "./ServiceIcons";
 import type { Dictionary } from "@/i18n/types";
 
-const icons = ["◎", "⊹", "◍", "❄"];
+const icons = [IconTyreFit, IconAlignment, IconAlloyWheel, IconStorage];
 
 export function Services({ dict }: { dict: Dictionary["services"] }) {
   return (
@@ -19,7 +25,9 @@ export function Services({ dict }: { dict: Dictionary["services"] }) {
         </Reveal>
 
         <div className="mt-20 grid gap-6 md:mt-24 lg:grid-cols-2">
-          {dict.items.map((item, i) => (
+          {dict.items.map((item, i) => {
+            const Icon = icons[i] ?? icons[0];
+            return (
             <Reveal key={item.title} delay={i * 0.1}>
               <article className="glow-border group relative h-full overflow-hidden rounded-3xl">
                 <div className="card-surface relative h-full rounded-3xl p-8 md:p-10">
@@ -31,7 +39,7 @@ export function Services({ dict }: { dict: Dictionary["services"] }) {
                     }}
                     aria-hidden
                   />
-                  <span className="text-liquid text-4xl">{icons[i] ?? "◆"}</span>
+                  <span className="block h-10 w-10"><Icon /></span>
                   <h3 className="mt-6 text-2xl font-semibold tracking-tight">
                     {item.title}
                   </h3>
@@ -49,7 +57,8 @@ export function Services({ dict }: { dict: Dictionary["services"] }) {
                 </div>
               </article>
             </Reveal>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
