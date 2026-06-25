@@ -11,6 +11,7 @@ export function Founder({ dict }: { dict: Dictionary["founder"] }) {
       align="right"
       valign="bottom"
       objectPosition="center 52%"
+      priority
     >
       <SectionLabel>{dict.label}</SectionLabel>
       <h2 className="mt-6 text-balance text-3xl font-semibold leading-tight tracking-tightest sm:text-4xl md:text-5xl">
