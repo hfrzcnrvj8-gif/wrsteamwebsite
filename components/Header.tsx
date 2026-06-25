@@ -89,14 +89,7 @@ export function Header({
           {/* ··· opens nav + CTAs on mobile, legal on all */}
           <LegalMenu lang={lang} navLinks={links} bookLabel={dict.book} />
 
-          {/* Desktop only: Anrufen + Termin pills */}
-          <a
-            href={workshopPhoneHref}
-            aria-label="Anrufen"
-            className="hidden h-10 items-center rounded-full border border-brand-red px-4 text-sm text-brand-red transition-transform hover:scale-105 hover:bg-brand-red/10 sm:flex"
-          >
-            Anrufen
-          </a>
+          {/* Desktop only: Termin pill */}
           <Link
             href={`/${lang}/kontakt`}
             onClick={() => handleNavClick(`/${lang}/kontakt`)}
