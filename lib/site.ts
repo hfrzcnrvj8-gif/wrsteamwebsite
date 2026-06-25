@@ -22,6 +22,12 @@ export const mapsUrl =
   process.env.NEXT_PUBLIC_MAPS_URL ??
   "https://www.google.com/maps/search/?api=1&query=Wollny+Reifenservice+Borsigring+38+31319+Sehnde";
 
+// Google Maps embed URL (iframe). Set NEXT_PUBLIC_MAPS_EMBED_URL to override
+// with a styled Embed API URL once a Maps API key is available.
+export const mapsEmbedUrl =
+  process.env.NEXT_PUBLIC_MAPS_EMBED_URL ??
+  "https://maps.google.com/maps?q=Wollny+Reifenservice+GmbH,+Borsigring+38,+31319+Sehnde&output=embed&hl=de&z=16";
+
 // Maps our locale codes to Open Graph locale identifiers.
 export const ogLocale: Record<Locale, string> = {
   pl: "pl_PL",

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { Reveal } from "./Reveal";
 import { ContactForm } from "./ContactForm";
-import { bookingUrl, mapsUrl } from "@/lib/site";
+import { bookingUrl, mapsUrl, mapsEmbedUrl } from "@/lib/site";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 
@@ -16,6 +16,7 @@ export function CTA({
 }) {
   const info = dict.info;
   const telHref = `tel:${info.phone.replace(/\s+/g, "")}`;
+  const mailHref = `mailto:${info.email}`;
 
   return (
     <section id="contact" className="relative px-6 py-44 md:py-64">
@@ -74,26 +75,50 @@ export function CTA({
                     </span>
                   </a>
 
-                  {/* Address + directions */}
-                  <div className="glass rounded-2xl px-5 py-4">
-                    <span className="block text-xs uppercase tracking-[0.18em] text-muted">
-                      {info.addressLabel}
+                  {/* Email — secondary CTA */}
+                  <a
+                    href={mailHref}
+                    className="glass group flex items-center gap-4 rounded-2xl px-5 py-4 transition-transform hover:scale-[1.01]"
+                  >
+                    <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-brand-cyan/15 text-brand-cyan">
+                      ✉
                     </span>
-                    <address className="mt-1.5 space-y-0.5 not-italic">
-                      {info.address.map((line) => (
-                        <span key={line} className="block">
-                          {line}
-                        </span>
-                      ))}
-                    </address>
-                    <a
-                      href={mapsUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-liquid mt-3 inline-block text-sm font-medium underline-offset-2 hover:underline"
-                    >
-                      {info.mapsCta} →
-                    </a>
+                    <span>
+                      <span className="block text-xs uppercase tracking-[0.18em] text-muted">
+                        {info.emailLabel}
+                      </span>
+                      <span className="block font-semibold tracking-tight">
+                        {info.email}
+                      </span>
+                    </span>
+                  </a>
+
+                  {/* Map */}
+                  <div className="glass overflow-hidden rounded-2xl">
+                    <iframe
+                      src={mapsEmbedUrl}
+                      width="100%"
+                      height="200"
+                      style={{
+                        border: 0,
+                        filter: "grayscale(1) brightness(0.5) contrast(1.2)",
+                        display: "block",
+                      }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title={info.addressLabel}
+                    />
+                    <div className="px-5 py-3">
+                      <a
+                        href={mapsUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-liquid text-sm font-medium underline-offset-2 hover:underline"
+                      >
+                        {info.mapsCta} →
+                      </a>
+                    </div>
                   </div>
 
                   {/* Opening hours */}

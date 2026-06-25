@@ -287,8 +287,8 @@
   "cta": {
     "title": "Umów wizytę.",
     "subtitle": "Opisz krótko, czego potrzebujesz i jaki masz pojazd — odezwiemy się z dogodnym terminem.",
-    "bookingText": "Wolisz zadzwonić bezpośrednio?",
-    "bookingCta": "05138 4520",
+    "bookingText": "Ten formularz służy do ogólnych pytań. Terminy umawiasz najłatwiej",
+    "bookingCta": "telefonicznie",
     "info": {
       "title": "Jak nas znaleźć",
       "addressLabel": "Adres",
@@ -318,9 +318,9 @@
       "companyPlaceholder": "Tylko klienci biznesowi (opcjonalnie)",
       "message": "Twoja sprawa",
       "messagePlaceholder": "O co chodzi? np. wymiana opon, geometria kół, dobór felg …",
-      "submit": "Poproś o termin",
+      "submit": "Wyślij wiadomość",
       "sending": "Wysyłanie…",
-      "success": "Dziękujemy — Twoje zapytanie dotarło. Wkrótce odezwiemy się z dogodnym terminem.",
+      "success": "Dziękujemy — Twoja wiadomość dotarła. Odezwiemy się wkrótce.",
       "error": "Coś poszło nie tak. Zadzwoń do nas pod 05138 4520 lub spróbuj ponownie.",
       "consent": "Zgadzam się na przetwarzanie moich danych w celu obsługi zapytania, zgodnie z",
       "consentLink": "polityką prywatności",

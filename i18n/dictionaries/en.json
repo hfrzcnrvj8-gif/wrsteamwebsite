@@ -299,8 +299,8 @@
   "cta": {
     "title": "Book an appointment.",
     "subtitle": "Tell us briefly about your request and your vehicle — we will get back to you with a suitable slot.",
-    "bookingText": "Prefer to call directly?",
-    "bookingCta": "05138 4520",
+    "bookingText": "This form is for general questions. To book an appointment, the easiest way is",
+    "bookingCta": "to call us",
     "info": {
       "title": "How to reach us",
       "addressLabel": "Address",
@@ -330,9 +330,9 @@
       "companyPlaceholder": "Business customers only (optional)",
       "message": "Your request",
       "messagePlaceholder": "What is it about? e.g. tyre change, wheel alignment, rim advice …",
-      "submit": "Request appointment",
+      "submit": "Send message",
       "sending": "Sending…",
-      "success": "Thank you — your request is in. We will get back to you soon with a suitable slot.",
+      "success": "Thank you — your message is in. We will get back to you soon.",
       "error": "Something went wrong. Please call us on 05138 4520 or try again.",
       "consent": "I agree that my data may be processed to handle my request, in accordance with the",
       "consentLink": "privacy policy",

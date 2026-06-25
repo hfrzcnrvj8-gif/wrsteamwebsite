@@ -299,8 +299,8 @@
   "cta": {
     "title": "Termin vereinbaren.",
     "subtitle": "Schildern Sie uns kurz Ihr Anliegen und Ihr Fahrzeug — wir melden uns mit einem passenden Termin.",
-    "bookingText": "Lieber direkt anrufen?",
-    "bookingCta": "05138 4520",
+    "bookingText": "Dieses Formular ist für allgemeine Fragen. Termine vereinbaren Sie am einfachsten",
+    "bookingCta": "telefonisch",
     "info": {
       "title": "So erreichen Sie uns",
       "addressLabel": "Adresse",
@@ -330,9 +330,9 @@
       "companyPlaceholder": "Nur für Gewerbekunden (optional)",
       "message": "Ihr Anliegen",
       "messagePlaceholder": "Worum geht es? z. B. Reifenwechsel, Achsvermessung, Felgenberatung …",
-      "submit": "Termin anfragen",
+      "submit": "Nachricht senden",
       "sending": "Wird gesendet…",
-      "success": "Vielen Dank — Ihre Anfrage ist da. Wir melden uns zeitnah mit einem passenden Termin.",
+      "success": "Vielen Dank — Ihre Nachricht ist da. Wir melden uns zeitnah bei Ihnen.",
       "error": "Etwas ist schiefgelaufen. Bitte rufen Sie uns an unter 05138 4520 oder versuchen Sie es erneut.",
       "consent": "Ich bin einverstanden, dass meine Daten zur Bearbeitung meiner Anfrage verarbeitet werden, gemäß der",
       "consentLink": "Datenschutzerklärung",
