@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { i18n, type Locale } from "@/i18n/config";
 import { Header } from "@/components/Header";
@@ -39,23 +38,6 @@ export default async function KontaktPage({
       <main className="relative overflow-x-clip">
         {/* Page hero */}
         <section className="relative px-6 pb-4 pt-40 md:pt-48">
-          <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden>
-            <Image
-              src="/images/web/img_8047.jpg"
-              alt=""
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover object-center opacity-30"
-            />
-            <div
-              className="absolute inset-0"
-              style={{
-                background:
-                  "linear-gradient(180deg, #0a0a0b 0%, rgba(10,10,11,0.5) 35%, rgba(10,10,11,0.5) 65%, #0a0a0b 100%)",
-              }}
-            />
-          </div>
           <div
             className="orb pointer-events-none absolute left-1/2 top-10 -z-10 h-[40vw] w-[40vw] max-h-[480px] max-w-[480px] -translate-x-1/2 animate-orb-float rounded-full"
             aria-hidden

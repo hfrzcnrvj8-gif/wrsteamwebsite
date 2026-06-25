@@ -84,16 +84,17 @@ export function Header({
           <a
             href={workshopPhoneHref}
             aria-label="Anrufen"
-            className="grid h-10 w-10 place-items-center rounded-full border border-brand-red text-brand-red transition-transform hover:scale-105 hover:bg-brand-red/10"
+            className="grid h-10 place-items-center rounded-full border border-brand-red px-3.5 text-sm text-brand-red transition-transform hover:scale-105 hover:bg-brand-red/10"
           >
             ✆
           </a>
 
           <Link
             href={`/${lang}/kontakt`}
-            className="btn-primary inline-block rounded-full px-5 py-2 text-sm font-semibold"
+            className="btn-primary grid h-10 place-items-center rounded-full px-3.5 text-sm font-semibold sm:px-5"
           >
-            {dict.book}
+            <span className="sm:hidden">📅</span>
+            <span className="hidden sm:inline">{dict.book}</span>
           </Link>
         </div>
       </nav>

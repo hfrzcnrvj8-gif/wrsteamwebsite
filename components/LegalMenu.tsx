@@ -44,7 +44,7 @@ export function LegalMenu({
         aria-haspopup="true"
         aria-expanded={open}
         aria-label="Menü"
-        className="glass grid h-10 w-10 place-items-center rounded-full text-base transition-transform hover:scale-105"
+        className="glass grid h-10 place-items-center rounded-full px-3.5 text-base transition-transform hover:scale-105"
       >
         <span className="-mt-1.5 tracking-widest">···</span>
       </button>
