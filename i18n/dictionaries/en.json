@@ -211,12 +211,12 @@
       {
         "step": "01",
         "title": "Book an appointment",
-        "description": "Call us or send a short note about your request — we will find a suitable slot quickly."
+        "description": "Call us or send a short note about your request — we'll find a suitable time quickly."
       },
       {
         "step": "02",
-        "title": "Vehicle handover",
-        "description": "We take your vehicle in and discuss the scope. For alignment jobs, we first check the condition of tyres and chassis — an adjustment only makes sense when the components are in order. Any worn parts are listed clearly."
+        "title": "Vehicle check-in",
+        "description": "We take your vehicle in and go over what needs doing. For alignment jobs, we first check the condition of tyres and chassis — an adjustment only makes sense when the components are in order. Any worn parts are listed clearly."
       },
       {
         "step": "03",
@@ -225,7 +225,7 @@
       },
       {
         "step": "04",
-        "title": "Handover & advice",
+        "title": "Collection & advice",
         "description": "You get your vehicle back road-ready. We walk you through what was done — for diagnostics, vibration measurements or alignment, we explain the results and give a clear recommendation."
       }
     ]
