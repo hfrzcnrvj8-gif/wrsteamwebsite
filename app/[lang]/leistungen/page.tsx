@@ -48,6 +48,7 @@ export default async function LeistungenPage({
               alt=""
               fill
               priority
+              unoptimized
               sizes="100vw"
               className="object-cover opacity-25"
               style={{ objectPosition: "center 38%" }}

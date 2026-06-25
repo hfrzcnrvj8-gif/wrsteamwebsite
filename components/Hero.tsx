@@ -46,6 +46,7 @@ export function Hero({ dict, lang }: { dict: Dictionary["hero"]; lang: Locale })
           alt=""
           fill
           priority
+          unoptimized
           sizes="100vw"
           className="object-cover object-center"
         />

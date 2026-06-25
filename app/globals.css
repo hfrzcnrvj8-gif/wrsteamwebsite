@@ -16,8 +16,8 @@
   --fg: #f4f4f5;
   --fg-muted: #9a9aa1;
   --hairline: rgba(255, 255, 255, 0.08);
-  --glass-bg: rgba(14, 14, 16, 0.55);
-  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(255, 255, 255, 0.07);
+  --glass-border: rgba(255, 255, 255, 0.14);
   --orb-opacity: 0.3;
   /* Sporty automotive red */
   --accent: #e60000;
@@ -60,11 +60,11 @@
 }
 
 @layer components {
-  /* Smoked automotive glass — darker, stronger blur, subtle gray/red rim */
+  /* Liquid glass — iOS-style, nearly transparent with strong blur */
   .glass {
     background: var(--glass-bg);
-    backdrop-filter: blur(22px) saturate(140%);
-    -webkit-backdrop-filter: blur(22px) saturate(140%);
+    backdrop-filter: blur(28px) saturate(180%);
+    -webkit-backdrop-filter: blur(28px) saturate(180%);
     border: 1px solid var(--glass-border);
   }
 
