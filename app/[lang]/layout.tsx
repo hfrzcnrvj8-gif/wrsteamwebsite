@@ -61,6 +61,12 @@ export default async function LangLayout({
   return (
     <html lang={lang} suppressHydrationWarning className={inter.variable}>
       <body className="font-sans antialiased">
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-brand-red focus:px-5 focus:py-2.5 focus:text-sm focus:font-semibold focus:text-white focus:outline-none"
+        >
+          {lang === "de" ? "Zum Hauptinhalt" : lang === "pl" ? "Przejdź do treści" : "Skip to content"}
+        </a>
         <ThemeProvider>
           {children}
           <ScrollToTop />

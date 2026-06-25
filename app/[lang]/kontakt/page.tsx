@@ -35,7 +35,7 @@ export default async function KontaktPage({
   return (
     <>
       <Header lang={lang} dict={dict.nav} />
-      <main className="relative overflow-x-clip">
+      <main id="main" className="relative overflow-x-clip">
         {/* Page hero */}
         <section className="relative px-6 pb-4 pt-40 md:pt-48">
           <div

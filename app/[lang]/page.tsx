@@ -20,7 +20,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
     <>
       <StructuredData lang={lang} dict={dict} />
       <Header lang={lang} dict={dict.nav} />
-      <main className="relative overflow-x-clip">
+      <main id="main" className="relative overflow-x-clip">
         <Hero dict={dict.hero} lang={lang} />
         <ProblemVision dict={dict.problem} />
         <Services dict={dict.services} />

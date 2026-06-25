@@ -33,7 +33,7 @@ export default async function UeberUnsPage({
   return (
     <>
       <Header lang={lang} dict={dict.nav} />
-      <main className="relative overflow-x-clip">
+      <main id="main" className="relative overflow-x-clip">
         <Founder dict={dict.founder} />
         <Showcase dict={dict.showcase} />
         <ContactCta dict={dict.pages.contactCta} lang={lang} />

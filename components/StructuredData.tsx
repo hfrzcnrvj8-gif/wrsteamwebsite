@@ -34,6 +34,11 @@ export function StructuredData({
           addressRegion: "Niedersachsen",
           addressCountry: "DE",
         },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 52.3158,
+          longitude: 9.9591,
+        },
         areaServed: ["Sehnde", "Hannover", "Region Hannover"],
         openingHoursSpecification: [
           {

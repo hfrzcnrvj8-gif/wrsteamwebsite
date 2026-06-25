@@ -40,7 +40,7 @@ export default async function LeistungenPage({
   return (
     <>
       <Header lang={lang} dict={dict.nav} />
-      <main className="relative overflow-x-clip">
+      <main id="main" className="relative overflow-x-clip">
         <section className="relative min-h-[55vh] px-6 pb-8 pt-40 md:pt-48">
           <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden>
             <Image
