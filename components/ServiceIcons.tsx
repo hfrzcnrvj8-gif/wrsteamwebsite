@@ -20,7 +20,7 @@ const ST = 1.5;
 // Blocks in accent colour, sipes omitted (too fine at 40 px), no background rect.
 export function IconTyreFit() {
   return (
-    <svg viewBox="30 10 620 480" width={SZ} height={SZ} aria-hidden style={{ fill: A }}>
+    <svg viewBox="134 10 320 480" width={SZ} height={SZ} aria-hidden style={{ fill: A }}>
       {/* Bark zewnętrzny (lewy) */}
       <rect x="32" y="14"  width="80" height="38" rx="2"/>
       <rect x="32" y="60"  width="80" height="30" rx="2"/>
