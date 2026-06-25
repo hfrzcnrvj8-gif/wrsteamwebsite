@@ -15,7 +15,7 @@
       "metaTitle": "Usługi — Wollny Reifenservice GmbH",
       "eyebrow": "Nasze usługi",
       "title": "Opony, felgi i zawieszenie — wszystko w jednym miejscu.",
-      "subtitle": "Pełny przegląd usług naszego warsztatu w Sehnde — od montażu opon po ultradźwiękową geometrię kół.",
+      "subtitle": "Pełny przegląd usług naszego warsztatu w Sehnde — od montażu opon po precyzyjną geometrię kół 3D.",
       "ctaTitle": "Gotowy na wizytę?",
       "ctaText": "Umów wizytę już teraz — telefonicznie lub wygodnie przez formularz kontaktowy.",
       "ctaButton": "Przejdź do kontaktu"
@@ -76,7 +76,7 @@
   "services": {
     "label": "Usługi",
     "title": "Wszystko wokół opon, felg i zawieszenia.",
-    "subtitle": "Od montażu opon przez ultradźwiękową geometrię kół po skup i sprzedaż felg — jeden punkt kontaktu, jeden pewny rezultat.",
+    "subtitle": "Od montażu opon przez geometrię kół 3D po skup i sprzedaż felg — jeden punkt kontaktu, jeden pewny rezultat.",
     "items": [
       {
         "title": "Serwis i montaż opon",
@@ -158,7 +158,7 @@
       "Z symbolem płatka śniegu (3PMSF) dopuszczone do jazdy zimą cały rok",
       "Idealne dla mało jeżdżących, miasta i regionów z łagodną zimą"
     ],
-    "consTitle": "Warto wiedzieć",
+    "consTitle": "Wady i ograniczenia",
     "cons": [
       "To kompromis — nie tak wyspecjalizowane jak opony letnie czy zimowe",
       "Przy dużym śniegu lub sportowej jeździe opony sezonowe są lepsze",
@@ -169,7 +169,7 @@
   },
   "reviews": {
     "label": "Opinie klientów",
-    "title": "Polecani ponad 360 razy.",
+    "title": "Ponad 360 pozytywnych opinii.",
     "rating": "4,9",
     "outOf": "na 5 gwiazdek",
     "count": "ponad 360 opinii Google",
@@ -250,7 +250,7 @@
     "label": "Warsztat",
     "title": "Twój specjalista od opon w Sehnde od 1987.",
     "body": "Od 1987 roku, a dziś już w drugim pokoleniu, zajmujemy się kołami. Dobra usługa to dla nas wysoka satysfakcja klienta — składają się na nią kompetentne doradztwo, fachowe wykonanie i wsparcie także po zakupie. Jesteśmy Twoim partnerem we wszystkich sprawach związanych z kołami.",
-    "quote": "Dobrze doradzone to lepiej kupione — oto nasze motto.",
+    "quote": "Uczciwa porada to podstawa dobrego serwisu — tak to robimy od 1987.",
     "name": "Wollny Reifenservice GmbH",
     "role": "Firma rodzinna, 2. pokolenie · Sehnde koło Hanoweru"
   },
@@ -264,7 +264,7 @@
       },
       {
         "q": "Kiedy warto wykonać geometrię kół?",
-        "a": "Zawsze gdy auto ściąga na bok, opony zużywają się nierównomiernie, po pracach przy zawieszeniu lub po kontakcie z krawężnikiem. Nasz ultradźwiękowy pomiar kół pokazuje co do milimetra, czy zbieżność i pochylenie są prawidłowe."
+        "a": "Zawsze gdy auto ściąga na bok, opony zużywają się nierównomiernie, po pracach przy zawieszeniu lub po kontakcie z krawężnikiem. Nasze urządzenie Hunter 3D mierzy co do milimetra, czy zbieżność i pochylenie są prawidłowe."
       },
       {
         "q": "Czy przechowujecie moje opony sezonowe?",
