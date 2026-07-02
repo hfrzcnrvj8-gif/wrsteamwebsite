@@ -100,13 +100,16 @@ export function Footer({
           href="https://patrykpiecyk.pl"
           target="_blank"
           rel="noopener noreferrer"
-          className="opacity-80 transition-opacity hover:opacity-100"
+          className="inline-flex items-center gap-2 opacity-80 transition-opacity hover:opacity-100"
         >
-          powered by{" "}
-          <span className="leggera-gradient font-semibold tracking-wide">
-            LEGGERA LABS
-          </span>
-          <span className="font-semibold text-[#22d3ee]"> .</span>
+          <span>powered by</span>
+          <Image
+            src="/leggera-labs.png"
+            alt="LEGGERA LABS"
+            width={4293}
+            height={428}
+            className="h-4 w-auto"
+          />
         </a>
       </div>
     </footer>
