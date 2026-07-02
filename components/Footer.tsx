@@ -108,7 +108,7 @@ export function Footer({
             alt="LEGGERA LABS"
             width={4293}
             height={428}
-            className="h-4 w-auto"
+            className="h-3 w-auto"
           />
         </a>
       </div>
