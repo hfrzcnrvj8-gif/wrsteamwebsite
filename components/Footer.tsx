@@ -97,7 +97,7 @@ export function Footer({
           © {year} Wollny Reifenservice GmbH. {dict.rights}
         </span>
         <a
-          href="https://patrykpiecyk.pl"
+          href="https://leggeralabs.pl"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 opacity-80 transition-opacity hover:opacity-100"
