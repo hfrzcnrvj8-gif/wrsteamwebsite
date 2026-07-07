@@ -61,6 +61,9 @@ export function StructuredData({
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Ultraschall-Radwäsche" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Felgen & Kompletträder" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Rädereinlagerung" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Reifen- & Radservice für Elektro- und Hybridfahrzeuge (HV-Fachkraft Stufe 1S)" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Reifenservice für Transporter & Wohnmobile" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Reifenreparatur" } },
         ],
       },
       {

@@ -97,6 +97,16 @@
         "title": "Wheel storage",
         "description": "Safe, clean storage of your seasonal wheels in our hotel — cleaned, checked and ready for your next appointment.",
         "tags": ["Summer", "Winter", "Tyre hotel", "Storage"]
+      },
+      {
+        "title": "Electric & hybrid vehicles",
+        "description": "Tyre and wheel service for EVs and hybrids by trained staff — certified HV-Fachkraft Stufe 1S for the safe handling of high-voltage components per DGUV guidelines.",
+        "tags": ["EV", "Hybrid", "HV-Fachkraft Stufe 1S", "High voltage"]
+      },
+      {
+        "title": "Vans & motorhomes",
+        "description": "Tyres, rims and wheel alignment for vans and motorhomes too — including the larger wheel and tyre dimensions of commercial and leisure vehicles.",
+        "tags": ["Van", "Motorhome", "Commercial vehicles", "Camper"]
       }
     ]
   },
@@ -134,6 +144,11 @@
         "title": "Made to order & used",
         "description": "We order new tyres and rims exactly to your wishes; used wheels we buy and sell fairly.",
         "impact": "Ordered, not off the shelf"
+      },
+      {
+        "title": "Tyre repair",
+        "description": "Professional repair of repairable tread damage, e.g. from a nail or screw puncture — following the applicable guidelines, where technically possible instead of a premature tyre change.",
+        "impact": "Repaired instead of replaced, where possible"
       }
     ]
   },

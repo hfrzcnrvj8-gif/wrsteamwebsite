@@ -97,6 +97,16 @@
         "title": "Rädereinlagerung",
         "description": "Sichere, saubere Einlagerung Ihrer Saisonräder in unserem Lager — gereinigt, geprüft und zum nächsten Termin startklar.",
         "tags": ["Sommer", "Winter", "Reifenhotel", "Einlagerung"]
+      },
+      {
+        "title": "Elektro- & Hybridfahrzeuge",
+        "description": "Reifen- und Radservice für E- und Hybridfahrzeuge durch geschultes Personal — zertifizierte HV-Fachkraft Stufe 1S für den sicheren Umgang mit Hochvolt-Komponenten nach DGUV-Vorgaben.",
+        "tags": ["E-Auto", "Hybrid", "HV-Fachkraft Stufe 1S", "Hochvolt"]
+      },
+      {
+        "title": "Transporter & Wohnmobile",
+        "description": "Reifen, Felgen und Achsvermessung auch für Transporter und Wohnmobile — inklusive der größeren Rad- und Reifendimensionen von Nutz- und Freizeitfahrzeugen.",
+        "tags": ["Transporter", "Wohnmobil", "Nutzfahrzeuge", "Camper"]
       }
     ]
   },
@@ -134,6 +144,11 @@
         "title": "Auf Bestellung & Gebrauchtes",
         "description": "Neue Reifen und Felgen bestellen wir genau nach Ihren Wünschen; gebrauchte Räder kaufen und verkaufen wir fair.",
         "impact": "Bestellt statt von der Stange"
+      },
+      {
+        "title": "Reifenreparatur",
+        "description": "Fachgerechte Reparatur reparabler Laufflächenschäden, z. B. durch Nagel- oder Schraubeneinstich — nach geltenden Richtlinien, wo technisch möglich statt vorschnellem Reifenwechsel.",
+        "impact": "Reparieren statt wechseln, wenn möglich"
       }
     ]
   },

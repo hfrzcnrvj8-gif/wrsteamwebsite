@@ -97,6 +97,16 @@
         "title": "Przechowywanie kół",
         "description": "Bezpieczne, czyste przechowywanie kół sezonowych w naszym hotelu — wyczyszczone, sprawdzone i gotowe na kolejny termin.",
         "tags": ["Lato", "Zima", "Hotel opon", "Przechowanie"]
+      },
+      {
+        "title": "Pojazdy elektryczne i hybrydowe",
+        "description": "Serwis opon i kół dla aut elektrycznych i hybrydowych wykonywany przez przeszkolony personel — certyfikat HV-Fachkraft Stufe 1S dla bezpiecznej pracy przy komponentach wysokonapięciowych zgodnie z wytycznymi DGUV.",
+        "tags": ["Auto elektryczne", "Hybryda", "HV-Fachkraft Stufe 1S", "Wysokie napięcie"]
+      },
+      {
+        "title": "Transportery i kampery",
+        "description": "Opony, felgi i geometria kół również dla transporterów oraz kamperów — z uwzględnieniem większych wymiarów kół i opon w pojazdach dostawczych i rekreacyjnych.",
+        "tags": ["Transporter", "Kamper", "Pojazdy dostawcze", "Wohnmobil"]
       }
     ]
   },
@@ -134,6 +144,11 @@
         "title": "Na zamówienie i używane",
         "description": "Nowe opony i felgi zamawiamy dokładnie pod Twoje życzenia; używane koła skupujemy i sprzedajemy uczciwie.",
         "impact": "Zamówione, nie z półki"
+      },
+      {
+        "title": "Naprawa opon",
+        "description": "Fachowa naprawa nadających się do naprawy uszkodzeń bieżnika, np. po przebiciu gwoździem lub śrubą — zgodnie z obowiązującymi wytycznymi, tam gdzie jest to technicznie możliwe zamiast przedwczesnej wymiany opony.",
+        "impact": "Naprawa zamiast wymiany, gdy to możliwe"
       }
     ]
   },
