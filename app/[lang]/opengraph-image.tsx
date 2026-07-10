@@ -56,7 +56,7 @@ export default async function OpengraphImage({
           width: "100%",
           height: "100%",
           display: "flex",
-          background: "#0a0a0b",
+          background: "linear-gradient(160deg, #121214 0%, #0a0a0b 55%)",
           fontFamily: "sans-serif",
           position: "relative",
         }}
@@ -115,8 +115,24 @@ export default async function OpengraphImage({
             flexDirection: "column",
             justifyContent: "space-between",
             padding: "56px 44px 56px 64px",
+            overflow: "hidden",
           }}
         >
+          {/* Brand glow, matches the site's orb/glow language */}
+          <div
+            style={{
+              position: "absolute",
+              left: -160,
+              bottom: -180,
+              width: 460,
+              height: 460,
+              borderRadius: 9999,
+              display: "flex",
+              background:
+                "radial-gradient(circle, rgba(230,0,0,0.35), rgba(153,0,0,0.16) 45%, transparent 72%)",
+            }}
+          />
+
           {/* Logo */}
           <img
             src={logoDataUrl}
@@ -159,7 +175,7 @@ export default async function OpengraphImage({
                 width: 64,
                 height: 5,
                 borderRadius: 999,
-                background: "#E60000",
+                background: "linear-gradient(90deg, #FF6B4A, #E60000 60%, #7A0000)",
               }}
             />
           </div>
