@@ -18,16 +18,8 @@ export function UseCases({ dict }: { dict: Dictionary["useCases"] }) {
 
         <div className="mt-20 grid gap-6 sm:grid-cols-2 md:mt-24">
           {dict.items.map((item, i) => (
-            <Reveal
-              key={item.title}
-              delay={(i % 2) * 0.1}
-              className={
-                dict.items.length % 2 === 1 && i === dict.items.length - 1
-                  ? "sm:col-span-2"
-                  : undefined
-              }
-            >
-              <article className="card-surface group h-full rounded-3xl p-8 transition-colors hover:border-brand-cyan/40 sm:max-w-md sm:mx-auto">
+            <Reveal key={item.title} delay={(i % 2) * 0.1}>
+              <article className="card-surface group h-full rounded-3xl p-8 transition-colors hover:border-brand-cyan/40">
                 <h3 className="text-xl font-semibold tracking-tight">
                   {item.title}
                 </h3>
