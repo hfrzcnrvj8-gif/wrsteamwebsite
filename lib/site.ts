@@ -6,9 +6,13 @@ export const workshopPhoneHref = `tel:${workshopPhone.replace(/\s+/g, "")}`;
 
 // Canonical production URL. Override per-environment with NEXT_PUBLIC_SITE_URL
 // (e.g. on the host) so sitemap, robots and canonical/OG tags point at the
-// real domain. Falls back to the production domain.
+// real domain. Falls back to the live Vercel demo URL — switch this (or set
+// NEXT_PUBLIC_SITE_URL) to https://www.reifenservice-hannover.com once that
+// domain is actually pointed at this deployment; until then it's the client's
+// old site behind Cloudflare bot protection, which breaks link-preview
+// crawlers (WhatsApp/iMessage/Facebook) trying to fetch og:image from it.
 export const siteUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.reifenservice-hannover.com"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://wrsteamwebsite.vercel.app"
 ).replace(/\/$/, "");
 
 // Direct-call link for the booking CTA. Set NEXT_PUBLIC_BOOKING_URL to override
