@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { ImageResponse } from "next/og";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { i18n, type Locale } from "@/i18n/config";
@@ -20,6 +22,11 @@ export default async function OpengraphImage({
   const dict = await getDictionary(lang as Locale);
   const [line1, line2] = dict.hero.titleLines;
 
+  const photoBuffer = readFileSync(
+    join(process.cwd(), "public/images/og-workshop.jpg")
+  );
+  const photoDataUrl = `data:image/jpeg;base64,${photoBuffer.toString("base64")}`;
+
   return new ImageResponse(
     (
       <div
@@ -30,24 +37,41 @@ export default async function OpengraphImage({
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "80px",
-          background: "#0a0a0b",
           color: "#F4F4F5",
           fontFamily: "sans-serif",
           position: "relative",
         }}
       >
-        {/* Liquid-glass orb */}
+        {/* Background photo */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={photoDataUrl}
+          alt=""
+          width={1200}
+          height={630}
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        />
+
+        {/* Legibility scrim */}
         <div
           style={{
             position: "absolute",
-            top: "180px",
-            right: "-120px",
-            width: "640px",
-            height: "640px",
-            borderRadius: "9999px",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            display: "flex",
             background:
-              "radial-gradient(circle at 35% 35%, rgba(255,26,26,0.85), rgba(230,0,0,0.5) 40%, rgba(153,0,0,0.35) 70%, transparent 100%)",
-            filter: "blur(40px)",
+              "linear-gradient(180deg, rgba(10,10,11,0.75) 0%, rgba(10,10,11,0.35) 38%, rgba(10,10,11,0.55) 68%, rgba(10,10,11,0.92) 100%)",
           }}
         />
 
