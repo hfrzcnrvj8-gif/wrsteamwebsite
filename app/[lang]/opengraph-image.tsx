@@ -27,6 +27,9 @@ export default async function OpengraphImage({
   );
   const photoDataUrl = `data:image/jpeg;base64,${photoBuffer.toString("base64")}`;
 
+  const logoBuffer = readFileSync(join(process.cwd(), "public/logo.png"));
+  const logoDataUrl = `data:image/png;base64,${logoBuffer.toString("base64")}`;
+
   return new ImageResponse(
     (
       <div
@@ -75,22 +78,37 @@ export default async function OpengraphImage({
           }}
         />
 
-        {/* Wordmark */}
-        <div style={{ display: "flex", alignItems: "center", fontSize: 40 }}>
-          <span style={{ fontWeight: 700, letterSpacing: "-0.03em" }}>
-            Wollny Reifenservice
-          </span>
-          <span style={{ color: "#E60000", marginLeft: 2 }}>.</span>
+        {/* Logo, top-right */}
+        <div style={{ display: "flex", justifyContent: "flex-end" }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={logoDataUrl}
+            alt=""
+            width={320}
+            height={98}
+            style={{ height: 56, width: 183 }}
+          />
         </div>
 
-        {/* Headline */}
-        <div style={{ display: "flex", flexDirection: "column" }}>
+        {/* Headline — liquid-glass card */}
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignSelf: "flex-start",
+            background: "rgba(18,18,18,0.5)",
+            border: "1px solid rgba(255,255,255,0.16)",
+            borderRadius: 28,
+            padding: "36px 44px",
+            boxShadow: "0 20px 60px rgba(0,0,0,0.35)",
+          }}
+        >
           <div
             style={{
               display: "flex",
-              fontSize: 84,
+              fontSize: 76,
               fontWeight: 600,
-              lineHeight: 1.0,
+              lineHeight: 1.05,
               letterSpacing: "-0.04em",
             }}
           >
@@ -99,9 +117,9 @@ export default async function OpengraphImage({
           <div
             style={{
               display: "flex",
-              fontSize: 84,
+              fontSize: 76,
               fontWeight: 600,
-              lineHeight: 1.05,
+              lineHeight: 1.1,
               letterSpacing: "-0.04em",
               backgroundImage:
                 "linear-gradient(120deg, #FF3B3B, #E60000 45%, #B30000)",
@@ -114,7 +132,18 @@ export default async function OpengraphImage({
         </div>
 
         {/* Tagline */}
-        <div style={{ display: "flex", alignItems: "center", fontSize: 30 }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            fontSize: 28,
+            background: "rgba(10,10,11,0.45)",
+            border: "1px solid rgba(255,255,255,0.12)",
+            borderRadius: 999,
+            padding: "14px 28px",
+            alignSelf: "flex-start",
+          }}
+        >
           <span style={{ color: "#C9C9D1" }}>
             Reifen · Felgen · Achsvermessung · seit 1987 · Sehnde bei Hannover
           </span>
