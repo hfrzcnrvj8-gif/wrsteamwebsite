@@ -26,6 +26,10 @@ export function StructuredData({
         email: "info@Reifenberatung.com",
         foundingDate: "1987",
         priceRange: "€€",
+        memberOf: {
+          "@type": "Organization",
+          name: "POINT S",
+        },
         address: {
           "@type": "PostalAddress",
           streetAddress: "Borsigring 38",
